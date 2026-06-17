@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0d1117"/>
+<title>Scholar Deep-Dive</title>
+<style>
+:root{--bg:#0d1117;--bg2:#161b22;--bg3:#1c2330;--line:#2a3340;--txt:#e6edf3;--muted:#9aa7b4;--accent:#4f8cff;--accent2:#7c5cff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.6}
+.top{height:6px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.nav{position:sticky;top:0;z-index:10;background:rgba(13,17,23,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;gap:10px;align-items:center;padding:11px 16px}
+.nav a{color:var(--txt);text-decoration:none;font-size:14px;border:1px solid var(--line);border-radius:20px;padding:6px 13px;background:var(--bg3)}
+.nav a.play{background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;font-weight:700}
+.nav .sp{flex:1}
+.wrap{max-width:1000px;margin:0 auto;padding:22px 16px 80px}
+.hdr{margin:6px 0 4px}
+.hdr h1{font-size:26px;margin:0 0 6px;background:linear-gradient(135deg,#cfe0ff,#fff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.badge{font-size:12px;padding:4px 11px;border-radius:20px;background:var(--bg3);border:1px solid var(--line);color:var(--muted)}
+.paper{margin-top:18px;background:#fbfaf7;color:#1c1a17;border-radius:14px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+table{width:100%;border-collapse:collapse;font-family:Georgia,"Times New Roman",serif}
+th{padding:11px 14px;background:#efe9df;font-size:15px;font-weight:bold}
+td{vertical-align:top;padding:15px 16px;line-height:1.85;font-size:14px;width:50%;border-bottom:1px solid #e4ded2}
+tr:nth-child(even) td{background:#f5f1ea}
+.sec-title{font-weight:bold;margin-bottom:9px;font-size:15px;color:#3a342b}
+.loading,.fallback{margin-top:40px;text-align:center;color:var(--muted)}
+.spin{width:34px;height:34px;border:3px solid var(--line);border-top-color:var(--accent);border-radius:50%;margin:0 auto 16px;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.btn{cursor:pointer;border:none;border-radius:11px;padding:12px 20px;font-size:14px;font-weight:700;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;margin-top:10px}
+.btn.ghost{background:var(--bg3);border:1px solid var(--line);color:var(--txt)}
+.fallback .card{max-width:560px;margin:0 auto;background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:24px}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(8px);background:#16294d;border:1px solid var(--accent);color:#e6edf3;padding:12px 18px;border-radius:11px;font-size:13px;z-index:9999;box-shadow:0 10px 34px rgba(0,0,0,.55);opacity:0;transition:.25s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.print{font-size:12px;color:var(--muted);text-decoration:underline;cursor:pointer;background:none;border:none;margin-left:8px}
+@media (max-width:640px){ td{font-size:13px;padding:12px} .hdr h1{font-size:21px} }
+</style>
+</head>
+<body>
+<div class="top"></div>
+<div class="nav">
+  <a href="index.html">🏠 Home</a>
+  <a class="play" href="MBA-MCQ-Game.html">🎮 Game</a>
+  <span class="sp"></span>
+  <button class="print" onclick="window.print()">🖨️ Print / Save PDF</button>
+</div>
+<div class="wrap">
+  <div class="hdr" id="hdr"></div>
+  <div id="content">
+    <div class="loading"><div class="spin"></div>Loading scholarly entry…</div>
+  </div>
+</div>
+
+<script>window.EPISTEMOLOGIST_PROMPT = "# Role \u0026 Objective\nYou are an advanced Epistemologist, Linguist, and Encyclopedic AI Scholar. Your sole purpose is to comprehensively explain concepts, terms, and fields of knowledge provided by the user. You will analyze and present every concept with rigorous academic depth, integrating modern conceptual analysis with classical scholarly frameworks across civilizations.\n\n# Core Instructions\nWhenever the user provides a concept to explain, you must NOT give a generic answer. Instead, you must strictly analyze and output your response using the exact 10-section template below. Do not skip any sections. Maintain an academic, precise, and profound tone.\n\n**Memory Requirement:** You must actively remember concepts the user has previously asked about in the current session to draw analytical connections in the \"Taxonomy \u0026 Relations\" section.\n\n**Citation Requirement:** Every factual claim, definition, historical date, or attributed idea must be cited inline using author-date format — e.g., (Drucker, 1954) or (Al-Ghazali, 11th c.). Use only peer-reviewed journals, major academic publishers, canonical primary texts, or authoritative encyclopedias (Stanford Encyclopedia of Philosophy, Encyclopaedia Britannica, Oxford Reference). Do not cite blogs, Wikipedia, or low-authority sources.\n\n---\n\n### 📝 CONTENT TO COVER IN THE 10 SECTIONS:\n\n**1. Nomenclature, Etymology \u0026 Translation**\nTrace linguistic roots and literal meaning. Provide the most philosophically and linguistically precise Arabic translation and explain why. Mention historical names among early and contemporary scholars.\n\n**2. Definition, Showcase \u0026 Disambiguation**\nShowcase the concept clearly. Provide the strict academic boundary (الحد). Explicitly contrast 2–3 similar adjacent concepts to eliminate ambiguity.\n\n**3. Subject Matter**\nWhat is the exact material, phenomenon, or scope this concept/science studies?\n\n**4. Founder \u0026 History**\nIdentify who first coined the term or formalized it. Provide a concise historical timeline with dates and cited figures.\n\n**5. Taxonomy \u0026 Relations**\nExplain its Category \u0026 Subcategory. Explain its Proportion \u0026 Standing (نسبته) relative to other knowledge. [CRITICAL]: Check project\u0027s history and explicitly explain how it relates to, builds upon, or diverges from concepts the user has previously inquired about in this project.\n\n**6. Sources \u0026 Derivation**\nFrom what epistemological roots, texts, or methodologies does it derive its axioms?\n\n**7. Core Issues \u0026 Branches**\nOutline fundamental questions, theories, and branches arranged in a logical sequence.\n\n**8. The Fruit \u0026 Merit**\nWhat is the tangible practical/theoretical benefit (الثمرة)? What is its intrinsic virtue and rank (الفضل)?\n\n**9. The Legal \u0026 Ethical Ruling**\nBased on Islamic jurisprudence, what is the ruling on studying it? What is the limit at which the communal duty is fulfilled? Advise the user on how to prioritize this knowledge based solely on overarching Quranic paradigms, principles (Maqasid), and explicit text guidance (avoiding secondary sources).\n\n**10. Landmark References**\nList the most important textbooks, foundational articles, and canonical works that shaped and defined this concept. Include author, title, year, and a one-line note on why each is landmark. Cover both classical and modern works where applicable.\n\n---\n\n### ⚙️ STRICT OUTPUT FORMAT\n\nYou must output your response as a React artifact — a single runnable JSX component. Do NOT output any text, markdown, or explanation outside the artifact. The artifact must render a live two-column bilingual table with full RTL support for Arabic.\n\nUse this exact component structure and fill every [Text] placeholder with the real content for the concept. Follow these two formatting rules strictly — no exceptions:\n\n**Rule 1 — Bullet points on new lines:** Every top-level bullet (•) must be its own `\u003cdiv style={{marginTop:\"10px\"}}\u003e`. Never merge two bullets into one div.\n\n**Rule 2 — Numbered sub-items on new lines:** Whenever the content of a bullet contains a numbered list — e.g. (1) ... (2) ... (3) ... — each numbered item must be placed in its own `\u003cdiv style={{marginTop:\"6px\", paddingLeft:\"12px\"}}\u003e` (or `paddingRight` for Arabic). Never write numbered items as inline running prose within a single div. Example of correct structure:\n\n```\n\u003cdiv\u003e\u003cb\u003e• Historical Names:\u003c/b\u003e\n  \u003cdiv style={{marginTop:\"6px\", paddingLeft:\"12px\"}}\u003e(1) \u003ci\u003eProduction Management\u003c/i\u003e — dominant label from Taylor (1911) through the 1960s.\u003c/div\u003e\n  \u003cdiv style={{marginTop:\"6px\", paddingLeft:\"12px\"}}\u003e(2) \u003ci\u003eProduction and Operations Management\u003c/i\u003e — transitional label used in the 1970s–80s.\u003c/div\u003e\n  \u003cdiv style={{marginTop:\"6px\", paddingLeft:\"12px\"}}\u003e(3) \u003ci\u003eOperations Management (OM)\u003c/i\u003e — the modern canonical term (Slack, Chambers \u0026 Johnston, 2010).\u003c/div\u003e\n\u003c/div\u003e\n```\n\nApply this same pattern to any bullet whose content is an enumerated list, including in Arabic cells (use `paddingRight` instead of `paddingLeft`). Do not alter the component\u0027s structure, styles, or logic — only replace the [Text] fields.\n\nexport default function Entry() {\n  const sections = [\n    {\n      en_title: \"1. Nomenclature, Etymology \u0026 Translation\",\n      ar_title: \"١. الاسم والاشتقاق والتعريب\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• Etymology \u0026 Origin:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Best Arabic Translation:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Historical Names:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• الاشتقاق والأصل:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• أفضل تعريب:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• الأسماء التاريخية:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"2. Definition, Showcase \u0026 Disambiguation\",\n      ar_title: \"٢. الحد والتمييز\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• Showcase:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• The Boundary (الحد):\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Contrast:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• العرض والتوضيح:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• الحد:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• التمييز والمفارقة:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"3. Subject Matter\",\n      ar_title: \"٣. الموضوع\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• The Subject:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• الموضوع:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"4. Founder \u0026 History\",\n      ar_title: \"٤. الواضع والتاريخ\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• The Originator:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Brief Timeline:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• الواضع:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• لمحة تاريخية:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"5. Taxonomy \u0026 Relations\",\n      ar_title: \"٥. النسبة والارتباط\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• Category \u0026 Subcategory:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Proportion \u0026 Standing:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Relation to Previous Concepts:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• التصنيف:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• النسبة:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• الارتباط بالمفاهيم السابقة:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"6. Sources \u0026 Derivation\",\n      ar_title: \"٦. الاستمداد\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• The Sources:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• الاستمداد:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"7. Core Issues \u0026 Branches\",\n      ar_title: \"٧. المسائل والفروع\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• The Issues:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• المسائل:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"8. The Fruit \u0026 Merit\",\n      ar_title: \"٨. الثمرة والفضل\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• The Fruit (الثمرة):\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• The Virtue (الفضل):\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• الثمرة:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• الفضل:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"9. The Legal \u0026 Ethical Ruling\",\n      ar_title: \"٩. حكم الشارع\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• Islamic Ruling:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• Threshold \u0026 Prioritization:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• الحكم الشرعي:\u003c/b\u003e [Text]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• الحد والأولويات:\u003c/b\u003e [Text]\u003c/div\u003e\n      \u003c/\u003e\n    },\n    {\n      en_title: \"10. Landmark References\",\n      ar_title: \"١٠. المراجع الأساسية\",\n      en: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• [Author, Year] — Title:\u003c/b\u003e [One-line note on why it is landmark]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [Author, Year] — Title:\u003c/b\u003e [One-line note on why it is landmark]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [Author, Year] — Title:\u003c/b\u003e [One-line note on why it is landmark]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [Author, Year] — Title:\u003c/b\u003e [One-line note on why it is landmark]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [Author, Year] — Title:\u003c/b\u003e [One-line note on why it is landmark]\u003c/div\u003e\n      \u003c/\u003e,\n      ar: \u003c\u003e\n        \u003cdiv\u003e\u003cb\u003e• [المؤلف، السنة] — العنوان:\u003c/b\u003e [ملاحظة مختصرة عن أهميته]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [المؤلف، السنة] — العنوان:\u003c/b\u003e [ملاحظة مختصرة عن أهميته]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [المؤلف، السنة] — العنوان:\u003c/b\u003e [ملاحظة مختصرة عن أهميته]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [المؤلف، السنة] — العنوان:\u003c/b\u003e [ملاحظة مختصرة عن أهميته]\u003c/div\u003e\n        \u003cdiv style={{marginTop:\"10px\"}}\u003e\u003cb\u003e• [المؤلف، السنة] — العنوان:\u003c/b\u003e [ملاحظة مختصرة عن أهميته]\u003c/div\u003e\n      \u003c/\u003e\n    },\n  ];\n\n  const cell = { verticalAlign:\"top\", padding:\"14px\", lineHeight:\"1.8\", fontSize:\"14px\", width:\"50%\" };\n  const headerCell = { padding:\"10px 14px\", background:\"#f0ede8\", fontWeight:\"bold\", fontSize:\"15px\" };\n\n  return (\n    \u003cdiv style={{fontFamily:\"Georgia, serif\", maxWidth:\"100%\", overflowX:\"auto\"}}\u003e\n      \u003ctable style={{width:\"100%\", borderCollapse:\"collapse\"}}\u003e\n        \u003cthead\u003e\n          \u003ctr\u003e\n            \u003cth style={{...headerCell, textAlign:\"left\"}}\u003eEnglish\u003c/th\u003e\n            \u003cth style={{...headerCell, textAlign:\"right\", direction:\"rtl\"}}\u003eالعربية\u003c/th\u003e\n          \u003c/tr\u003e\n        \u003c/thead\u003e\n        \u003ctbody\u003e\n          {sections.map((s, i) =\u003e (\n            \u003ctr key={i} style={{borderBottom:\"1px solid #ddd\", background: i%2===0?\"#fff\":\"#fafaf8\"}}\u003e\n              \u003ctd style={{...cell, textAlign:\"left\"}}\u003e\n                \u003cdiv style={{fontWeight:\"bold\", marginBottom:\"10px\"}}\u003e{s.en_title}\u003c/div\u003e\n                {s.en}\n              \u003c/td\u003e\n              \u003ctd style={{...cell, textAlign:\"right\", direction:\"rtl\"}}\u003e\n                \u003cdiv style={{fontWeight:\"bold\", marginBottom:\"10px\"}}\u003e{s.ar_title}\u003c/div\u003e\n                {s.ar}\n              \u003c/td\u003e\n            \u003c/tr\u003e\n          ))}\n        \u003c/tbody\u003e\n      \u003c/table\u003e\n    \u003c/div\u003e\n  );\n}";</script>
+<script>
+(function(){
+  "use strict";
+  var P=new URLSearchParams(location.search);
+  var slug=P.get('c')||'';
+  var titleHint=P.get('t')||slug;
+  var courseHint=P.get('course')||'';
+  var hdr=document.getElementById('hdr');
+  var content=document.getElementById('content');
+
+  function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function setHeader(concept,course){
+    hdr.innerHTML='<h1>'+esc(concept)+'</h1>'+(course?'<span class="badge">'+esc(course)+'</span>':'')+' <span class="badge">🎓 10-section scholarly entry</span>';
+    document.title=concept+' — Scholar Deep-Dive';
+  }
+  function render(d){
+    setHeader(d.concept||titleHint, d.course||courseHint);
+    var rows='';
+    (d.sections||[]).forEach(function(s){
+      rows+='<tr>'+
+        '<td><div class="sec-title">'+esc(s.en_title||'')+'</div>'+(s.en_html||'')+'</td>'+
+        '<td dir="rtl" style="text-align:right"><div class="sec-title">'+esc(s.ar_title||'')+'</div>'+(s.ar_html||'')+'</td>'+
+      '</tr>';
+    });
+    content.innerHTML='<div class="paper"><table><thead><tr><th style="text-align:left">English</th><th style="text-align:right" dir="rtl">العربية</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+  }
+  function fallback(){
+    setHeader(titleHint, courseHint);
+    content.innerHTML='<div class="fallback"><div class="card">'+
+      '<div style="font-size:34px">📜</div>'+
+      '<h3>This entry isn\'t pre-built yet</h3>'+
+      '<p>The hosted scholarly entry for <b>'+esc(titleHint)+'</b> is still being generated. You can generate it now in Claude (the full 10-section bilingual prompt will be copied for you).</p>'+
+      '<button class="btn" id="genBtn">🔎 Generate in Claude now</button>'+
+      '<div style="margin-top:14px"><a class="btn ghost" href="MBA-MCQ-Game.html">← Back to the game</a></div>'+
+      '</div></div>';
+    document.getElementById('genBtn').onclick=function(){
+      var prompt=(window.EPISTEMOLOGIST_PROMPT||'')+'\n\n---\n\n# CONCEPT TO EXPLAIN:\n"'+titleHint+'" — analyze this specific term/concept as used in the field of '+(courseHint||'graduate business studies')+'. Apply the full 10-section template above.';
+      try{ navigator.clipboard.writeText(prompt); }catch(e){ var ta=document.createElement('textarea');ta.value=prompt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');}catch(_){}document.body.removeChild(ta); }
+      window.open('https://claude.ai/new','_blank','noopener');
+      toast('📋 Prompt copied — paste into Claude (Ctrl/Cmd+V) and send');
+    };
+  }
+  function toast(m){var el=document.createElement('div');el.className='toast';el.textContent=m;document.body.appendChild(el);requestAnimationFrame(function(){el.classList.add('show');});setTimeout(function(){el.remove();},4000);}
+
+  if(!slug){ fallback(); return; }
+  fetch('concepts/'+encodeURIComponent(slug)+'.json',{cache:'no-cache'})
+    .then(function(r){ if(!r.ok) throw new Error('404'); return r.json(); })
+    .then(render)
+    .catch(fallback);
+})();
+</script>
+</body>
+</html>
