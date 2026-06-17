@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0d1117"/>
+<title>MBA Mastery</title>
+<style>
+:root{--bg:#0d1117;--bg2:#161b22;--bg3:#1c2330;--line:#2a3340;--txt:#e6edf3;--muted:#9aa7b4;--accent:#4f8cff;--accent2:#7c5cff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--txt);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.6;
+  background:radial-gradient(900px 600px at 80% -10%,#1b2740 0%,transparent 60%),radial-gradient(700px 500px at -10% 110%,#241a3a 0%,transparent 55%),var(--bg);
+  display:flex;flex-direction:column;align-items:center;padding:28px 18px 60px}
+.logo{width:74px;height:74px;border-radius:20px;background:linear-gradient(135deg,var(--accent),var(--accent2));
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:30px;color:#fff;box-shadow:0 12px 40px rgba(0,0,0,.5);margin-top:18px}
+h1{font-size:27px;margin:18px 0 4px;text-align:center}
+.sub{color:var(--muted);text-align:center;max-width:460px;font-size:15px}
+.stats{display:flex;gap:14px;margin:22px 0 6px;flex-wrap:wrap;justify-content:center}
+.stat{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:12px 18px;text-align:center;min-width:96px}
+.stat b{display:block;font-size:24px;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-size:12px;color:var(--muted)}
+.cards{display:flex;flex-direction:column;gap:16px;width:100%;max-width:460px;margin-top:24px}
+.card{display:block;text-decoration:none;color:var(--txt);border:1px solid var(--line);border-radius:18px;padding:22px;
+  background:linear-gradient(180deg,var(--bg2),#12161d);box-shadow:0 10px 30px rgba(0,0,0,.35);transition:.15s}
+.card:active{transform:scale(.99)}
+.card.play{background:linear-gradient(135deg,#1b2a47,#241a3a);border-color:#3a4a6a}
+.card .ico{font-size:30px}
+.card h2{margin:8px 0 4px;font-size:20px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.card .go{margin-top:12px;display:inline-block;font-weight:700;color:var(--accent)}
+.tip{margin-top:26px;max-width:460px;font-size:13px;color:var(--muted);background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.tip b{color:var(--txt)}
+.foot{margin-top:26px;font-size:12px;color:#6e7d8c;text-align:center}
+</style>
+</head>
+<body>
+  <div class="logo">MBA</div>
+  <h1>MBA Mastery</h1>
+  <div class="sub">Your full MBA core — 12 courses, deep practice questions, and a method to actually master them.</div>
+
+  <div class="stats">
+    <div class="stat"><b>12</b><span>courses</span></div>
+    <div class="stat"><b>435</b><span>questions</span></div>
+    <div class="stat"><b>5</b><span>difficulty tiers</span></div>
+  </div>
+
+  <div class="cards">
+    <a class="card play" href="MBA-MCQ-Game.html">
+      <div class="ico">🎮</div>
+      <h2>Play the MCQ Game</h2>
+      <p>Pick courses & difficulty, get instant explanations, drill your weak areas. Progress saves on this device.</p>
+      <span class="go">Start playing →</span>
+    </a>
+    <a class="card" href="guide.html">
+      <div class="ico">📘</div>
+      <h2>Read the Mastery Guide</h2>
+      <p>The study method, your weekly plan, and every course distilled to its core frameworks.</p>
+      <span class="go">Open the guide →</span>
+    </a>
+  </div>
+
+  <div class="tip">
+    💡 <b>Add to Home Screen</b> for an app-like icon: in Safari tap the <b>Share</b> button (□↑) → <b>Add to Home Screen</b>. It then opens full-screen and works like an app.
+  </div>
+
+  <div class="foot">Built for Abdulmohsen · SBS MBA</div>
+</body>
+</html>
