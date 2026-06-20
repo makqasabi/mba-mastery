@@ -1,0 +1,67 @@
+{
+  "slug": "mkt-conjoint-analysis",
+  "concept": "Conjoint Analysis",
+  "course": "Marketing Management",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> \"Conjoint\" from Latin <i>conjunctus</i> (joined together), reflecting that respondents evaluate attributes jointly rather than in isolation (Green &amp; Rao, 1971).</div><div style=\"margin-top:10px\"><b>• Precise Arabic translation:</b> <i>التحليل الاقتراني</i> or <i>تحليل التفضيلات المقترنة</i>; \"الاقتراني\" best renders the joint (conjoint) evaluation of bundled attributes (Green &amp; Srinivasan, 1978).</div><div style=\"margin-top:10px\"><b>• Historical names:</b> Rooted in \"conjoint measurement\" from mathematical psychology before its marketing adaptation (Luce &amp; Tukey, 1964).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> \"Conjoint\" من اللاتينية <i>conjunctus</i> أي المقترن معًا، إذ يقيّم المستجيبون الخصائص مقترنةً لا منفردة (Green &amp; Rao, 1971).</div><div style=\"margin-top:10px\"><b>• التعريب الأدق:</b> <i>التحليل الاقتراني</i> أو <i>تحليل التفضيلات المقترنة</i>؛ ولفظ \"الاقتراني\" يؤدي التقييم المشترك للخصائص المجمّعة (Green &amp; Srinivasan, 1978).</div><div style=\"margin-top:10px\"><b>• التسميات التاريخية:</b> يعود إلى \"القياس الاقتراني\" في علم النفس الرياضي قبل تكييفه تسويقيًا (Luce &amp; Tukey, 1964).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Showcase:</b> A survey-based technique that decomposes respondents' overall preferences for multi-attribute products into the part-worth utility of each attribute level (Green &amp; Srinivasan, 1978).</div><div style=\"margin-top:10px\"><b>• Strict boundary (الحد):</b> It infers implicit trade-offs from holistic choices, rather than asking importance directly.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) <i>Direct importance ratings</i> ask attributes in isolation; conjoint forces trade-offs.</div><div style=\"margin-top:6px;padding-left:12px\">(2) <i>Discrete choice / DCE</i> is a choice-based variant grounded in random utility (McFadden, 1974).</div><div style=\"margin-top:6px;padding-left:12px\">(3) <i>Cluster/factor analysis</i> reduce variables but do not yield trade-off utilities (Green, Krieger &amp; Wind, 2001).</div></div>",
+      "ar_html": "<div><b>• العرض:</b> أسلوب مسحي يفكّك تفضيلات المستجيبين الكلية لمنتجات متعددة الخصائص إلى المنفعة الجزئية لكل مستوى خاصية (Green &amp; Srinivasan, 1978).</div><div style=\"margin-top:10px\"><b>• الحد الدقيق:</b> يستنبط المفاضلات الضمنية من الاختيارات الكلية بدل سؤال الأهمية مباشرة.</div><div style=\"margin-top:10px\"><b>• إزالة اللبس:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) <i>تقييم الأهمية المباشر</i> يسأل عن الخصائص منفردة، والاقتراني يفرض المفاضلة.</div><div style=\"margin-top:6px;padding-right:12px\">(2) <i>الاختيار المنفصل DCE</i> صورة قائمة على الاختيار وأساسها المنفعة العشوائية (McFadden, 1974).</div><div style=\"margin-top:6px;padding-right:12px\">(3) <i>التحليل العنقودي والعاملي</i> يختصران المتغيرات دون منافع مفاضلة (Green, Krieger &amp; Wind, 2001).</div></div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> How buyers value and trade off competing product attributes (price, features, brand) when making a holistic preference judgment (Green &amp; Rao, 1971).</div><div style=\"margin-top:10px\"><b>• Scope:</b> Product design, pricing, feature prioritization, and market-share simulation across consumer and B2B contexts (Green, Krieger &amp; Wind, 2001).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> كيف يقيّم المشترون ويوازنون بين خصائص المنتج المتنافسة (السعر، المزايا، العلامة) عند إصدار حكم تفضيل كلي (Green &amp; Rao, 1971).</div><div style=\"margin-top:10px\"><b>• النطاق:</b> تصميم المنتج والتسعير وترتيب أولويات المزايا ومحاكاة الحصة السوقية في السياقات الاستهلاكية وبين الشركات (Green, Krieger &amp; Wind, 2001).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Founders:</b> Mathematical foundation by Luce &amp; Tukey (1964); marketing adaptation by Paul Green &amp; V. R. Rao (1971).</div><div style=\"margin-top:10px\"><b>• Timeline:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Luce &amp; Tukey (1964) establish conjoint measurement axioms.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Green &amp; Rao (1971) bring it to marketing research.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Green &amp; Srinivasan (1978) provide the definitive methodological review.</div><div style=\"margin-top:6px;padding-left:12px\">(4) McFadden (1974) and choice-based conjoint extend it via random utility theory.</div></div>",
+      "ar_html": "<div><b>• الواضعون:</b> الأساس الرياضي لدى Luce &amp; Tukey (1964)، والتكييف التسويقي لدى Paul Green وV. R. Rao (1971).</div><div style=\"margin-top:10px\"><b>• الخط الزمني:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) أرسى Luce &amp; Tukey (1964) بديهيات القياس الاقتراني.</div><div style=\"margin-top:6px;padding-right:12px\">(2) أدخله Green &amp; Rao (1971) إلى بحوث التسويق.</div><div style=\"margin-top:6px;padding-right:12px\">(3) قدّم Green &amp; Srinivasan (1978) المراجعة المنهجية الفاصلة.</div><div style=\"margin-top:6px;padding-right:12px\">(4) وسّعه McFadden (1974) والاقتراني القائم على الاختيار عبر نظرية المنفعة العشوائية.</div></div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A multivariate, preference-measurement method within quantitative marketing research (Green &amp; Srinivasan, 1978).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is among the most influential and widely applied techniques in applied marketing science (Green, Krieger &amp; Wind, 2001).</div><div style=\"margin-top:10px\"><b>• Neighbours:</b> Akin to <i>discrete choice modeling</i> and <i>multidimensional scaling</i>; feeds <i>pricing</i>, <i>segmentation</i>, and <i>new-product design</i> (McFadden, 1974).</div>",
+      "ar_html": "<div><b>• التصنيف:</b> منهج متعدد المتغيرات لقياس التفضيل ضمن بحوث التسويق الكمية (Green &amp; Srinivasan, 1978).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> من أكثر الأساليب تأثيرًا وانتشارًا في علم التسويق التطبيقي (Green, Krieger &amp; Wind, 2001).</div><div style=\"margin-top:10px\"><b>• الجوار:</b> قريب من <i>نمذجة الاختيار المنفصل</i> و<i>التحجيم متعدد الأبعاد</i>، ويغذّي <i>التسعير</i> و<i>التجزئة</i> و<i>تصميم المنتجات الجديدة</i> (McFadden, 1974).</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Derives from axiomatic conjoint measurement in mathematical psychology and from microeconomic utility theory (Luce &amp; Tukey, 1964).</div><div style=\"margin-top:10px\"><b>• Methodological sources:</b> Experimental design (fractional factorial designs), regression/OLS for ratings-based, and multinomial logit for choice-based conjoint (McFadden, 1974; Green &amp; Srinivasan, 1978).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يستمد من القياس الاقتراني البديهي في علم النفس الرياضي ومن نظرية المنفعة الاقتصادية الجزئية (Luce &amp; Tukey, 1964).</div><div style=\"margin-top:10px\"><b>• المصادر المنهجية:</b> التصميم التجريبي (التصاميم العاملية الجزئية)، والانحدار للنوع التقييمي، واللوجيت متعدد الحدود للنوع الاختياري (McFadden, 1974; Green &amp; Srinivasan, 1978).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Fundamental questions:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) How to select attributes and levels without overload?</div><div style=\"margin-top:6px;padding-left:12px\">(2) How to design efficient profiles (full vs fractional factorial)?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to estimate part-worths and simulate market share?</div></div><div style=\"margin-top:10px\"><b>• Branches:</b> Ratings-based (traditional), choice-based (CBC), adaptive (ACA), and hierarchical Bayes conjoint (Green, Krieger &amp; Wind, 2001).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) كيف تُختار الخصائص والمستويات دون إرهاق؟</div><div style=\"margin-top:6px;padding-right:12px\">(2) كيف تُصمَّم البطاقات بكفاءة (عاملي كامل أم جزئي)؟</div><div style=\"margin-top:6px;padding-right:12px\">(3) كيف تُقدَّر المنافع الجزئية وتُحاكى الحصة السوقية؟</div></div><div style=\"margin-top:10px\"><b>• الفروع:</b> التقييمي التقليدي، والقائم على الاختيار CBC، والتكيفي ACA، والبايزي الهرمي (Green, Krieger &amp; Wind, 2001).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> Quantifies the dollar value customers place on each feature, enabling optimal product configuration, feature pricing, and share simulation (Green, Krieger &amp; Wind, 2001).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> It reveals true preferences hidden by self-reported importance, making it indispensable to evidence-based product strategy (Green &amp; Srinivasan, 1978).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يقيس القيمة النقدية التي يوليها العملاء لكل ميزة، ما يتيح التهيئة المثلى للمنتج وتسعير المزايا ومحاكاة الحصة (Green, Krieger &amp; Wind, 2001).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> يكشف التفضيلات الحقيقية التي تخفيها الأهمية المعلنة ذاتيًا، فصار لا غنى عنه لاستراتيجية المنتج المبنية على الدليل (Green &amp; Srinivasan, 1978).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Permissible (mubah) and a beneficial means; mastering such empirical methods that improve goods for the community is a commendable communal duty (fard kifayah) (Al-Ghazali, 11th c., <i>Ihya Ulum al-Din</i>).</div><div style=\"margin-top:10px\"><b>• Primary grounding:</b> Serving genuine human needs aligns with the Qur'anic command to seek the lawful good — \"eat of the good things\" (Qur'an 2:172) — and the Sunnah's praise of excellence (ihsan): \"Allah loves that when one does a work, he perfects it\" (al-Bayhaqi).</div><div style=\"margin-top:10px\"><b>• Caveat:</b> Survey data must be gathered with honesty and consent; deceptive elicitation contradicts the prohibition of betrayal (Qur'an 8:27).</div>",
+      "ar_html": "<div><b>• الحكم:</b> مباح ووسيلة نافعة، وإتقان مثل هذه المناهج التجريبية التي تحسّن السلع للمجتمع فرض كفاية محمود (الغزالي، القرن الخامس الهجري، <i>إحياء علوم الدين</i>).</div><div style=\"margin-top:10px\"><b>• الأصل النصي:</b> خدمة الحاجات الحقيقية توافق أمر القرآن بطلب الطيب \"كلوا من طيبات ما رزقناكم\" (البقرة: ١٧٢)، ومدح السنة للإحسان: \"إن الله يحب إذا عمل أحدكم عملًا أن يتقنه\" (رواه البيهقي).</div><div style=\"margin-top:10px\"><b>• التنبيه:</b> يجب جمع البيانات بصدق ورضا، والاستدراج المخادع يخالف النهي عن الخيانة (الأنفال: ٢٧).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Luce &amp; Tukey (1964), <i>Simultaneous Conjoint Measurement</i>, J. Mathematical Psychology:</b> Axiomatic foundation of conjoint measurement.</div><div style=\"margin-top:10px\"><b>• Green &amp; Rao (1971), <i>Conjoint Measurement for Quantifying Judgmental Data</i>, JMR:</b> Introduces conjoint to marketing.</div><div style=\"margin-top:10px\"><b>• McFadden (1974), <i>Conditional Logit Analysis of Qualitative Choice Behavior</i>:</b> Random-utility basis for choice-based conjoint (Nobel-laureate work).</div><div style=\"margin-top:10px\"><b>• Green &amp; Srinivasan (1978), <i>Conjoint Analysis in Consumer Research</i>, J. Consumer Research:</b> Definitive methodological survey.</div><div style=\"margin-top:10px\"><b>• Green, Krieger &amp; Wind (2001), <i>Thirty Years of Conjoint Analysis</i>, Interfaces:</b> Authoritative retrospective and practice review.</div>",
+      "ar_html": "<div><b>• Luce &amp; Tukey (1964)، <i>القياس الاقتراني المتزامن</i>، مجلة علم النفس الرياضي:</b> الأساس البديهي للقياس الاقتراني.</div><div style=\"margin-top:10px\"><b>• Green &amp; Rao (1971)، <i>القياس الاقتراني لتكميم البيانات الحكمية</i>، مجلة بحوث التسويق:</b> إدخال الأسلوب إلى التسويق.</div><div style=\"margin-top:10px\"><b>• McFadden (1974)، <i>تحليل اللوجيت الشرطي لسلوك الاختيار النوعي</i>:</b> الأساس في المنفعة العشوائية للنوع الاختياري (عمل حائز نوبل).</div><div style=\"margin-top:10px\"><b>• Green &amp; Srinivasan (1978)، <i>التحليل الاقتراني في بحوث المستهلك</i>:</b> المسح المنهجي الفاصل.</div><div style=\"margin-top:10px\"><b>• Green, Krieger &amp; Wind (2001)، <i>ثلاثون عامًا من التحليل الاقتراني</i>، Interfaces:</b> مراجعة مرجعية للممارسة.</div>"
+    }
+  ]
+}

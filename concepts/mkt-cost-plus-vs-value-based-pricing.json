@@ -1,0 +1,67 @@
+{
+  "slug": "mkt-cost-plus-vs-value-based-pricing",
+  "concept": "Cost-Plus vs Value-Based Pricing",
+  "course": "Marketing Management",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> \"Cost-plus\" = cost (Latin <i>constare</i>, to stand at a price) plus a markup; \"value-based\" centers on perceived <i>valor</i> (worth) to the buyer (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• Precise Arabic translation:</b> <i>التسعير على أساس التكلفة مقابل التسعير على أساس القيمة</i>; \"على أساس القيمة\" conveys the buyer's perceived worth as the anchor (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Historical names:</b> Cost-plus is also \"markup\" or \"full-cost\" pricing; value-based is \"value pricing\" or \"perceived-value pricing\" (Monroe, 1990).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> \"Cost-plus\" أي التكلفة زائد هامش، و\"value-based\" يتمحور حول القيمة المُدرَكة لدى المشتري (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• التعريب الأدق:</b> <i>التسعير على أساس التكلفة مقابل التسعير على أساس القيمة</i>؛ وعبارة \"على أساس القيمة\" تؤدي كون القيمة المُدرَكة هي المرتكز (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• التسميات التاريخية:</b> الأول يُسمى \"تسعير الهامش\" أو \"التكلفة الكاملة\"، والثاني \"تسعير القيمة\" أو \"القيمة المُدرَكة\" (Monroe, 1990).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Showcase:</b> Cost-plus sets price by adding a target margin to unit cost; value-based sets price from the economic/perceived value the offering creates for the customer (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• Strict boundary (الحد):</b> The defining axis is the anchor of price — internal cost vs external customer value.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) <i>Competition-based pricing</i> anchors on rivals' prices, a third logic.</div><div style=\"margin-top:6px;padding-left:12px\">(2) <i>Penetration/skimming</i> are objectives, not the cost-vs-value distinction (Dean, 1950).</div><div style=\"margin-top:6px;padding-left:12px\">(3) <i>Price discrimination</i> varies price by segment but can sit atop either base (Monroe, 1990).</div></div>",
+      "ar_html": "<div><b>• العرض:</b> التسعير على التكلفة يضيف هامشًا مستهدفًا لتكلفة الوحدة، والتسعير على القيمة يحدّد السعر من القيمة الاقتصادية/المُدرَكة التي يخلقها العرض للعميل (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• الحد الدقيق:</b> المحور الفارق هو مرتكز السعر: التكلفة الداخلية أم قيمة العميل الخارجية.</div><div style=\"margin-top:10px\"><b>• إزالة اللبس:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) <i>التسعير على المنافسة</i> يرتكز على أسعار المنافسين، وهو منطق ثالث.</div><div style=\"margin-top:6px;padding-right:12px\">(2) <i>الاختراق والقشط</i> أهداف لا فرقٌ بين التكلفة والقيمة (Dean, 1950).</div><div style=\"margin-top:6px;padding-right:12px\">(3) <i>التمييز السعري</i> يغيّر السعر بالشريحة وقد يقوم على أي أساس (Monroe, 1990).</div></div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> How firms should determine prices — whether anchored on internal cost recovery or on the value delivered to and perceived by customers (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• Scope:</b> Pricing strategy, margin management, and the link between perceived value, willingness to pay, and profitability (Anderson, Jain &amp; Chintagunta, 1993).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> كيف ينبغي للشركات تحديد الأسعار: أتُرتكِز على استرداد التكلفة الداخلية أم على القيمة المقدَّمة للعميل والمُدرَكة لديه (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• النطاق:</b> استراتيجية التسعير وإدارة الهامش والصلة بين القيمة المُدرَكة والاستعداد للدفع والربحية (Anderson, Jain &amp; Chintagunta, 1993).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origins:</b> Cost-plus descends from classical full-cost accounting; value-based pricing was crystallized by Nagle &amp; Holden (1987/2002).</div><div style=\"margin-top:10px\"><b>• Timeline:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Dean (1950) frames strategic pricing policy for new products.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Monroe (1990) systematizes perceived-value pricing.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Anderson, Jain &amp; Chintagunta (1993) operationalize customer value assessment.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Nagle &amp; Holden (2002) deliver the canonical strategy-and-tactics treatment.</div></div>",
+      "ar_html": "<div><b>• الأصول:</b> التسعير على التكلفة منحدر من محاسبة التكلفة الكاملة الكلاسيكية، وبلوَر التسعير على القيمة Nagle &amp; Holden (1987/2002).</div><div style=\"margin-top:10px\"><b>• الخط الزمني:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) أطّر Dean (1950) سياسة التسعير الاستراتيجي للمنتجات الجديدة.</div><div style=\"margin-top:6px;padding-right:12px\">(2) نظّم Monroe (1990) تسعير القيمة المُدرَكة.</div><div style=\"margin-top:6px;padding-right:12px\">(3) فعّل Anderson وJain وChintagunta (1993) تقييم قيمة العميل.</div><div style=\"margin-top:6px;padding-right:12px\">(4) قدّم Nagle &amp; Holden (2002) المعالجة المرجعية للاستراتيجية والتكتيك.</div></div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A core dichotomy within pricing strategy, one of the 4Ps of the marketing mix (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Standing:</b> Value-based pricing is the modern profit-maximizing ideal; cost-plus the simpler but value-blind default (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• Neighbours:</b> Relates to <i>competition-based pricing</i>, <i>conjoint-derived willingness-to-pay</i>, and <i>customer value propositions</i> (Anderson et al., 1993).</div>",
+      "ar_html": "<div><b>• التصنيف:</b> ثنائية محورية ضمن استراتيجية التسعير، أحد عناصر المزيج التسويقي الأربعة (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> التسعير على القيمة هو المثال الحديث لتعظيم الربح، والتسعير على التكلفة افتراضٌ أبسط لكنه أعمى عن القيمة (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• الجوار:</b> يرتبط بـ<i>التسعير على المنافسة</i> و<i>الاستعداد للدفع المستخرج بالتحليل الاقتراني</i> و<i>عروض القيمة للعميل</i> (Anderson et al., 1993).</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Cost-plus derives from cost accounting; value-based derives from microeconomic consumer surplus and willingness-to-pay theory (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• Methodological sources:</b> Economic value estimation, conjoint/choice analysis, and customer value assessment fieldwork inform value-based pricing (Anderson, Jain &amp; Chintagunta, 1993).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> التسعير على التكلفة من محاسبة التكلفة، والتسعير على القيمة من فائض المستهلك الاقتصادي الجزئي ونظرية الاستعداد للدفع (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• المصادر المنهجية:</b> تقدير القيمة الاقتصادية والتحليل الاقتراني/الاختياري والعمل الميداني لتقييم قيمة العميل ترفد التسعير على القيمة (Anderson, Jain &amp; Chintagunta, 1993).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Fundamental questions:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) How to measure the customer's true economic value?</div><div style=\"margin-top:6px;padding-left:12px\">(2) Why does cost-plus systematically leave money on the table or overprice?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to communicate and capture value once quantified?</div></div><div style=\"margin-top:10px\"><b>• Branches:</b> Economic value to customer (EVC); good-better-best tiering; value communication; cost-plus markup and target-return variants (Nagle &amp; Holden, 2002).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) كيف تُقاس القيمة الاقتصادية الحقيقية للعميل؟</div><div style=\"margin-top:6px;padding-right:12px\">(2) لماذا يترك التسعير على التكلفة مالًا على الطاولة أو يبالغ في السعر؟</div><div style=\"margin-top:6px;padding-right:12px\">(3) كيف تُبلَّغ القيمة وتُلتقَط بعد قياسها؟</div></div><div style=\"margin-top:10px\"><b>• الفروع:</b> القيمة الاقتصادية للعميل EVC؛ التدرّج جيد-أفضل-الأفضل؛ تبليغ القيمة؛ صور الهامش والعائد المستهدف (Nagle &amp; Holden, 2002).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> Value-based pricing maximizes captured value and profitability, while cost-plus offers simplicity and cost recovery; knowing the trade-off optimizes price strategy (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> The distinction reorients pricing from an accounting afterthought to a strategic value-capture discipline, often the single largest profit lever (Marn &amp; Rosiello, 1992).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> التسعير على القيمة يعظّم القيمة الملتقطة والربحية، والتسعير على التكلفة يقدّم البساطة واسترداد التكلفة؛ ومعرفة المفاضلة تُمثِّل استراتيجية السعر (Nagle &amp; Holden, 2002).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> يعيد التمييز توجيه التسعير من تذييل محاسبي إلى انضباط استراتيجي لالتقاط القيمة، وهو غالبًا أكبر رافعة ربح مفردة (Marn &amp; Rosiello, 1992).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Pricing by mutual consent is lawful (halal); Islam generally leaves price to free, fair market forces, as the Prophet declined to fix prices, attributing pricing to God (Sunan Abu Dawud).</div><div style=\"margin-top:10px\"><b>• Primary grounding:</b> Trade must rest on consent — \"unless it be a trade by mutual consent\" (Qur'an 4:29); both cost-plus and value-based are permissible if free of fraud, hoarding (ihtikar), and exploiting necessity (ghaban fahish) (Ibn Taymiyyah, 14th c., <i>al-Hisbah</i>).</div><div style=\"margin-top:10px\"><b>• Caveat:</b> Value-based pricing must not become exploitative gouging of the desperate, which violates the prohibition of harm: \"no harm and no reciprocating harm\" (Sunan Ibn Majah).</div>",
+      "ar_html": "<div><b>• الحكم:</b> التسعير بالتراضي حلال، والإسلام يترك السعر عمومًا لقوى السوق الحرة العادلة، فقد امتنع النبي عن التسعير ونسب السعر إلى الله (سنن أبي داود).</div><div style=\"margin-top:10px\"><b>• الأصل النصي:</b> يقوم البيع على الرضا \"إلا أن تكون تجارة عن تراض منكم\" (النساء: ٢٩)؛ وكلا التسعيرين جائز إن خلا من الغش والاحتكار والغبن الفاحش (ابن تيمية، القرن الثامن الهجري، <i>الحسبة</i>).</div><div style=\"margin-top:10px\"><b>• التنبيه:</b> يجب ألا يصير التسعير على القيمة استغلالًا فاحشًا للمضطر، فذلك يخالف \"لا ضرر ولا ضرار\" (سنن ابن ماجه).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Dean (1950), <i>Pricing Policies for New Products</i>, HBR:</b> Classic foundation of strategic pricing.</div><div style=\"margin-top:10px\"><b>• Monroe (1990), <i>Pricing: Making Profitable Decisions</i>:</b> Systematizes perceived-value pricing.</div><div style=\"margin-top:10px\"><b>• Marn &amp; Rosiello (1992), <i>Managing Price, Gaining Profit</i>, HBR:</b> Quantifies pricing as the top profit lever.</div><div style=\"margin-top:10px\"><b>• Anderson, Jain &amp; Chintagunta (1993), <i>Customer Value Assessment in Business Markets</i>:</b> Operationalizes value measurement.</div><div style=\"margin-top:10px\"><b>• Nagle &amp; Holden (2002), <i>The Strategy and Tactics of Pricing</i>:</b> Canonical value-based pricing text.</div>",
+      "ar_html": "<div><b>• Dean (1950)، <i>سياسات تسعير المنتجات الجديدة</i>، هارفارد بزنس ريفيو:</b> أساس كلاسيكي للتسعير الاستراتيجي.</div><div style=\"margin-top:10px\"><b>• Monroe (1990)، <i>التسعير: اتخاذ قرارات مربحة</i>:</b> ينظّم تسعير القيمة المُدرَكة.</div><div style=\"margin-top:10px\"><b>• Marn &amp; Rosiello (1992)، <i>إدارة السعر وكسب الربح</i>، هارفارد بزنس ريفيو:</b> يقيس التسعير أكبر رافعة ربح.</div><div style=\"margin-top:10px\"><b>• Anderson, Jain &amp; Chintagunta (1993)، <i>تقييم قيمة العميل في الأسواق المؤسسية</i>:</b> يفعّل قياس القيمة.</div><div style=\"margin-top:10px\"><b>• Nagle &amp; Holden (2002)، <i>استراتيجية التسعير وتكتيكاته</i>:</b> النص المرجعي للتسعير على القيمة.</div>"
+    }
+  ]
+}

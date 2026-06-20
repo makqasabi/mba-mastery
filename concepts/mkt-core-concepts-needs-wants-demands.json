@@ -1,0 +1,67 @@
+{
+  "slug": "mkt-core-concepts-needs-wants-demands",
+  "concept": "Core Concepts: Needs, Wants, Demands",
+  "course": "Marketing Management",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> \"Need\" (Old English <i>nied</i>, necessity), \"want\" (Old Norse <i>vanta</i>, to lack), \"demand\" (Latin <i>demandare</i>, to entrust/claim) — a triad of increasing specificity and economic backing (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Precise Arabic translation:</b> <i>الحاجات والرغبات والطلب</i>; \"الحاجة\" for the deprivation, \"الرغبة\" for the culturally shaped want, \"الطلب\" for backed purchasing intent (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Historical names:</b> Foundational to the \"marketing concept\" articulated by Kotler from the 1960s onward, distinguishing it from selling (Levitt, 1960).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> \"Need\" من الإنجليزية القديمة بمعنى الضرورة، و\"want\" من النوردية بمعنى النقص، و\"demand\" من اللاتينية بمعنى المطالبة؛ ثلاثية متصاعدة في التحديد والإسناد الاقتصادي (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• التعريب الأدق:</b> <i>الحاجات والرغبات والطلب</i>؛ \"الحاجة\" للحرمان، و\"الرغبة\" للرغبة المصوغة ثقافيًا، و\"الطلب\" للنية الشرائية المدعومة (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• التسميات التاريخية:</b> أساس \"المفهوم التسويقي\" الذي بلوره كوتلر منذ الستينيات تمييزًا له عن البيع (Levitt, 1960).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Showcase:</b> Needs are basic human requirements; wants are needs shaped by culture and personality toward specific objects; demands are wants backed by ability and willingness to pay (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Strict boundary (الحد):</b> The progression is need → want → demand, each adding a constraint (form, then purchasing power).</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Marketers do not create needs; they shape wants and influence demand (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:6px;padding-left:12px\">(2) <i>Maslow's needs</i> are psychological tiers, broader than this demand taxonomy.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Economic \"demand\" is a price-quantity schedule; marketing \"demand\" is backed want for a specific offer (Marshall, 1890).</div></div>",
+      "ar_html": "<div><b>• العرض:</b> الحاجات متطلبات إنسانية أساسية، والرغبات حاجات صاغتها الثقافة والشخصية نحو أشياء بعينها، والطلب رغبات مدعومة بالقدرة على الدفع والاستعداد له (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• الحد الدقيق:</b> التدرّج حاجة ← رغبة ← طلب، يضيف كل منها قيدًا (الشكل ثم القدرة الشرائية).</div><div style=\"margin-top:10px\"><b>• إزالة اللبس:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) لا يخلق المسوّقون الحاجات بل يصوغون الرغبات ويؤثرون في الطلب (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:6px;padding-right:12px\">(2) <i>حاجات ماسلو</i> طبقات نفسية أوسع من هذا التصنيف.</div><div style=\"margin-top:6px;padding-right:12px\">(3) \"الطلب\" الاقتصادي جدول سعر-كمية، أما التسويقي فرغبة مدعومة لعرض بعينه (Marshall, 1890).</div></div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> The conceptual chain linking innate human requirements to specific, economically backed market demand that firms can serve (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Scope:</b> The bedrock vocabulary of marketing's value-exchange logic, preceding offerings, value, and exchange (Bagozzi, 1975).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> السلسلة المفاهيمية الرابطة بين المتطلبات الإنسانية الفطرية والطلب السوقي المحدد المدعوم اقتصاديًا الذي تخدمه الشركات (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• النطاق:</b> المفردات الأساس لمنطق تبادل القيمة في التسويق، السابقة على العروض والقيمة والتبادل (Bagozzi, 1975).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Founder:</b> Codified by Philip Kotler in <i>Marketing Management</i> (1st ed., 1967), building on the marketing-concept revolution.</div><div style=\"margin-top:10px\"><b>• Timeline:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Marshall (1890) formalizes economic demand.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Levitt (1960) reframes firms around customer needs in \"Marketing Myopia.\"</div><div style=\"margin-top:6px;padding-left:12px\">(3) Kotler (1967) codifies the needs-wants-demands triad.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Bagozzi (1975) grounds it in exchange theory.</div></div>",
+      "ar_html": "<div><b>• الواضع:</b> قنّنه Philip Kotler في <i>إدارة التسويق</i> (ط١، ١٩٦٧) بناءً على ثورة المفهوم التسويقي.</div><div style=\"margin-top:10px\"><b>• الخط الزمني:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) صاغ Marshall (1890) الطلب الاقتصادي.</div><div style=\"margin-top:6px;padding-right:12px\">(2) أعاد Levitt (1960) تأطير الشركات حول حاجات العميل في \"قِصَر النظر التسويقي\".</div><div style=\"margin-top:6px;padding-right:12px\">(3) قنّن Kotler (1967) ثلاثية الحاجات والرغبات والطلب.</div><div style=\"margin-top:6px;padding-right:12px\">(4) أرسى Bagozzi (1975) أساسها في نظرية التبادل.</div></div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> Foundational conceptual primitives of marketing theory (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Standing:</b> They are the entry point of every marketing curriculum, anchoring the discipline's customer-orientation (Levitt, 1960).</div><div style=\"margin-top:10px\"><b>• Neighbours:</b> Feed into <i>offerings/value</i>, <i>exchange</i>, <i>segmentation</i>, and connect to <i>Maslow</i>'s motivational layer (Bagozzi, 1975).</div>",
+      "ar_html": "<div><b>• التصنيف:</b> الأوليات المفاهيمية التأسيسية لنظرية التسويق (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> مدخل كل منهج تسويقي، ترسي توجّه الانضباط نحو العميل (Levitt, 1960).</div><div style=\"margin-top:10px\"><b>• الجوار:</b> تغذّي <i>العروض والقيمة</i> و<i>التبادل</i> و<i>التجزئة</i>، وتتصل بطبقة <i>ماسلو</i> الدافعية (Bagozzi, 1975).</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Derives from neoclassical economics (utility, demand) and humanistic psychology (needs) synthesized into managerial marketing (Marshall, 1890; Maslow, 1943).</div><div style=\"margin-top:10px\"><b>• Methodological sources:</b> Exchange theory and the marketing-concept philosophy provide its axioms (Bagozzi, 1975; Levitt, 1960).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> تستمد من الاقتصاد النيوكلاسيكي (المنفعة والطلب) وعلم النفس الإنساني (الحاجات) مولَّفين في التسويق الإداري (Marshall, 1890; Maslow, 1943).</div><div style=\"margin-top:10px\"><b>• المصادر المنهجية:</b> نظرية التبادل وفلسفة المفهوم التسويقي تمدّانها ببديهياتها (Bagozzi, 1975; Levitt, 1960).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Fundamental questions:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Can marketing create needs or only channel wants?</div><div style=\"margin-top:6px;padding-left:12px\">(2) How do culture and income convert needs into demand?</div><div style=\"margin-top:6px;padding-left:12px\">(3) Where is the ethical line in stimulating wants?</div></div><div style=\"margin-top:10px\"><b>• Branches:</b> Stated, real, unstated, delight, and secret needs; latent vs effective demand; demand states (negative, latent, full, etc.) (Kotler &amp; Keller, 2016).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) هل يخلق التسويق حاجات أم يوجّه رغبات فقط؟</div><div style=\"margin-top:6px;padding-right:12px\">(2) كيف تحوّل الثقافة والدخل الحاجة إلى طلب؟</div><div style=\"margin-top:6px;padding-right:12px\">(3) أين الخط الأخلاقي في تحفيز الرغبات؟</div></div><div style=\"margin-top:10px\"><b>• الفروع:</b> الحاجات المعلنة والحقيقية والكامنة وحاجات الإبهاج والخفية؛ الطلب الكامن مقابل الفعّال؛ حالات الطلب (السلبي، الكامن، الكامل) (Kotler &amp; Keller, 2016).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> Disciplines firms to start from genuine customer requirements rather than existing products, the essence of market orientation (Levitt, 1960).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> This triad is the conceptual cornerstone distinguishing marketing from selling and grounding all downstream strategy (Kotler &amp; Keller, 2016).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> تُلزِم الشركات بالبدء من متطلبات العميل الحقيقية لا من المنتجات القائمة، وهو جوهر التوجّه السوقي (Levitt, 1960).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> هذه الثلاثية حجر الزاوية المفاهيمي الذي يميّز التسويق عن البيع ويؤسس كل استراتيجية تالية (Kotler &amp; Keller, 2016).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Studying and serving needs is permissible and, where it meets the community's true necessities, rises to a communal duty (fard kifayah) ranked by the Maqasid: necessities (daruriyyat), then needs (hajiyyat), then refinements (tahsiniyyat) (Al-Shatibi, 14th c., <i>al-Muwafaqat</i>).</div><div style=\"margin-top:10px\"><b>• Primary grounding:</b> The Qur'an sanctions lawful provision — \"eat of the good things\" (Qur'an 2:172) — and condemns inflaming wants into extravagance: \"do not be wasteful; He does not love the wasteful\" (Qur'an 7:31).</div><div style=\"margin-top:10px\"><b>• Caveat:</b> Manufacturing false \"needs\" for vanity contradicts moderation; the Prophet warned against pursuing the world's adornments excessively (Sahih al-Bukhari).</div>",
+      "ar_html": "<div><b>• الحكم:</b> دراسة الحاجات وخدمتها مباحة، ومتى لبّت ضرورات المجتمع الحقيقية ارتقت إلى فرض كفاية مرتَّب بالمقاصد: ضروريات ثم حاجيات ثم تحسينيات (الشاطبي، القرن الثامن الهجري، <i>الموافقات</i>).</div><div style=\"margin-top:10px\"><b>• الأصل النصي:</b> أباح القرآن الرزق الطيب \"كلوا من طيبات ما رزقناكم\" (البقرة: ١٧٢)، وذمّ تأجيج الرغبات إسرافًا \"ولا تسرفوا إنه لا يحب المسرفين\" (الأعراف: ٣١).</div><div style=\"margin-top:10px\"><b>• التنبيه:</b> اصطناع \"حاجات\" زائفة للمباهاة يخالف الاعتدال، وقد حذّر النبي من التكاثر بزينة الدنيا (صحيح البخاري).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Marshall (1890), <i>Principles of Economics</i>:</b> Formalizes demand as the economic backbone of the triad.</div><div style=\"margin-top:10px\"><b>• Levitt (1960), <i>Marketing Myopia</i>, HBR:</b> Reorients firms around customer needs, not products.</div><div style=\"margin-top:10px\"><b>• Kotler (1967), <i>Marketing Management</i> (1st ed.):</b> Codifies the needs-wants-demands distinction.</div><div style=\"margin-top:10px\"><b>• Bagozzi (1975), <i>Marketing as Exchange</i>, Journal of Marketing:</b> Grounds the concepts in exchange theory.</div><div style=\"margin-top:10px\"><b>• Kotler &amp; Keller (2016), <i>Marketing Management</i>, 15th ed.:</b> Canonical contemporary treatment.</div>",
+      "ar_html": "<div><b>• Marshall (1890)، <i>مبادئ الاقتصاد</i>:</b> يصوغ الطلب أساسًا اقتصاديًا للثلاثية.</div><div style=\"margin-top:10px\"><b>• Levitt (1960)، <i>قِصَر النظر التسويقي</i>، هارفارد بزنس ريفيو:</b> يعيد توجيه الشركات نحو حاجات العميل.</div><div style=\"margin-top:10px\"><b>• Kotler (1967)، <i>إدارة التسويق</i> (ط١):</b> يقنّن تمييز الحاجات والرغبات والطلب.</div><div style=\"margin-top:10px\"><b>• Bagozzi (1975)، <i>التسويق بوصفه تبادلًا</i>، مجلة التسويق:</b> يؤصّل المفاهيم في نظرية التبادل.</div><div style=\"margin-top:10px\"><b>• Kotler &amp; Keller (2016)، <i>إدارة التسويق</i>، ط١٥:</b> المعالجة المرجعية المعاصرة.</div>"
+    }
+  ]
+}

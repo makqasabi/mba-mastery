@@ -1,0 +1,67 @@
+{
+  "slug": "mkt-crm-clv-acquisition-vs-retention",
+  "concept": "CRM & CLV: Acquisition vs Retention",
+  "course": "Marketing Management",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> \"Retention\" from Latin <i>retinere</i> (to hold back); \"acquisition\" from <i>acquirere</i> (to gain). The pairing frames the two engines of customer equity within CRM (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• Precise Arabic translation:</b> <i>إدارة علاقات العملاء والقيمة العمرية: الاكتساب مقابل الاحتفاظ</i>; \"الاحتفاظ\" is preferred over \"الاستبقاء\" for its established managerial usage (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Historical names:</b> Early relationship-marketing literature spoke of \"customer retention economics\" vs \"prospecting\" (Reichheld &amp; Sasser, 1990).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> \"الاحتفاظ\" من \"حفظ\" أي الإمساك، و\"الاكتساب\" من \"كسب\"؛ ويؤطّر اقترانهما محرّكي حقوق ملكية العميل ضمن إدارة العلاقات (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• التعريب الأدق:</b> <i>إدارة علاقات العملاء والقيمة العمرية: الاكتساب مقابل الاحتفاظ</i>؛ ويُرجَّح \"الاحتفاظ\" على \"الاستبقاء\" لرسوخه إداريًا (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• التسميات التاريخية:</b> تحدثت أدبيات التسويق العلائقي عن \"اقتصاديات الاحتفاظ\" مقابل \"التنقيب\" (Reichheld &amp; Sasser, 1990).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Showcase:</b> The strategic management of the trade-off between spending to win new customers (acquisition) and spending to keep existing ones (retention) so as to maximize total customer equity (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• Strict boundary (الحد):</b> It is an allocation problem under CRM, not a single metric; CLV is its valuation engine.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) <i>CLV</i> values one customer; this concept allocates budget across the base.</div><div style=\"margin-top:6px;padding-left:12px\">(2) <i>Loyalty programs</i> are a retention tactic, not the strategic trade-off itself.</div><div style=\"margin-top:6px;padding-left:12px\">(3) <i>Churn management</i> targets only the retention side (Reinartz et al., 2005).</div></div>",
+      "ar_html": "<div><b>• العرض:</b> الإدارة الاستراتيجية للمفاضلة بين الإنفاق لكسب عملاء جدد (الاكتساب) والإنفاق للحفاظ على القائمين (الاحتفاظ) بما يعظّم إجمالي حقوق ملكية العميل (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• الحد الدقيق:</b> مشكلة تخصيص ضمن إدارة العلاقات لا مقياس مفرد، والقيمة العمرية محرّكها التقييمي.</div><div style=\"margin-top:10px\"><b>• إزالة اللبس:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) <i>القيمة العمرية</i> تقيّم عميلًا واحدًا، وهذا المفهوم يوزّع الميزانية على القاعدة.</div><div style=\"margin-top:6px;padding-right:12px\">(2) <i>برامج الولاء</i> تكتيك احتفاظ لا المفاضلة الاستراتيجية ذاتها.</div><div style=\"margin-top:6px;padding-right:12px\">(3) <i>إدارة التسرب</i> تستهدف جانب الاحتفاظ فقط (Reinartz et al., 2005).</div></div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> How firms should split marketing resources between acquiring and retaining customers to maximize long-run value, and how CRM data informs that split (Reinartz, Thomas &amp; Kumar, 2005).</div><div style=\"margin-top:10px\"><b>• Scope:</b> Spans CRM infrastructure, retention economics, acquisition economics, and their joint optimization (Kumar &amp; Reinartz, 2016).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> كيف ينبغي للشركات قسمة الموارد بين اكتساب العملاء والاحتفاظ بهم لتعظيم القيمة طويلة الأجل، وكيف تُرشِد بيانات إدارة العلاقات تلك القسمة (Reinartz, Thomas &amp; Kumar, 2005).</div><div style=\"margin-top:10px\"><b>• النطاق:</b> يشمل بنية إدارة العلاقات واقتصاديات الاحتفاظ والاكتساب وأمثلتها المشتركة (Kumar &amp; Reinartz, 2016).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origins:</b> Reichheld &amp; Sasser (1990) launched retention economics with \"zero defections\"; Blattberg &amp; Deighton (1996) framed the formal trade-off.</div><div style=\"margin-top:10px\"><b>• Timeline:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Reichheld &amp; Sasser (1990) quantify retention's profit impact.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Blattberg &amp; Deighton (1996) introduce the customer-equity allocation test.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Reinartz, Thomas &amp; Kumar (2005) provide the empirical optimization.</div></div>",
+      "ar_html": "<div><b>• الأصول:</b> أطلق Reichheld &amp; Sasser (1990) اقتصاديات الاحتفاظ بفكرة \"صفر تسرب\"، وأطّر Blattberg &amp; Deighton (1996) المفاضلة الرسمية.</div><div style=\"margin-top:10px\"><b>• الخط الزمني:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) قاس Reichheld &amp; Sasser (1990) أثر الاحتفاظ في الربح.</div><div style=\"margin-top:6px;padding-right:12px\">(2) قدّم Blattberg &amp; Deighton (1996) اختبار تخصيص حقوق ملكية العميل.</div><div style=\"margin-top:6px;padding-right:12px\">(3) قدّم Reinartz وThomas وKumar (2005) الأمثلة التجريبية.</div></div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A strategic sub-domain of CRM and customer-equity management (Kumar &amp; Reinartz, 2016).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is the decision layer that converts CLV estimates into budget allocation (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• Neighbours:</b> Built on <i>CLV</i> and <i>CAC</i>; feeds <i>segmentation</i>, <i>loyalty strategy</i>, and <i>customer equity</i> (Rust et al., 2004).</div>",
+      "ar_html": "<div><b>• التصنيف:</b> مجال استراتيجي فرعي من إدارة العلاقات وإدارة حقوق ملكية العميل (Kumar &amp; Reinartz, 2016).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> طبقة القرار التي تحوّل تقديرات القيمة العمرية إلى تخصيص للميزانية (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• الجوار:</b> يقوم على <i>القيمة العمرية</i> و<i>تكلفة الاكتساب</i>، ويغذّي <i>التجزئة</i> و<i>استراتيجية الولاء</i> و<i>حقوق ملكية العميل</i> (Rust et al., 2004).</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Marginal analysis from microeconomics: allocate the next dollar to the activity with higher marginal return on customer equity (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• Methodological sources:</b> CRM databases, hazard/retention models, and field experiments inform the trade-off (Reinartz et al., 2005).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> التحليل الحدي من الاقتصاد الجزئي: يُوجَّه الدولار التالي للنشاط الأعلى عائدًا حديًا على حقوق ملكية العميل (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• المصادر المنهجية:</b> قواعد بيانات إدارة العلاقات ونماذج المخاطر والاحتفاظ والتجارب الميدانية ترشد المفاضلة (Reinartz et al., 2005).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Fundamental questions:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Is retention always cheaper than acquisition?</div><div style=\"margin-top:6px;padding-left:12px\">(2) How to set the optimal allocation ratio?</div><div style=\"margin-top:6px;padding-left:12px\">(3) Do loyal customers truly cost less to serve?</div></div><div style=\"margin-top:10px\"><b>• Branches:</b> Retention economics; acquisition economics; win-back; balanced allocation models (Reinartz et al., 2005; Reinartz &amp; Kumar, 2000).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) هل الاحتفاظ أرخص دائمًا من الاكتساب؟</div><div style=\"margin-top:6px;padding-right:12px\">(2) كيف تُضبَط نسبة التخصيص المثلى؟</div><div style=\"margin-top:6px;padding-right:12px\">(3) هل خدمة العملاء الأوفياء أقل كلفة فعلًا؟</div></div><div style=\"margin-top:10px\"><b>• الفروع:</b> اقتصاديات الاحتفاظ؛ اقتصاديات الاكتساب؛ الاستعادة؛ نماذج التخصيص المتوازن (Reinartz et al., 2005; Reinartz &amp; Kumar, 2000).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> An optimal split of marketing spend that maximizes long-run customer equity rather than short-run sales (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> It corrects the naive dogma that retention always dominates, showing both engines must be balanced for value creation (Reinartz &amp; Kumar, 2000).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> قسمة مثلى للإنفاق التسويقي تعظّم حقوق ملكية العميل طويلة الأجل لا المبيعات الآنية (Blattberg &amp; Deighton, 1996).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> يصحّح العقيدة الساذجة بأن الاحتفاظ يغلب دومًا، مبيِّنًا وجوب موازنة المحرّكين لخلق القيمة (Reinartz &amp; Kumar, 2000).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Permissible and, as prudent stewardship of resources, a communal duty (fard kifayah) for those managing enterprises (Al-Ghazali, 11th c., <i>Ihya Ulum al-Din</i>).</div><div style=\"margin-top:10px\"><b>• Primary grounding:</b> The Qur'anic mandate of balance and avoidance of waste — \"do not be wasteful\" (Qur'an 6:141) — and fulfilling trusts — \"render trusts to whom they are due\" (Qur'an 4:58) — supports disciplined allocation, serving hifz al-mal.</div><div style=\"margin-top:10px\"><b>• Caveat:</b> Retention must rest on genuine value, not coercive switching barriers; the Sunnah forbids harm: \"no harm and no reciprocating harm\" (Sunan Ibn Majah).</div>",
+      "ar_html": "<div><b>• الحكم:</b> مباح، وبوصفه رعايةً رشيدةً للموارد فهو فرض كفاية على القائمين على المنشآت (الغزالي، القرن الخامس الهجري، <i>إحياء علوم الدين</i>).</div><div style=\"margin-top:10px\"><b>• الأصل النصي:</b> أمر القرآن بالتوازن واجتناب الإسراف \"ولا تسرفوا\" (الأنعام: ١٤١) وأداء الأمانات \"إن الله يأمركم أن تؤدوا الأمانات إلى أهلها\" (النساء: ٥٨) يؤيد التخصيص المنضبط حفظًا للمال.</div><div style=\"margin-top:10px\"><b>• التنبيه:</b> يجب أن يقوم الاحتفاظ على قيمة حقيقية لا على حواجز تحويل قسرية، فالسنة تنهى عن الضرر: \"لا ضرر ولا ضرار\" (سنن ابن ماجه).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Reichheld &amp; Sasser (1990), <i>Zero Defections: Quality Comes to Services</i>, HBR:</b> Founding case for retention economics.</div><div style=\"margin-top:10px\"><b>• Blattberg &amp; Deighton (1996), <i>Manage Marketing by the Customer Equity Test</i>, HBR:</b> Defines the acquisition-retention allocation rule.</div><div style=\"margin-top:10px\"><b>• Reinartz &amp; Kumar (2000), <i>On the Profitability of Long-Life Customers</i>:</b> Challenges loyalty dogma empirically.</div><div style=\"margin-top:10px\"><b>• Reinartz, Thomas &amp; Kumar (2005), <i>Balancing Acquisition and Retention Resources</i>, Journal of Marketing:</b> Empirical optimization of the trade-off.</div><div style=\"margin-top:10px\"><b>• Kumar &amp; Reinartz (2016), <i>Creating Enduring Customer Value</i>, Journal of Marketing:</b> Modern CRM-CLV strategic synthesis.</div>",
+      "ar_html": "<div><b>• Reichheld &amp; Sasser (1990)، <i>صفر تسرب: الجودة تصل إلى الخدمات</i>، هارفارد بزنس ريفيو:</b> الأساس لاقتصاديات الاحتفاظ.</div><div style=\"margin-top:10px\"><b>• Blattberg &amp; Deighton (1996)، <i>إدارة التسويق باختبار حقوق ملكية العميل</i>:</b> يعرّف قاعدة تخصيص الاكتساب والاحتفاظ.</div><div style=\"margin-top:10px\"><b>• Reinartz &amp; Kumar (2000)، <i>في ربحية العملاء طويلي العمر</i>:</b> يتحدى عقيدة الولاء تجريبيًا.</div><div style=\"margin-top:10px\"><b>• Reinartz, Thomas &amp; Kumar (2005)، <i>موازنة موارد الاكتساب والاحتفاظ</i>، مجلة التسويق:</b> أمثلة تجريبية للمفاضلة.</div><div style=\"margin-top:10px\"><b>• Kumar &amp; Reinartz (2016)، <i>خلق قيمة عميل دائمة</i>، مجلة التسويق:</b> توليف استراتيجي حديث.</div>"
+    }
+  ]
+}

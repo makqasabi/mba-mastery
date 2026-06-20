@@ -1,0 +1,67 @@
+{
+  "slug": "mkt-clv-with-acquisition-cost",
+  "concept": "CLV with Acquisition Cost",
+  "course": "Marketing Management",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> \"Acquisition\" derives from Latin <i>acquirere</i> (to gain in addition); appended to CLV it denotes lifetime value computed <i>net</i> of the cost of winning the customer (Gupta et al., 2006).</div><div style=\"margin-top:10px\"><b>• Precise Arabic translation:</b> <i>القيمة العمرية للعميل بعد خصم تكلفة الاكتساب</i>; \"الاكتساب\" is preferred over \"الاستقطاب\" because it captures the full acquisition outlay, not merely attraction (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• Historical names:</b> Termed \"net CLV\" or \"acquisition-adjusted lifetime value\" in database-marketing texts (Blattberg, Getz &amp; Thomas, 2001).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> \"الاكتساب\" من \"كسب\" أي الحصول؛ وبإضافته للقيمة العمرية يدل على القيمة محسوبةً <i>صافيةً</i> بعد خصم تكلفة الفوز بالعميل (Gupta et al., 2006).</div><div style=\"margin-top:10px\"><b>• التعريب الأدق:</b> <i>القيمة العمرية للعميل بعد خصم تكلفة الاكتساب</i>؛ ويُرجَّح \"الاكتساب\" على \"الاستقطاب\" لأنه يشمل كامل نفقة الكسب لا مجرد الجذب (Kotler &amp; Keller, 2016).</div><div style=\"margin-top:10px\"><b>• التسميات التاريخية:</b> سُمّيت \"القيمة العمرية الصافية\" أو \"المعدَّلة بتكلفة الاكتساب\" في أدبيات تسويق قواعد البيانات (Blattberg, Getz &amp; Thomas, 2001).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Showcase:</b> The present value of a customer's future net margins minus the up-front cost of acquiring that customer (CAC) (Gupta et al., 2006).</div><div style=\"margin-top:10px\"><b>• Strict boundary (الحد):</b> The acquisition cost is a one-time, period-zero deduction that is NOT discounted, unlike future flows.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) <i>Gross CLV</i> ignores CAC; this construct nets it (Kumar &amp; Reinartz, 2016).</div><div style=\"margin-top:6px;padding-left:12px\">(2) <i>CAC alone</i> is an input, not a value measure.</div><div style=\"margin-top:6px;padding-left:12px\">(3) <i>Payback period</i> measures time to recover CAC, not total lifetime worth (Blattberg et al., 2001).</div></div>",
+      "ar_html": "<div><b>• العرض:</b> القيمة الحالية لصافي هوامش العميل المستقبلية مطروحًا منها التكلفة الأولية لاكتسابه (Gupta et al., 2006).</div><div style=\"margin-top:10px\"><b>• الحد الدقيق:</b> تكلفة الاكتساب خصم لمرة واحدة في الفترة صفر ولا تُخصَم زمنيًا بخلاف التدفقات المستقبلية.</div><div style=\"margin-top:10px\"><b>• إزالة اللبس:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) <i>القيمة العمرية الإجمالية</i> تتجاهل تكلفة الاكتساب، وهذا المفهوم يخصمها (Kumar &amp; Reinartz, 2016).</div><div style=\"margin-top:6px;padding-right:12px\">(2) <i>تكلفة الاكتساب</i> وحدها مُدخَل لا مقياس قيمة.</div><div style=\"margin-top:6px;padding-right:12px\">(3) <i>فترة الاسترداد</i> تقيس زمن استرداد التكلفة لا إجمالي القيمة العمرية (Blattberg et al., 2001).</div></div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> Whether and when the discounted future value of a customer exceeds the cost incurred to acquire them — the acquisition break-even and profitability frontier (Gupta et al., 2004).</div><div style=\"margin-top:10px\"><b>• Scope:</b> The joint economics of acquisition spending and retention returns across the relationship horizon (Reinartz, Thomas &amp; Kumar, 2005).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> متى وكيف تتجاوز القيمة المستقبلية المخصومة للعميل تكلفة اكتسابه، أي حدّ التعادل وحدود الربحية في الاكتساب (Gupta et al., 2004).</div><div style=\"margin-top:10px\"><b>• النطاق:</b> الاقتصاد المشترك لإنفاق الاكتساب وعوائد الاحتفاظ عبر أفق العلاقة (Reinartz, Thomas &amp; Kumar, 2005).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origins:</b> The netting of acquisition cost into CLV was formalized alongside the DCF treatment by Berger &amp; Nasr (1998).</div><div style=\"margin-top:10px\"><b>• Timeline:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) Blattberg &amp; Deighton (1996) framed the acquisition-vs-retention budget split.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Reinartz, Thomas &amp; Kumar (2005) optimized acquisition and retention jointly.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Gupta et al. (2006) standardized CLV net of CAC in their review.</div></div>",
+      "ar_html": "<div><b>• الأصول:</b> صُيِّغ خصم تكلفة الاكتساب ضمن القيمة العمرية مع المعالجة المخصومة لدى Berger &amp; Nasr (1998).</div><div style=\"margin-top:10px\"><b>• الخط الزمني:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) أطّر Blattberg &amp; Deighton (1996) قسمة الميزانية بين الاكتساب والاحتفاظ.</div><div style=\"margin-top:6px;padding-right:12px\">(2) أمثَل Reinartz وThomas وKumar (2005) الاكتساب والاحتفاظ معًا.</div><div style=\"margin-top:6px;padding-right:12px\">(3) قنّن Gupta et al. (2006) القيمة العمرية صافيةً من تكلفة الاكتساب.</div></div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A refinement within CLV analytics and marketing resource allocation (Kumar &amp; Reinartz, 2016).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is the decision-grade form of CLV, since only net-of-CAC value informs whether acquisition is profitable (Gupta et al., 2004).</div><div style=\"margin-top:10px\"><b>• Neighbours:</b> Directly tied to <i>CAC</i>, <i>acquisition-vs-retention trade-offs</i>, and <i>customer equity</i> (Blattberg &amp; Deighton, 1996).</div>",
+      "ar_html": "<div><b>• التصنيف:</b> تنقيح ضمن تحليلات القيمة العمرية وتخصيص الموارد التسويقية (Kumar &amp; Reinartz, 2016).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> هو الصورة القابلة لاتخاذ القرار من القيمة العمرية، إذ لا يُعرف ربح الاكتساب إلا بالقيمة الصافية (Gupta et al., 2004).</div><div style=\"margin-top:10px\"><b>• الجوار:</b> يرتبط مباشرة بـ<i>تكلفة الاكتساب</i> و<i>موازنة الاكتساب والاحتفاظ</i> و<i>حقوق ملكية العميل</i> (Blattberg &amp; Deighton, 1996).</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Net present value rule from corporate finance: accept the customer if NPV of margins exceeds acquisition outlay (Brealey, Myers &amp; Allen, 2020).</div><div style=\"margin-top:10px\"><b>• Methodological sources:</b> Retention/margin estimation from probability models combined with attributed CAC accounting (Gupta et al., 2006).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> قاعدة صافي القيمة الحالية في التمويل: يُقبل العميل إذا فاقت قيمة هوامشه نفقة اكتسابه (Brealey, Myers &amp; Allen, 2020).</div><div style=\"margin-top:10px\"><b>• المصادر المنهجية:</b> تقدير الاحتفاظ والهوامش بالنماذج الاحتمالية مع محاسبة تكلفة الاكتساب المنسوبة (Gupta et al., 2006).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Fundamental questions:</b> <div style=\"margin-top:6px;padding-left:12px\">(1) How should shared acquisition spend be attributed per customer?</div><div style=\"margin-top:6px;padding-left:12px\">(2) Should CAC be discounted (no — it is period zero)?</div><div style=\"margin-top:6px;padding-left:12px\">(3) What CLV-to-CAC ratio signals healthy unit economics?</div></div><div style=\"margin-top:10px\"><b>• Branches:</b> Blended vs paid CAC; cohort-level vs individual netting; break-even and payback analysis (Reinartz et al., 2005).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b> <div style=\"margin-top:6px;padding-right:12px\">(1) كيف يُنسَب الإنفاق المشترك للاكتساب لكل عميل؟</div><div style=\"margin-top:6px;padding-right:12px\">(2) هل تُخصَم تكلفة الاكتساب زمنيًا؟ (لا، لأنها في الفترة صفر).</div><div style=\"margin-top:6px;padding-right:12px\">(3) أي نسبة قيمة عمرية إلى تكلفة اكتساب تدل على اقتصاد وحدة سليم؟</div></div><div style=\"margin-top:10px\"><b>• الفروع:</b> التكلفة المخلوطة مقابل المدفوعة؛ الخصم على مستوى الأفواج مقابل الأفراد؛ تحليل التعادل والاسترداد (Reinartz et al., 2005).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> A go/no-go criterion for acquisition campaigns and a guardrail against over-spending on unprofitable customers (Gupta et al., 2004).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> It instills financial discipline in growth marketing, preventing the value-destroying \"growth at any cost\" trap (Blattberg &amp; Deighton, 1996).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> معيار للإقدام أو الإحجام في حملات الاكتساب، وحاجز ضد الإفراط في الإنفاق على عملاء غير مربحين (Gupta et al., 2004).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> يغرس الانضباط المالي في تسويق النمو ويمنع فخّ \"النمو بأي ثمن\" المهدِر للقيمة (Blattberg &amp; Deighton, 1996).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Permissible and meritorious as a tool of prudent stewardship; it becomes a communal duty (fard kifayah) for firms entrusted with others' capital (Al-Ghazali, 11th c., <i>Ihya Ulum al-Din</i>).</div><div style=\"margin-top:10px\"><b>• Primary grounding:</b> The prohibition of squandering — \"do not be wasteful; He does not love the wasteful\" (Qur'an 7:31) — directly endorses netting acquisition cost to avoid loss-making spend, serving hifz al-mal.</div><div style=\"margin-top:10px\"><b>• Caveat:</b> Recovering acquisition cost must not justify deceptive lock-in; the Sunnah forbids harm: \"no harm and no reciprocating harm\" (Sunan Ibn Majah).</div>",
+      "ar_html": "<div><b>• الحكم:</b> مباح وفاضل بوصفه أداة رعاية رشيدة، ويصير فرض كفاية على الشركات المؤتمنة على أموال الغير (الغزالي، القرن الخامس الهجري، <i>إحياء علوم الدين</i>).</div><div style=\"margin-top:10px\"><b>• الأصل النصي:</b> النهي عن الإسراف: \"ولا تسرفوا إنه لا يحب المسرفين\" (الأعراف: ٣١) يؤيد خصم تكلفة الاكتساب لتجنب الإنفاق الخاسر، حفظًا للمال.</div><div style=\"margin-top:10px\"><b>• التنبيه:</b> لا يبرّر استرداد التكلفة الحبس المخادع للعميل، فالسنة تنهى عن الضرر: \"لا ضرر ولا ضرار\" (سنن ابن ماجه).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Blattberg &amp; Deighton (1996), <i>Manage Marketing by the Customer Equity Test</i>, HBR:</b> Foundational acquisition-vs-retention budgeting frame.</div><div style=\"margin-top:10px\"><b>• Berger &amp; Nasr (1998), <i>Customer Lifetime Value: Marketing Models and Applications</i>:</b> Formalizes CLV net of acquisition cost.</div><div style=\"margin-top:10px\"><b>• Blattberg, Getz &amp; Thomas (2001), <i>Customer Equity</i>:</b> Comprehensive treatment of acquisition, retention, and value.</div><div style=\"margin-top:10px\"><b>• Reinartz, Thomas &amp; Kumar (2005), <i>Balancing Acquisition and Retention Resources</i>, Journal of Marketing:</b> Optimizes the joint spend.</div><div style=\"margin-top:10px\"><b>• Gupta et al. (2006), <i>Modeling Customer Lifetime Value</i>:</b> Canonical synthesis standardizing net CLV.</div>",
+      "ar_html": "<div><b>• Blattberg &amp; Deighton (1996)، <i>إدارة التسويق باختبار حقوق ملكية العميل</i>، هارفارد بزنس ريفيو:</b> إطار تأسيسي لموازنة الاكتساب والاحتفاظ.</div><div style=\"margin-top:10px\"><b>• Berger &amp; Nasr (1998)، <i>القيمة العمرية للعميل</i>:</b> صياغة القيمة صافيةً من تكلفة الاكتساب.</div><div style=\"margin-top:10px\"><b>• Blattberg, Getz &amp; Thomas (2001)، <i>حقوق ملكية العميل</i>:</b> معالجة شاملة للاكتساب والاحتفاظ والقيمة.</div><div style=\"margin-top:10px\"><b>• Reinartz, Thomas &amp; Kumar (2005)، <i>موازنة موارد الاكتساب والاحتفاظ</i>، مجلة التسويق:</b> أمثلة الإنفاق المشترك.</div><div style=\"margin-top:10px\"><b>• Gupta et al. (2006)، <i>نمذجة القيمة العمرية للعميل</i>:</b> التوليف المرجعي الموحِّد للقيمة الصافية.</div>"
+    }
+  ]
+}
