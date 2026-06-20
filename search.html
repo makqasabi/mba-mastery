@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0d1117"/>
+<title>Search / Library — MBA Mastery</title>
+<style>
+:root{--bg:#0d1117;--bg2:#161b22;--bg3:#1c2330;--line:#2a3340;--txt:#e6edf3;--muted:#9aa7b4;--muted2:#6e7d8c;--accent:#4f8cff;--accent2:#7c5cff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.5}
+.top{height:6px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.nav{position:sticky;top:0;z-index:10;background:rgba(13,17,23,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center;padding:11px 16px;flex-wrap:wrap}
+.nav a{color:var(--txt);text-decoration:none;font-size:13.5px;border:1px solid var(--line);border-radius:20px;padding:6px 13px;background:var(--bg3)}
+.nav a.play{background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;font-weight:700}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 90px}
+h1{font-size:24px;margin:6px 0 2px}
+.sub{color:var(--muted);font-size:14px;margin-bottom:14px}
+.searchbox{position:sticky;top:54px;z-index:8;background:var(--bg);padding:10px 0}
+#q{width:100%;font-size:17px;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--txt);outline:none}
+#q:focus{border-color:var(--accent)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
+select{background:var(--bg3);color:var(--txt);border:1px solid var(--line);border-radius:9px;padding:8px 11px;font-size:13.5px}
+.seg{display:flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.seg button{background:var(--bg3);color:var(--muted);border:none;padding:8px 13px;font-size:13px;cursor:pointer}
+.seg button.on{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-weight:700}
+.count{color:var(--muted2);font-size:12.5px;margin:6px 2px 4px}
+.results{display:flex;flex-direction:column;gap:8px}
+.row{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:11px;padding:11px 14px;background:var(--bg2);text-decoration:none;color:var(--txt);transition:.1s}
+.row:hover{border-color:var(--accent);transform:translateX(2px)}
+.row .ic{flex:0 0 auto;font-size:17px;width:24px;text-align:center}
+.row .nm{flex:1;font-size:14.5px}
+.row .nm small{color:var(--muted2)}
+.badge{flex:0 0 auto;font-size:11px;padding:3px 9px;border-radius:20px;background:#0d1422;border:1px solid var(--line);color:var(--muted)}
+.tt{flex:0 0 auto;font-size:10.5px;padding:2px 7px;border-radius:5px;font-weight:700}
+.tt.concept{background:#11203c;color:#9cc1ff;border:1px solid #2a4a7a}
+.tt.lesson{background:#10301a;color:#7ee0a0;border:1px solid #245c38}
+mark{background:#3a4a1a;color:#f0f4c8;border-radius:3px;padding:0 1px}
+.empty{text-align:center;color:var(--muted);margin-top:40px}
+.loading{text-align:center;color:var(--muted);margin-top:40px}
+</style>
+</head>
+<body>
+<div class="top"></div>
+<div class="nav">
+  <a href="index.html">🏠 Home</a>
+  <a href="learn.html">📚 Learn</a>
+  <a class="play" href="MBA-MCQ-Game.html">🎮 Game</a>
+  <a href="guide.html">📘 Guide</a>
+</div>
+<div class="wrap">
+  <h1>🔎 Search / Library</h1>
+  <div class="sub">Find any of the <b id="cN">599</b> concept entries and <b id="lN">102</b> lessons across all 12 courses.</div>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="Search concepts &amp; lessons… (e.g. BATNA, NPV, Porter, elasticity)" autocomplete="off" autofocus/>
+    <div class="filters">
+      <div class="seg" id="typeSeg">
+        <button data-t="all" class="on">All</button>
+        <button data-t="concept">Concepts</button>
+        <button data-t="lesson">Lessons</button>
+      </div>
+      <select id="courseSel"><option value="">All courses</option></select>
+    </div>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="results" id="results"><div class="loading">Loading library…</div></div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var DATA=null, items=[], type="all", course="", q="";
+var $=function(s){return document.querySelector(s);};
+function esc(s){return (s||"").replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function norm(s){return (s||"").toLowerCase();}
+function hl(text,query){ if(!query) return esc(text); var i=norm(text).indexOf(norm(query)); if(i<0) return esc(text); return esc(text.slice(0,i))+'<mark>'+esc(text.slice(i,i+query.length))+'</mark>'+esc(text.slice(i+query.length)); }
+
+function build(){
+  items=[];
+  DATA.concepts.forEach(function(c){ items.push({type:'concept', title:c.concept, course:c.course, code:c.code, href:'concept.html?c='+encodeURIComponent(c.slug)+'&t='+encodeURIComponent(c.concept)+'&course='+encodeURIComponent(c.course), key:norm(c.concept+' '+c.course+' '+c.code)}); });
+  DATA.lessons.forEach(function(l){ items.push({type:'lesson', title:l.title, sub:'Lesson '+l.no, course:l.course, code:l.code, href:'learn.html?lesson='+encodeURIComponent(l.id), key:norm(l.title+' '+l.course+' '+l.code)}); });
+  var sel=$('#courseSel'); DATA.courses.forEach(function(c){ var o=document.createElement('option'); o.value=c; o.textContent=c; sel.appendChild(o); });
+  $('#cN').textContent=DATA.concepts.length; $('#lN').textContent=DATA.lessons.length;
+}
+function render(){
+  var ql=norm(q.trim()), terms=ql.split(/\s+/).filter(Boolean);
+  var res=items.filter(function(it){
+    if(type!=='all' && it.type!==type) return false;
+    if(course && it.course!==course) return false;
+    if(!terms.length) return true;
+    return terms.every(function(t){ return it.key.indexOf(t)>=0; });
+  });
+  res.sort(function(a,b){
+    if(ql){ var ai=a.key.indexOf(ql), bi=b.key.indexOf(ql); if(ai>=0&&bi<0)return -1; if(bi>=0&&ai<0)return 1; if(ai>=0&&bi>=0&&ai!==bi)return ai-bi; }
+    return a.title.localeCompare(b.title);
+  });
+  $('#count').textContent=res.length+' result'+(res.length===1?'':'s');
+  var box=$('#results');
+  if(!res.length){ box.innerHTML='<div class="empty">No matches. Try a different term.</div>'; return; }
+  var shown=res.slice(0,400), html='';
+  shown.forEach(function(it){
+    html+='<a class="row" href="'+it.href+'">'+
+      '<span class="ic">'+(it.type==='concept'?'🔎':'📖')+'</span>'+
+      '<span class="nm">'+hl(it.title,q.trim())+(it.sub?' <small>· '+esc(it.sub)+'</small>':'')+'</span>'+
+      '<span class="tt '+it.type+'">'+(it.type==='concept'?'CONCEPT':'LESSON')+'</span>'+
+      '<span class="badge">'+esc(it.code)+'</span></a>';
+  });
+  if(res.length>shown.length) html+='<div class="count">Showing first '+shown.length+' of '+res.length+' — refine your search.</div>';
+  box.innerHTML=html;
+}
+$('#q').addEventListener('input',function(){ q=this.value; render(); });
+document.querySelectorAll('#typeSeg button').forEach(function(b){ b.onclick=function(){ type=b.dataset.t; document.querySelectorAll('#typeSeg button').forEach(function(x){x.classList.remove('on');}); b.classList.add('on'); render(); }; });
+$('#courseSel').addEventListener('change',function(){ course=this.value; render(); });
+
+fetch('search_data.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(j){ DATA=j; build(); render(); $('#q').focus(); }).catch(function(){ $('#results').innerHTML='<div class="empty">⚠ Could not load the library.</div>'; });
+})();
+</script>
+</body>
+</html>
