@@ -1,0 +1,67 @@
+{
+  "slug": "res-exploratory-factor-analysis",
+  "concept": "Exploratory Factor Analysis",
+  "course": "Research Methods",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> <i>Exploratory</i> (Latin <i>explorare</i>, to search out) signals discovery without imposed structure; <i>factor</i> (Latin <i>facere</i>, to make) the latent cause of observed correlations; <i>analysis</i> (Greek, a loosening apart) the decomposition of variance (Fabrigar et al., 1999).</div><div style=\"margin-top:10px\"><b>• Translation:</b> Rendered as <i>التحليل العاملي الاستكشافي</i>; <i>استكشافي</i> (from <i>كشف</i>, to uncover) precisely conveys the inductive, structure-discovering intent absent in the confirmatory mode.</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> <i>Exploratory</i> من اللاتينية <i>explorare</i> أي يستكشف، فيدل على الاكتشاف دون بنية مفروضة؛ و<i>factor</i> من <i>facere</i> أي يصنع، فيدل على السبب الكامن للارتباطات؛ و<i>analysis</i> من اليونانية بمعنى التفكيك (Fabrigar et al., 1999).</div><div style=\"margin-top:10px\"><b>• التعريب:</b> يُعرَّب بـ<i>التحليل العاملي الاستكشافي</i>؛ ولفظة <i>استكشافي</i> (من كشف) تنقل القصد الاستقرائي الكاشف للبنية الغائب في الوضع التوكيدي.</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Definition (الحد):</b> EFA is a latent-variable technique that discovers, without a-priori specification, the number and pattern of common factors that best account for the inter-correlations among a set of observed variables (Fabrigar et al., 1999; Costello & Osborne, 2005).</div><div style=\"margin-top:10px\"><b>• Showcase:</b> Given 30 survey items of unknown structure, EFA reveals, say, four underlying dimensions and which items load on each.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> Unlike <i>CFA</i> (tests a fixed hypothesized structure), unlike <i>PCA</i> (models total variance for data reduction, not common variance via a latent model), and unlike <i>cluster analysis</i> (groups cases, not variables), EFA models common variance to uncover latent dimensions among variables (Fabrigar et al., 1999).</div>",
+      "ar_html": "<div><b>• الحد:</b> التحليل العاملي الاستكشافي تقنية متغيرات كامنة تكتشف—دون تحديد قبليّ—عددَ ونمطَ العوامل المشتركة التي تفسّر على أفضل وجه الترابطات بين مجموعة متغيرات مشاهَدة (Fabrigar et al., 1999; Costello & Osborne, 2005).</div><div style=\"margin-top:10px\"><b>• العرض:</b> بإعطاء ٣٠ بنداً مجهول البنية، يكشف التحليل عن أربعة أبعاد كامنة مثلاً وأيّ البنود يتشبع على كلٍّ منها.</div><div style=\"margin-top:10px\"><b>• التمييز:</b> بخلاف <i>التوكيدي</i> (يختبر بنية ثابتة مفترَضة)، و<i>تحليل المكونات الرئيسة</i> (يُنمذِج التباين الكلي للاختزال لا التباين المشترك بنموذج كامن)، و<i>التحليل العنقودي</i> (يجمّع الحالات لا المتغيرات)، يُنمذِج الاستكشافي التباين المشترك لكشف الأبعاد الكامنة بين المتغيرات (Fabrigar et al., 1999).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Scope:</b> EFA studies the latent dimensional structure underlying a battery of measures—how many constructs exist and which indicators express them—when theory is immature or scales are newly developed (Costello & Osborne, 2005).</div><div style=\"margin-top:10px\"><b>• Phenomenon:</b> It analyzes shared (common) variance among items, separating it from unique and error variance to infer parsimonious latent factors.</div>",
+      "ar_html": "<div><b>• المجال:</b> يدرس الاستكشافي البنية البُعدية الكامنة وراء مجموعة مقاييس—كم بُنية توجد وأيّ المؤشرات تعبّر عنها—حين تكون النظرية غير ناضجة أو المقاييس حديثة (Costello & Osborne, 2005).</div><div style=\"margin-top:10px\"><b>• الظاهرة:</b> يحلّل التباين المشترك بين البنود، مفرِّقاً إياه عن التباين الفريد والخطأ لاستنتاج عوامل كامنة موجزة.</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origin:</b> EFA originates with Charles Spearman's two-factor theory of intelligence (Spearman, 1904) and matured with Thurstone's multiple-factor analysis and rotation (Thurstone, 1947).</div><div style=\"margin-top:10px\"><b>• Timeline:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) 1904: Spearman introduces factor analysis with the general factor g (Spearman, 1904).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 1947: Thurstone develops multiple factors and simple-structure rotation (Thurstone, 1947).</div><div style=\"margin-top:6px;padding-left:12px\">(3) 1965–66: Cattell's scree test and Kaiser's eigenvalue rule guide factor retention (Cattell, 1966; Kaiser, 1960).</div>",
+      "ar_html": "<div><b>• الأصل:</b> ينشأ الاستكشافي مع نظرية العاملين للذكاء عند سبيرمان (Spearman, 1904)، ونضج مع التحليل متعدد العوامل والتدوير عند ثرستون (Thurstone, 1947).</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) ١٩٠٤: يقدّم سبيرمان التحليل العاملي بالعامل العام g (Spearman, 1904).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ١٩٤٧: يطوّر ثرستون العوامل المتعددة وتدوير البنية البسيطة (Thurstone, 1947).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ١٩٦٠–١٩٦٦: يوجّه اختبار كاتل للمنحدر وقاعدة كايزر للجذر الكامن استبقاءَ العوامل (Cattell, 1966; Kaiser, 1960).</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> The exploratory, inductive branch of common-factor analysis within multivariate latent-variable methods (Fabrigar et al., 1999).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is the scale-development and theory-generation tool, logically prior to the confirmatory testing that follows.</div><div style=\"margin-top:10px\"><b>• Relations:</b> It is the inductive counterpart of CFA, frequently confused with PCA, and supplies the candidate structure later confirmed in SEM—all neighbouring concepts in this course.</div>",
+      "ar_html": "<div><b>• التصنيف:</b> الفرع الاستكشافي الاستقرائي من تحليل العامل المشترك ضمن مناهج المتغيرات الكامنة متعددة المتغيرات (Fabrigar et al., 1999).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> أداة تطوير المقاييس وتوليد النظرية، سابقة منطقياً للاختبار التوكيدي اللاحق.</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> هو النظير الاستقرائي للتوكيدي، وكثيراً ما يُخلَط بتحليل المكونات الرئيسة، ويزوّد البنية المرشَّحة التي تُؤكَّد لاحقاً في النمذجة—وكلها مجاورات في هذا المقرر.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> EFA derives from the common-factor model and the principle of parsimony (Thurstone, 1947), from eigen-decomposition of the correlation matrix (Harman, 1976), and from inductive scientific inference seeking latent causes behind manifest covariation.</div><div style=\"margin-top:10px\"><b>• Methodological basis:</b> Extraction (principal-axis, ML) followed by rotation (varimax, oblimin) to achieve interpretable simple structure (Costello & Osborne, 2005).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يُستمد الاستكشافي من نموذج العامل المشترك ومبدأ الاقتصاد (Thurstone, 1947)، ومن التحليل الذاتي لمصفوفة الارتباط (Harman, 1976)، ومن الاستدلال العلمي الاستقرائي الباحث عن العلل الكامنة وراء التغاير الظاهر.</div><div style=\"margin-top:10px\"><b>• الأساس المنهجي:</b> استخراج (المحور الرئيس، الأرجحية العظمى) يتبعه تدوير (فاريماكس، أوبليمين) لبلوغ بنية بسيطة قابلة للتفسير (Costello & Osborne, 2005).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) How many factors to retain (scree, parallel analysis, eigenvalues)?</div><div style=\"margin-top:6px;padding-left:12px\">(2) Which extraction and rotation method to use?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to interpret and name factors from loading patterns?</div><div style=\"margin-top:10px\"><b>• Branches:</b> Principal-axis factoring, ML factor analysis, orthogonal vs oblique rotation, parallel analysis, and ESEM bridging to CFA (Costello & Osborne, 2005; Horn, 1965).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) كم عاملاً نستبقي (المنحدر، التحليل الموازي، الجذور الكامنة)؟</div><div style=\"margin-top:6px;padding-right:12px\">(٢) أيّ طريقة استخراج وتدوير نستخدم؟</div><div style=\"margin-top:6px;padding-right:12px\">(٣) كيف نفسّر العوامل ونسمّيها من أنماط التشبع؟</div><div style=\"margin-top:10px\"><b>• الفروع:</b> تحليل المحور الرئيس، والتحليل بالأرجحية العظمى، والتدوير المتعامد مقابل المائل، والتحليل الموازي، والنمذجة الاستكشافية البنائية الجاسرة إلى التوكيدي (Costello & Osborne, 2005; Horn, 1965).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> EFA distills sprawling item sets into a few interpretable constructs, enabling parsimonious theory-building and the principled construction of valid measurement instruments (Fabrigar et al., 1999).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> Its rank is high in early-stage inquiry: it transforms unstructured data into testable construct hypotheses, seeding the entire confirmatory enterprise.</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يختصر الاستكشافي مجموعات البنود المتشعبة إلى بُنى قليلة قابلة للتفسير، فيتيح بناء نظرية موجزة وتشييد أدوات قياس صادقة على أسس منهجية (Fabrigar et al., 1999).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> رتبته عالية في مراحل البحث الأولى؛ إذ يحوّل البيانات غير المبنينة إلى فرضيات بنائية قابلة للاختبار، فيبذر مشروع التأكيد كله.</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Pursuing inductive methods that reveal the hidden order in creation and serve sound knowledge is part of the communal duty (<i>fard kifayah</i>); the Qur'an praises those who 'reflect upon the creation' (Qur'an 3:191), and discovery of latent structure is a species of such reflection.</div><div style=\"margin-top:10px\"><b>• Threshold & priority:</b> The duty is fulfilled when enough analysts can apply and interpret these methods soundly so that scientific scales serving public welfare are valid. Under Maqasid al-Shari'ah (preservation of intellect), the researcher must resist over-extracting factors or capitalizing on chance, since presenting noise as knowledge violates the prohibition of speaking without knowledge: 'do not pursue that of which you have no knowledge' (Qur'an 17:36).</div>",
+      "ar_html": "<div><b>• الحكم:</b> طلب المناهج الاستقرائية الكاشفة للنظام الخفي في الخلق والخادمة للعلم الصحيح من فرض الكفاية؛ والقرآن يمدح المتفكرين «ويتفكرون في خلق السماوات والأرض» (آل عمران: ١٩١)، وكشف البنية الكامنة نوع من هذا التفكر.</div><div style=\"margin-top:10px\"><b>• مناط الكفاية والأولوية:</b> يتحقق الواجب متى أحسن من يكفي من المحللين تطبيق هذه المناهج وتفسيرها فتصح المقاييس العلمية الخادمة للمصلحة. وبمقتضى مقاصد الشريعة (حفظ العقل) يجب على الباحث اجتناب الإفراط في استخراج العوامل أو استغلال الصدفة، فعرض الضجيج علماً يخالف النهي عن القول بلا علم: «ولا تقف ما ليس لك به علم» (الإسراء: ٣٦).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• References:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Spearman, C. (1904), 'General Intelligence Objectively Determined' — birth of factor analysis.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Thurstone, L. (1947), <i>Multiple-Factor Analysis</i> — multiple factors and simple structure.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Cattell, R. (1966), 'The Scree Test for the Number of Factors' — the classic retention criterion.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Fabrigar, L. et al. (1999), 'Evaluating the Use of EFA in Psychological Research' — definitive best-practice guide.</div><div style=\"margin-top:6px;padding-left:12px\">(5) Costello, A. & Osborne, J. (2005), 'Best Practices in Exploratory Factor Analysis' — the most-cited applied tutorial.</div>",
+      "ar_html": "<div><b>• المراجع:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) Spearman, C. (1904)، «الذكاء العام محدَّداً موضوعياً» — مولد التحليل العاملي.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) Thurstone, L. (1947)، <i>التحليل متعدد العوامل</i> — العوامل المتعددة والبنية البسيطة.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) Cattell, R. (1966)، «اختبار المنحدر لعدد العوامل» — معيار الاستبقاء الكلاسيكي.</div><div style=\"margin-top:6px;padding-right:12px\">(٤) Fabrigar, L. et al. (1999)، «تقويم استخدام التحليل الاستكشافي في البحث النفسي» — الدليل المرجعي لأفضل الممارسات.</div><div style=\"margin-top:6px;padding-right:12px\">(٥) Costello, A. & Osborne, J. (2005)، «أفضل الممارسات في التحليل العاملي الاستكشافي» — الدليل التطبيقي الأكثر اقتباساً.</div>"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "res-dummy-variable-coding",
+  "concept": "Dummy Variable Coding",
+  "course": "Research Methods",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> The English <i>dummy</i> derives from Middle English <i>dumb</i> (mute, silent), connoting a stand-in or placeholder that carries no intrinsic numeric magnitude but represents a category (Oxford English Dictionary, 2023). In statistics the term denotes an artificial variable that 'speaks for' a qualitative attribute it cannot itself measure (Suits, 1957).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> كلمة <i>dummy</i> الإنجليزية مأخوذة من <i>dumb</i> أي الأبكم الصامت، بمعنى البديل أو النائب الذي لا يحمل مقداراً عددياً ذاتياً بل يمثل فئة نوعية (قاموس أكسفورد، ٢٠٢٣). وفي الإحصاء يدل على متغير صناعي ينوب عن صفة وصفية لا يمكنه قياسها بنفسه (Suits, 1957).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Definition (الحد):</b> A dummy (indicator) variable is a binary {0,1} numerical variable created to represent the presence or absence of a level of a categorical predictor within a regression model (Hardy, 1993).</div><div style=\"margin-top:10px\"><b>• Showcase:</b> A nominal variable with <i>k</i> categories is encoded by <i>k−1</i> dummies, one category serving as the omitted reference baseline against which others are contrasted.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> It differs from <i>effect (deviation) coding</i>, which uses {−1,0,1} to contrast against the grand mean; from <i>contrast coding</i>, which encodes theory-driven planned comparisons; and from raw <i>categorical encoding</i> that wrongly treats nominal codes as interval (Cohen et al., 2003).</div>",
+      "ar_html": "<div><b>• الحد:</b> المتغير الصوري (المؤشر) متغير عددي ثنائي {٠،١} يُنشأ لتمثيل وجود أو غياب مستوى من مستويات متنبئ فئوي داخل نموذج انحدار (Hardy, 1993).</div><div style=\"margin-top:10px\"><b>• العرض:</b> المتغير الاسمي ذو <i>k</i> فئة يُرمَّز بعدد <i>k−1</i> من المتغيرات الصورية، وتبقى فئة واحدة مرجعاً تُقارن به البقية.</div><div style=\"margin-top:10px\"><b>• التمييز:</b> يختلف عن <i>الترميز التأثيري</i> الذي يستخدم {−١،٠،١} للمقارنة بالمتوسط العام، وعن <i>ترميز التباين</i> الذي يرمّز مقارنات مخططة نظرية، وعن <i>الترميز الفئوي الخام</i> الذي يعامل الرموز الاسمية خطأً كأنها فترية (Cohen et al., 2003).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Scope:</b> Dummy variable coding studies how qualitative, nominal, or ordinal attributes (sex, region, treatment group, season) are incorporated into linear and generalized linear models so that categorical information enters quantitative estimation without violating measurement assumptions (Suits, 1957; Hardy, 1993).</div><div style=\"margin-top:10px\"><b>• Phenomenon:</b> Specifically it concerns the algebra of intercept-shifting indicators and their interactions with continuous predictors, which produce category-specific intercepts and slopes.</div>",
+      "ar_html": "<div><b>• المجال:</b> يدرس الترميز الصوري كيفية إدخال الصفات النوعية أو الاسمية أو الرتبية (الجنس، الإقليم، مجموعة المعالجة، الفصل) في النماذج الخطية والخطية المعممة بحيث تدخل المعلومة الفئوية في التقدير الكمي دون انتهاك فرضيات القياس (Suits, 1957; Hardy, 1993).</div><div style=\"margin-top:10px\"><b>• الظاهرة:</b> ويُعنى تحديداً بجبر المؤشرات المزحزحة للحد الثابت وتفاعلها مع المتنبئات المستمرة، مما يولد حدوداً ثابتة وميولاً خاصة بكل فئة.</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origin:</b> The formal exposition of dummy variables in econometrics is credited to Daniel Suits (Suits, 1957), who systematized their use in regression.</div><div style=\"margin-top:10px\"><b>• Timeline:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) 1920s–30s: Fisher's analysis of variance implicitly encodes categorical factors via design matrices (Fisher, 1925).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 1957: Suits names and formalizes 'dummy variables' for economic regressions (Suits, 1957).</div><div style=\"margin-top:6px;padding-left:12px\">(3) 1980s: Hardy and others consolidate coding schemes into mainstream social-science pedagogy (Hardy, 1993).</div>",
+      "ar_html": "<div><b>• الأصل:</b> يُنسب التأصيل الرسمي للمتغيرات الصورية في الاقتصاد القياسي إلى دانييل سويتس (Suits, 1957) الذي نظّم استخدامها في الانحدار.</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) عشرينيات وثلاثينيات القرن: ترمّز تحليلات فيشر للتباين العوامل الفئوية ضمناً عبر مصفوفات التصميم (Fisher, 1925).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ١٩٥٧: يسمّي سويتس ويؤصّل «المتغيرات الصورية» لانحدارات الاقتصاد (Suits, 1957).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ثمانينيات القرن: يرسّخ هاردي وغيره أنظمة الترميز في تعليم العلوم الاجتماعية (Hardy, 1993).</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A subtopic of regression model specification within applied statistics and econometrics (Cohen et al., 2003).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is foundational data-preparation knowledge, prerequisite to ANOVA-as-regression, logistic regression, and the general linear model.</div><div style=\"margin-top:10px\"><b>• Relations:</b> Closely tied to the <i>dummy variable trap</i> (perfect multicollinearity from including all <i>k</i> dummies), interaction terms, and design matrices used in path analysis and SEM elsewhere in this course.</div>",
+      "ar_html": "<div><b>• التصنيف:</b> موضوع فرعي من توصيف نماذج الانحدار ضمن الإحصاء التطبيقي والاقتصاد القياسي (Cohen et al., 2003).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> معرفة تأسيسية في إعداد البيانات، شرط سابق لتحليل التباين بوصفه انحداراً، والانحدار اللوجستي، والنموذج الخطي العام.</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> يتصل وثيقاً بـ<i>فخ المتغير الصوري</i> (التعدد الخطي التام عند إدراج كل المتغيرات الـ<i>k</i>)، وبحدود التفاعل، ومصفوفات التصميم المستخدمة في تحليل المسار والنمذجة البنائية في هذا المقرر.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> It derives from linear algebra (the rank and invertibility of the design matrix X), from the Gauss–Markov framework of ordinary least squares (Greene, 2018), and from measurement theory's nominal–interval distinction (Stevens, 1946).</div><div style=\"margin-top:10px\"><b>• Methodological basis:</b> The requirement of <i>k−1</i> dummies follows directly from avoiding linear dependence so that (X'X) remains invertible (Suits, 1957).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يُستمد من الجبر الخطي (رتبة مصفوفة التصميم X وقابليتها للعكس)، ومن إطار غاوس–ماركوف للمربعات الصغرى الاعتيادية (Greene, 2018)، ومن تمييز نظرية القياس بين المستويين الاسمي والفتري (Stevens, 1946).</div><div style=\"margin-top:10px\"><b>• الأساس المنهجي:</b> اشتراط <i>k−1</i> متغيراً ينبع مباشرة من تجنب التبعية الخطية لتبقى (X'X) قابلة للعكس (Suits, 1957).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) How to choose the reference category meaningfully?</div><div style=\"margin-top:6px;padding-left:12px\">(2) How to avoid the dummy variable trap (perfect collinearity)?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to interpret coefficients as deviations from baseline?</div><div style=\"margin-top:10px\"><b>• Branches:</b> Reference (treatment) coding, effect coding, contrast/Helmert coding, and dummy-by-continuous interactions yielding differential slopes (Cohen et al., 2003; Hardy, 1993).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) كيف نختار الفئة المرجعية اختياراً ذا معنى؟</div><div style=\"margin-top:6px;padding-right:12px\">(٢) كيف نتجنب فخ المتغير الصوري (التعدد الخطي التام)؟</div><div style=\"margin-top:6px;padding-right:12px\">(٣) كيف نفسّر المعاملات بوصفها انحرافات عن خط الأساس؟</div><div style=\"margin-top:10px\"><b>• الفروع:</b> الترميز المرجعي (المعالجة)، والترميز التأثيري، وترميز التباين/هلمرت، وتفاعلات الصوري مع المستمر التي تولّد ميولاً تفاضلية (Cohen et al., 2003; Hardy, 1993).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> It enables qualitative determinants—policy, gender, region, treatment—to be estimated, tested, and quantified within a single regression, the indispensable bridge between categorical theory and continuous inference (Suits, 1957).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> Its rank is high as an enabling technique: nearly every applied regression in the social and managerial sciences relies on it, and misuse (the trap) is a classic source of error.</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يمكّن من تقدير المحددات النوعية—السياسة والجنس والإقليم والمعالجة—واختبارها وتكميمها داخل انحدار واحد، وهو الجسر اللازم بين النظرية الفئوية والاستدلال المستمر (Suits, 1957).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> رتبته عالية بوصفه تقنية تمكينية؛ إذ تعتمد عليه كل انحدارات العلوم الاجتماعية والإدارية تقريباً، وسوء استعماله (الفخ) مصدر كلاسيكي للخطأ.</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Mastering quantitative methods that yield true knowledge serving the community's welfare is a communal duty (<i>fard kifayah</i>); the Qur'anic command 'So ask the people of knowledge if you do not know' (Qur'an 16:43) grounds the obligation to seek rigorous method.</div><div style=\"margin-top:10px\"><b>• Threshold & priority:</b> The duty is discharged when enough analysts in the ummah can correctly specify and interpret such models so that policy and economic research are not corrupted by error. Under Maqasid al-Shari'ah (preservation of wealth and intellect), honest, non-deceptive coding is ethically required, since the Prophet ﷺ said 'whoever deceives us is not of us' (Sahih Muslim)—a warning against statistical misrepresentation.</div>",
+      "ar_html": "<div><b>• الحكم:</b> إتقان المناهج الكمية التي تثمر علماً نافعاً لمصالح الأمة فرض كفاية؛ وقوله تعالى «فاسألوا أهل الذكر إن كنتم لا تعلمون» (النحل: ٤٣) يؤصّل وجوب طلب المنهج الدقيق.</div><div style=\"margin-top:10px\"><b>• مناط الكفاية والأولوية:</b> يسقط الفرض إذا قام بهذا العلم من يكفي من المحللين بحيث لا تفسد بحوث السياسة والاقتصاد بالخطأ. وبمقتضى مقاصد الشريعة (حفظ المال والعقل) يجب الترميز الصادق غير المضلِّل، لقوله ﷺ «من غشّنا فليس منا» (صحيح مسلم) تحذيراً من التضليل الإحصائي.</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• References:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Suits, D. (1957), 'Use of Dummy Variables in Regression Equations' — the founding formal treatment.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Hardy, M. (1993), <i>Regression with Dummy Variables</i> — the canonical Sage monograph synthesizing coding schemes.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Cohen, J., Cohen, P., West, S. & Aiken, L. (2003), <i>Applied Multiple Regression/Correlation Analysis</i> — definitive treatment of coding and interactions.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Greene, W. (2018), <i>Econometric Analysis</i> — rigorous matrix exposition including the dummy variable trap.</div><div style=\"margin-top:6px;padding-left:12px\">(5) Stevens, S. S. (1946), 'On the Theory of Scales of Measurement' — the measurement-level basis justifying nominal encoding.</div>",
+      "ar_html": "<div><b>• المراجع:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) Suits, D. (1957)، «استخدام المتغيرات الصورية في معادلات الانحدار» — التأصيل الرسمي المؤسِّس.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) Hardy, M. (1993)، <i>الانحدار بالمتغيرات الصورية</i> — رسالة سيج الجامعة لأنظمة الترميز.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) Cohen, J. et al. (2003)، <i>تحليل الانحدار/الارتباط المتعدد التطبيقي</i> — المرجع الحاسم في الترميز والتفاعلات.</div><div style=\"margin-top:6px;padding-right:12px\">(٤) Greene, W. (2018)، <i>التحليل القياسي الاقتصادي</i> — عرض مصفوفي دقيق يشمل فخ المتغير الصوري.</div><div style=\"margin-top:6px;padding-right:12px\">(٥) Stevens, S. S. (1946)، «في نظرية مقاييس القياس» — الأساس القياسي المبرِّر للترميز الاسمي.</div>"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "res-path-analysis",
+  "concept": "Path Analysis",
+  "course": "Research Methods",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> <i>Path</i> (Old English <i>pæþ</i>, a way/track) denotes the directed route of causal influence between variables in a diagram; <i>analysis</i> (Greek, a loosening) the decomposition of correlations into component paths (Wright, 1934).</div><div style=\"margin-top:10px\"><b>• Translation:</b> Rendered <i>تحليل المسار</i>; <i>المسار</i> (path/route) precisely conveys the traced directional route of effects. Wright originally termed the coefficients 'path coefficients' (Wright, 1921).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> <i>Path</i> من الإنجليزية القديمة <i>pæþ</i> أي الطريق، فتدل على المسلك الموجَّه للتأثير السببي بين المتغيرات في المخطط؛ و<i>analysis</i> من اليونانية بمعنى التفكيك، فتدل على تحليل الارتباطات إلى مساراتها المكوِّنة (Wright, 1934).</div><div style=\"margin-top:10px\"><b>• التعريب:</b> يُعرَّب بـ<i>تحليل المسار</i>؛ ولفظة <i>المسار</i> تنقل بدقة المسلك الاتجاهي المتتبَّع للآثار. وقد سمّى رايت المعاملات أصلاً «معاملات المسار» (Wright, 1921).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Definition (الحد):</b> Path analysis is a technique that estimates and tests a system of hypothesized directed (causal) relationships among observed variables, decomposing observed correlations into direct, indirect, and spurious components via path coefficients (Wright, 1934; Pedhazur, 1997).</div><div style=\"margin-top:10px\"><b>• Showcase:</b> A model posits that education affects income directly and indirectly through occupational status; path analysis quantifies each route.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> Unlike <i>multiple regression</i> (one equation, no indirect effects), unlike <i>full SEM</i> (adds latent variables and measurement models), and unlike mere <i>correlation</i> (symmetric, non-directional), path analysis models directional structure among observed variables only (Pedhazur, 1997; Kline, 2016).</div>",
+      "ar_html": "<div><b>• الحد:</b> تحليل المسار تقنية تقدّر وتختبر منظومة من العلاقات الموجَّهة (السببية) المفترَضة بين متغيرات مشاهَدة، محلِّلةً الارتباطات المشاهَدة إلى مكوّنات مباشرة وغير مباشرة وزائفة عبر معاملات المسار (Wright, 1934; Pedhazur, 1997).</div><div style=\"margin-top:10px\"><b>• العرض:</b> يفترض نموذج أن التعليم يؤثر في الدخل مباشرةً وغير مباشرةً عبر المكانة المهنية؛ فيكمّم تحليل المسار كل مسلك.</div><div style=\"margin-top:10px\"><b>• التمييز:</b> بخلاف <i>الانحدار المتعدد</i> (معادلة واحدة بلا آثار غير مباشرة)، و<i>النمذجة الكاملة</i> (تضيف المتغيرات الكامنة ونماذج القياس)، و<i>الارتباط</i> المجرد (متماثل غير اتجاهي)، يُنمذِج تحليل المسار البنية الاتجاهية بين المتغيرات المشاهَدة فقط (Pedhazur, 1997; Kline, 2016).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Scope:</b> Path analysis studies the structure of causal hypotheses among observed variables: how to represent them in a path diagram, decompose correlations, and estimate the magnitude of direct and mediated effects (Wright, 1934).</div><div style=\"margin-top:10px\"><b>• Phenomenon:</b> It concerns mediation, indirect effects, and the partitioning of a bivariate correlation into causal and non-causal portions.</div>",
+      "ar_html": "<div><b>• المجال:</b> يدرس تحليل المسار بنية الفروض السببية بين المتغيرات المشاهَدة: كيف تُمثَّل في مخطط مسار، وتُحلَّل الارتباطات، ويُقدَّر مقدار الآثار المباشرة والمتوسَّطة (Wright, 1934).</div><div style=\"margin-top:10px\"><b>• الظاهرة:</b> يُعنى بالوساطة والآثار غير المباشرة وتقسيم الارتباط الثنائي إلى جزء سببي وآخر غير سببي.</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origin:</b> Path analysis was invented by the geneticist Sewall Wright (Wright, 1921, 1934), and imported into sociology and economics in the 1960s by Otis Dudley Duncan (Duncan, 1966).</div><div style=\"margin-top:10px\"><b>• Timeline:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) 1921: Wright introduces path coefficients in genetics (Wright, 1921).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 1934: Wright generalizes the method of path coefficients (Wright, 1934).</div><div style=\"margin-top:6px;padding-left:12px\">(3) 1966: Duncan brings path analysis to social science (Duncan, 1966); later subsumed into SEM (Jöreskog, 1973).</div>",
+      "ar_html": "<div><b>• الأصل:</b> ابتكر تحليلَ المسار عالمُ الوراثة سيوال رايت (Wright, 1921, 1934)، وأدخله في الاجتماع والاقتصاد في الستينيات أوتيس دنكان (Duncan, 1966).</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) ١٩٢١: يقدّم رايت معاملات المسار في الوراثة (Wright, 1921).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ١٩٣٤: يعمّم رايت طريقة معاملات المسار (Wright, 1934).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ١٩٦٦: يُدخِل دنكان تحليل المسار في العلوم الاجتماعية (Duncan, 1966)، ثم اندرج في النمذجة البنائية (Jöreskog, 1973).</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A causal-modeling technique for observed variables; the special case of SEM without latent variables (Kline, 2016).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is the historical and conceptual progenitor of SEM, occupying a foundational place in the causal-inference toolkit.</div><div style=\"margin-top:10px\"><b>• Relations:</b> It generalizes multiple regression, is generalized by full SEM (which adds CFA measurement models), and provides the mediation framework refined by modern causal inference—all neighbouring concepts in this course.</div>",
+      "ar_html": "<div><b>• التصنيف:</b> تقنية نمذجة سببية للمتغيرات المشاهَدة؛ وهي الحالة الخاصة من النمذجة البنائية بلا متغيرات كامنة (Kline, 2016).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> هو السلف التاريخي والمفهومي للنمذجة البنائية، يحتل موقعاً تأسيسياً في عُدّة الاستدلال السببي.</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> يعمّم الانحدار المتعدد، وتعمّمه النمذجة الكاملة (بإضافة نماذج القياس التوكيدية)، ويقدّم إطار الوساطة الذي صقله الاستدلال السببي الحديث—وكلها مجاورات في هذا المقرر.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Path analysis derives from Wright's tracing rules and the decomposition of standardized correlations (Wright, 1934), from the assumptions of recursive (unidirectional) causal systems, and from the philosophy of causal inference now formalized via directed acyclic graphs (Pearl, 2009).</div><div style=\"margin-top:10px\"><b>• Methodological basis:</b> Path coefficients are standardized regression weights; effects are computed by summing products of coefficients along each traced path.</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يُستمد تحليل المسار من قواعد رايت للتتبع وتحليل الارتباطات المعيارية (Wright, 1934)، وفرضيات الأنظمة السببية التراجعية (أحادية الاتجاه)، وفلسفة الاستدلال السببي المؤصَّلة اليوم بالمخططات الموجَّهة اللادورية (Pearl, 2009).</div><div style=\"margin-top:10px\"><b>• الأساس المنهجي:</b> معاملات المسار أوزان انحدار معيارية، وتُحسب الآثار بجمع حواصل ضرب المعاملات على امتداد كل مسار متتبَّع.</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Is the model recursive or non-recursive (feedback loops)?</div><div style=\"margin-top:6px;padding-left:12px\">(2) How to decompose total effects into direct and indirect components?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to test mediation significance (Sobel, bootstrap)?</div><div style=\"margin-top:10px\"><b>• Branches:</b> Recursive vs non-recursive models, mediation/indirect-effect analysis, moderated mediation, and the extension to latent path models in SEM (Pedhazur, 1997; Hayes, 2018).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) هل النموذج تراجعي أم غير تراجعي (حلقات تغذية راجعة)؟</div><div style=\"margin-top:6px;padding-right:12px\">(٢) كيف نحلّل الأثر الكلي إلى مكوّن مباشر وغير مباشر؟</div><div style=\"margin-top:6px;padding-right:12px\">(٣) كيف نختبر دلالة الوساطة (سوبل، البوتستراب)؟</div><div style=\"margin-top:10px\"><b>• الفروع:</b> النماذج التراجعية وغير التراجعية، وتحليل الوساطة/الأثر غير المباشر، والوساطة المعدَّلة، والامتداد إلى نماذج المسار الكامنة في النمذجة (Pedhazur, 1997; Hayes, 2018).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> Path analysis makes explicit and testable the chains of cause through which variables exert influence, illuminating mediating mechanisms vital to theory in management, sociology, and epidemiology (Wright, 1934; Hayes, 2018).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> Its rank is foundational: it inaugurated quantitative causal modeling and remains the conceptual heart of mediation analysis and SEM.</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يجعل تحليل المسار سلاسلَ السبب التي تؤثر بها المتغيرات صريحةً قابلةً للاختبار، فيضيء الآليات الوسيطة الحيوية للنظرية في الإدارة والاجتماع والوبائيات (Wright, 1934; Hayes, 2018).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> رتبته تأسيسية؛ فقد دشّن النمذجة السببية الكمية ولا يزال القلب المفهومي لتحليل الوساطة والنمذجة البنائية.</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Studying methods that disclose true causal mechanisms serving the welfare of people is part of the communal duty (<i>fard kifayah</i>) of beneficial knowledge, consonant with the Qur'anic invitation to ponder cause and consequence: 'travel through the earth and observe how He began creation' (Qur'an 29:20), a charge to seek the order of causes.</div><div style=\"margin-top:10px\"><b>• Threshold & priority:</b> The obligation is discharged when enough analysts can validly model and test causal claims so that policy is not misled by spurious correlations. Under Maqasid al-Shari'ah (preservation of intellect and justice), the researcher must not claim causation from purely cross-sectional, confounded data, for asserting an effect without warrant violates 'do not pursue that of which you have no knowledge' (Qur'an 17:36).</div>",
+      "ar_html": "<div><b>• الحكم:</b> دراسة المناهج الكاشفة للآليات السببية الحقّة الخادمة لمصالح الناس من فرض الكفاية في العلم النافع، موافقاً لدعوة القرآن إلى تدبر السبب والنتيجة: «سيروا في الأرض فانظروا كيف بدأ الخلق» (العنكبوت: ٢٠) أمراً بطلب نظام الأسباب.</div><div style=\"margin-top:10px\"><b>• مناط الكفاية والأولوية:</b> يتحقق الواجب متى أحسن من يكفي من المحللين نمذجة الدعاوى السببية واختبارها فلا تُضلَّل السياسة بالارتباطات الزائفة. وبمقتضى مقاصد الشريعة (حفظ العقل والعدل) يحرم على الباحث ادعاء السببية من بيانات مقطعية مشوَّشة، فتقرير أثرٍ بلا حجة يخالف «ولا تقف ما ليس لك به علم» (الإسراء: ٣٦).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• References:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Wright, S. (1921), 'Correlation and Causation' — the invention of path analysis.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Wright, S. (1934), 'The Method of Path Coefficients' — the mature generalized statement.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Duncan, O. D. (1966), 'Path Analysis: Sociological Examples' — the bridge to social science.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Pedhazur, E. (1997), <i>Multiple Regression in Behavioral Research</i> — the definitive pedagogical treatment.</div><div style=\"margin-top:6px;padding-left:12px\">(5) Hayes, A. (2018), <i>Introduction to Mediation, Moderation, and Conditional Process Analysis</i> — the modern mediation standard.</div>",
+      "ar_html": "<div><b>• المراجع:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) Wright, S. (1921)، «الارتباط والسببية» — ابتكار تحليل المسار.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) Wright, S. (1934)، «طريقة معاملات المسار» — البيان المعمَّم الناضج.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) Duncan, O. D. (1966)، «تحليل المسار: أمثلة اجتماعية» — الجسر إلى العلوم الاجتماعية.</div><div style=\"margin-top:6px;padding-right:12px\">(٤) Pedhazur, E. (1997)، <i>الانحدار المتعدد في البحث السلوكي</i> — المعالجة التعليمية الحاسمة.</div><div style=\"margin-top:6px;padding-right:12px\">(٥) Hayes, A. (2018)، <i>مدخل إلى تحليل الوساطة والتعديل والعمليات الشرطية</i> — معيار الوساطة الحديث.</div>"
+    }
+  ]
+}

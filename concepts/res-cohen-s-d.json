@@ -1,0 +1,67 @@
+{
+  "slug": "res-cohen-s-d",
+  "concept": "Cohen's d",
+  "course": "Research Methods",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> Named after the statistician Jacob Cohen; the letter <i>d</i> denotes 'difference', the standardized mean difference between two groups (Cohen, 1969). It is an <i>effect size</i>, from the notion of the magnitude of an effect independent of sample size.</div><div style=\"margin-top:10px\"><b>• Translation:</b> Rendered <i>د كوهين</i> (transliterated, as a proper-name eponym) or descriptively <i>حجم الأثر المعياري لكوهين</i>; <i>حجم الأثر</i> precisely conveys 'effect size', distinguishing magnitude from mere statistical significance.</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> سُمّي باسم الإحصائي جاكوب كوهين؛ والحرف <i>d</i> يدل على «الفرق» (difference)، أي فرق المتوسطين المعياري بين مجموعتين (Cohen, 1969). وهو <i>حجم أثر</i> من فكرة مقدار الأثر مستقلاً عن حجم العينة.</div><div style=\"margin-top:10px\"><b>• التعريب:</b> يُعرَّب بـ<i>د كوهين</i> (نقحرةً لعَلَمٍ) أو وصفاً <i>حجم الأثر المعياري لكوهين</i>؛ ولفظة <i>حجم الأثر</i> تنقل بدقة «effect size»، مميِّزةً المقدار عن مجرد الدلالة الإحصائية.</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Definition (الحد):</b> Cohen's d is a standardized effect size equal to the difference between two group means divided by a (pooled) standard deviation, expressing the separation between groups in standard-deviation units (Cohen, 1988).</div><div style=\"margin-top:10px\"><b>• Showcase:</b> A treatment group's mean exceeds the control's by 0.8 pooled SDs, so d=0.8, conventionally a 'large' effect.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> Unlike the <i>p-value</i> (probability under the null, confounded with sample size), d quantifies magnitude; unlike <i>Pearson r</i> (correlation, an effect size for association), d is for mean differences; <i>Hedges' g</i> is its small-sample bias-corrected variant, and <i>Glass's delta</i> uses only the control SD (Hedges, 1981; Lakens, 2013).</div>",
+      "ar_html": "<div><b>• الحد:</b> د كوهين حجم أثر معياري يساوي الفرق بين متوسطي مجموعتين مقسوماً على الانحراف المعياري (المجمَّع)، فيعبّر عن الفصل بين المجموعتين بوحدات الانحراف المعياري (Cohen, 1988).</div><div style=\"margin-top:10px\"><b>• العرض:</b> يفوق متوسط مجموعة المعالجة الضابطةَ بـ٠٫٨ انحراف معياري مجمَّع، فيكون d=٠٫٨، وهو اصطلاحاً أثر «كبير».</div><div style=\"margin-top:10px\"><b>• التمييز:</b> بخلاف <i>القيمة الاحتمالية</i> (احتمال تحت الفرض الصفري، ملتبسة بحجم العينة)، يكمّم الـd المقدار؛ وبخلاف <i>معامل بيرسون r</i> (ارتباط، وهو حجم أثر للاقتران)، فالـd لفروق المتوسطات؛ و<i>g هيدجز</i> نسخته المصحَّحة لتحيّز العينة الصغيرة، و<i>دلتا غلاس</i> تستخدم انحراف الضابطة وحده (Hedges, 1981; Lakens, 2013).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Scope:</b> Cohen's d studies the quantification of the magnitude of a difference between two conditions, independent of sample size, so that practical and theoretical importance can be judged beyond statistical significance (Cohen, 1988; Lakens, 2013).</div><div style=\"margin-top:10px\"><b>• Phenomenon:</b> It concerns standardized mean differences, their interpretation, confidence intervals, and their role in power analysis and meta-analysis.</div>",
+      "ar_html": "<div><b>• المجال:</b> يدرس د كوهين تكميم مقدار الفرق بين شرطين مستقلاً عن حجم العينة، حتى يُحكَم على الأهمية العملية والنظرية وراء الدلالة الإحصائية (Cohen, 1988; Lakens, 2013).</div><div style=\"margin-top:10px\"><b>• الظاهرة:</b> يُعنى بفروق المتوسطات المعيارية وتفسيرها وفترات ثقتها ودورها في تحليل القوة والتحليل البعدي.</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origin:</b> Cohen's d was introduced by Jacob Cohen in his work on statistical power (Cohen, 1962, 1969), as part of his campaign to make effect size and power central to research design.</div><div style=\"margin-top:10px\"><b>• Timeline:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) 1962: Cohen documents the neglect of power in psychology, motivating effect-size thinking (Cohen, 1962).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 1969/1988: Cohen codifies d and the small/medium/large conventions (Cohen, 1988).</div><div style=\"margin-top:6px;padding-left:12px\">(3) 1981: Hedges derives the small-sample bias correction (Hedges' g) (Hedges, 1981).</div>",
+      "ar_html": "<div><b>• الأصل:</b> قدّم د كوهين جاكوب كوهين في عمله على القوة الإحصائية (Cohen, 1962, 1969)، ضمن حملته لجعل حجم الأثر والقوة محور تصميم البحث.</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) ١٩٦٢: يوثّق كوهين إهمال القوة في علم النفس، فيحفّز التفكير بحجم الأثر (Cohen, 1962).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ١٩٦٩/١٩٨٨: يقنّن كوهين الـd واصطلاحات الصغير/المتوسط/الكبير (Cohen, 1988).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ١٩٨١: يشتق هيدجز تصحيح تحيّز العينة الصغيرة (g هيدجز) (Hedges, 1981).</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A member of the 'd-family' of standardized mean-difference effect sizes within inferential statistics (Lakens, 2013).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is the canonical effect-size metric for group comparisons, central to power analysis, meta-analysis, and the open-science reform movement.</div><div style=\"margin-top:10px\"><b>• Relations:</b> It is the bias-uncorrected counterpart of Hedges' g, convertible to Pearson r, complementary to the p-value, and an input to a-priori power and sample-size determination—neighbouring concepts in this course.</div>",
+      "ar_html": "<div><b>• التصنيف:</b> فرد من «أسرة d» لأحجام أثر فروق المتوسطات المعيارية ضمن الإحصاء الاستدلالي (Lakens, 2013).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> هو المقياس المعياري لحجم الأثر في مقارنات المجموعات، محوريّ في تحليل القوة والتحليل البعدي وحركة إصلاح العلم المفتوح.</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> هو النظير غير المصحَّح لـg هيدجز، قابل للتحويل إلى r بيرسون، مكمِّل للقيمة الاحتمالية، ومُدخَل لتحديد القوة القبلية وحجم العينة—وهي مجاورات في هذا المقرر.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Cohen's d derives from the standardization (z-scoring) of mean differences (Cohen, 1988), from the theory of statistical power and the Neyman-Pearson framework (Neyman & Pearson, 1933), and from the meta-analytic imperative to compare results across studies on a common scale (Hedges & Olkin, 1985).</div><div style=\"margin-top:10px\"><b>• Methodological basis:</b> d = (M1 − M2) / SD_pooled; its sampling distribution and confidence interval follow from the noncentral t distribution.</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يُستمد د كوهين من تقييس (تحويل z) فروق المتوسطات (Cohen, 1988)، ونظرية القوة الإحصائية وإطار نيمان-بيرسون (Neyman & Pearson, 1933)، والضرورة البعدية لمقارنة النتائج عبر الدراسات على مقياس مشترك (Hedges & Olkin, 1985).</div><div style=\"margin-top:10px\"><b>• الأساس المنهجي:</b> d = (M1 − M2) / الانحراف المعياري المجمَّع؛ ويتبع توزيعُ معاينته وفترة ثقته توزيعَ t اللامركزي.</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Which standard deviation to standardize by (pooled, control, pre-test)?</div><div style=\"margin-top:6px;padding-left:12px\">(2) Are the 0.2/0.5/0.8 benchmarks appropriate for the field?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to bias-correct and place a confidence interval on d?</div><div style=\"margin-top:10px\"><b>• Branches:</b> Hedges' g (bias-corrected), Glass's delta, d for repeated measures (d_z), and standardized effect sizes for meta-analysis (Hedges, 1981; Lakens, 2013).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) بأيّ انحراف معياري نقيّس (المجمَّع، الضابطة، القياس القبلي)؟</div><div style=\"margin-top:6px;padding-right:12px\">(٢) هل عتبات ٠٫٢/٠٫٥/٠٫٨ مناسبة للحقل؟</div><div style=\"margin-top:6px;padding-right:12px\">(٣) كيف نصحّح التحيّز ونضع فترة ثقة على الـd؟</div><div style=\"margin-top:10px\"><b>• الفروع:</b> g هيدجز (المصحَّح)، ودلتا غلاس، وd للقياسات المتكررة (d_z)، وأحجام الأثر المعيارية للتحليل البعدي (Hedges, 1981; Lakens, 2013).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> Cohen's d lets researchers report and compare the practical magnitude of findings, plan adequately powered studies, and cumulate evidence across studies in meta-analysis—correcting the field's over-fixation on p-values (Cohen, 1988; Lakens, 2013).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> Its rank is high and increasingly mandated: reporting effect sizes is now required by major journals, making d a cornerstone of credible, reform-era quantitative science.</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يتيح د كوهين تقرير المقدار العملي للنتائج ومقارنته، وتخطيط دراسات كافية القوة، وتراكم الأدلة عبر الدراسات في التحليل البعدي—فيصحّح هوس الحقل بالقيم الاحتمالية (Cohen, 1988; Lakens, 2013).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> رتبته عالية ومفروضة بازدياد؛ فتقرير أحجام الأثر صار شرطاً في كبرى المجلات، مما يجعل الـd حجر زاوية في العلم الكمي الموثوق في عصر الإصلاح.</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Learning to quantify the true magnitude of effects—not merely their statistical significance—is part of the communal duty (<i>fard kifayah</i>) of honest knowledge, grounded in the command to full and exact measure: 'Give full measure and do not be of those who cause loss' (Qur'an 26:181), a principle of not overstating or understating quantity.</div><div style=\"margin-top:10px\"><b>• Threshold & priority:</b> The duty is fulfilled when enough researchers report effect sizes honestly so that the practical worth of interventions affecting health, wealth, and education is truthfully conveyed. Under Maqasid al-Shari'ah (preservation of all five necessities through sound decisions), it is unethical to trumpet a statistically significant but trivially small effect as important, for such exaggeration is a species of the prohibited fraud in weighing: 'woe to the defrauders' (Qur'an 83:1).</div>",
+      "ar_html": "<div><b>• الحكم:</b> تعلّم تكميم المقدار الحقّ للآثار—لا مجرد دلالتها الإحصائية—من فرض الكفاية في العلم الصادق، مستنده الأمر بإيفاء الكيل: «أوفوا الكيل ولا تكونوا من المخسرين» (الشعراء: ١٨١) مبدأً في عدم المبالغة أو التقليل في المقدار.</div><div style=\"margin-top:10px\"><b>• مناط الكفاية والأولوية:</b> يتحقق الواجب متى قرّر من يكفي من الباحثين أحجامَ الأثر بصدق فيُبلَّغ النفع العملي للتدخلات المؤثرة في الصحة والمال والتعليم تبليغاً حقاً. وبمقتضى مقاصد الشريعة (حفظ الضرورات الخمس بالقرارات السليمة) يحرم تضخيم أثرٍ دالٍّ إحصائياً لكنه ضئيلٌ تافه، فذلك من جنس التطفيف المنهيّ عنه: «ويل للمطففين» (المطففين: ١).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• References:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Cohen, J. (1962), 'The Statistical Power of Abnormal-Social Psychological Research' — exposed the neglect of power and effect size.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Cohen, J. (1988), <i>Statistical Power Analysis for the Behavioral Sciences</i> — the definitive source of d and its benchmarks.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Hedges, L. (1981), 'Distribution Theory for Glass's Estimator' — the small-sample bias correction (Hedges' g).</div><div style=\"margin-top:6px;padding-left:12px\">(4) Hedges, L. & Olkin, I. (1985), <i>Statistical Methods for Meta-Analysis</i> — situates d within meta-analysis.</div><div style=\"margin-top:6px;padding-left:12px\">(5) Lakens, D. (2013), 'Calculating and Reporting Effect Sizes' — the leading modern practical guide.</div>",
+      "ar_html": "<div><b>• المراجع:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) Cohen, J. (1962)، «القوة الإحصائية لبحوث علم النفس غير السوي-الاجتماعي» — كشف إهمال القوة وحجم الأثر.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) Cohen, J. (1988)، <i>تحليل القوة الإحصائية للعلوم السلوكية</i> — المصدر الحاسم للـd وعتباته.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) Hedges, L. (1981)، «نظرية التوزيع لمقدِّر غلاس» — تصحيح تحيّز العينة الصغيرة (g هيدجز).</div><div style=\"margin-top:6px;padding-right:12px\">(٤) Hedges, L. & Olkin, I. (1985)، <i>الطرق الإحصائية للتحليل البعدي</i> — يضع الـd في التحليل البعدي.</div><div style=\"margin-top:6px;padding-right:12px\">(٥) Lakens, D. (2013)، «حساب أحجام الأثر وتقريرها» — الدليل العملي الحديث الرائد.</div>"
+    }
+  ]
+}

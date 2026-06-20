@@ -1,0 +1,67 @@
+{
+  "slug": "res-principal-component-analysis",
+  "concept": "Principal Component Analysis",
+  "course": "Research Methods",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> <i>Principal</i> (Latin <i>princeps</i>, first/chief) denotes the leading, maximal-variance directions; <i>component</i> (Latin <i>componere</i>, to put together) the constructed linear composites; <i>analysis</i> (Greek, a loosening) the decomposition (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• Translation:</b> Rendered as <i>تحليل المكونات الرئيسة</i>; <i>المكونات</i> (composites) and <i>الرئيسة</i> (chief/leading) precisely capture the ranked, variance-maximizing composites. Pearson called them 'lines of closest fit' (Pearson, 1901).</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> <i>Principal</i> من اللاتينية <i>princeps</i> أي الأول الرئيس، فتدل على الاتجاهات القائدة ذات التباين الأعظم؛ و<i>component</i> من <i>componere</i> أي يركّب، فتدل على المركّبات الخطية المُنشأة؛ و<i>analysis</i> من اليونانية بمعنى التفكيك (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• التعريب:</b> يُعرَّب بـ<i>تحليل المكونات الرئيسة</i>؛ وتلتقط <i>المكونات</i> و<i>الرئيسة</i> المركّبات المرتَّبة المعظِّمة للتباين. وقد سمّاها بيرسون «خطوط أقرب مطابقة» (Pearson, 1901).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Definition (الحد):</b> PCA is an orthogonal linear transformation that converts correlated variables into a smaller set of uncorrelated components, ordered so each successive component captures the maximum remaining total variance (Hotelling, 1933; Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• Showcase:</b> Twenty correlated economic indicators are reduced to three components capturing 85% of total variance, used as composite indices.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> Unlike <i>EFA/CFA</i> (latent-variable models partitioning common variance with an error term), PCA is a deterministic transform of <i>total</i> variance with no latent model or error structure; unlike <i>regression</i> it has no dependent variable; unlike <i>clustering</i> it reduces dimensions, not groups cases (Jolliffe, 2002).</div>",
+      "ar_html": "<div><b>• الحد:</b> تحليل المكونات الرئيسة تحويل خطي متعامد يحوّل المتغيرات المترابطة إلى مجموعة أصغر من المكونات غير المترابطة، مرتَّبةً بحيث يلتقط كل مكوّن متعاقب أعظمَ تباين كلي متبقٍّ (Hotelling, 1933; Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• العرض:</b> تُختزل عشرون مؤشراً اقتصادياً مترابطاً إلى ثلاثة مكونات تلتقط ٨٥٪ من التباين الكلي، تُستخدم مؤشرات مركّبة.</div><div style=\"margin-top:10px\"><b>• التمييز:</b> بخلاف <i>التحليل العاملي</i> (نموذج كامن يقسّم التباين المشترك بحدّ خطأ)، فالمكونات الرئيسة تحويل حتمي للتباين <i>الكلي</i> بلا نموذج كامن ولا بنية خطأ؛ وبخلاف <i>الانحدار</i> لا متغير تابع له؛ وبخلاف <i>التعنقد</i> يختزل الأبعاد لا يجمّع الحالات (Jolliffe, 2002).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Scope:</b> PCA studies dimensionality reduction: how to re-express a high-dimensional dataset in fewer orthogonal axes that retain as much total variance as possible while decorrelating the data (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• Phenomenon:</b> It concerns the geometry of variance—finding the principal axes (eigenvectors) of the covariance/correlation matrix along which spread is maximal.</div>",
+      "ar_html": "<div><b>• المجال:</b> يدرس تحليل المكونات اختزال الأبعاد: كيف يُعاد التعبير عن بيانات عالية الأبعاد بمحاور متعامدة أقل تحتفظ بأكبر قدر من التباين الكلي مع فكّ ارتباط البيانات (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• الظاهرة:</b> يُعنى بهندسة التباين—إيجاد المحاور الرئيسة (المتجهات الذاتية) لمصفوفة التباين/الارتباط التي يكون الانتشار على امتدادها أعظمياً.</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origin:</b> PCA was introduced by Karl Pearson as lines/planes of closest fit (Pearson, 1901) and independently developed and named by Harold Hotelling (Hotelling, 1933).</div><div style=\"margin-top:10px\"><b>• Timeline:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) 1901: Pearson formulates the least-squares best-fitting subspace (Pearson, 1901).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 1933: Hotelling derives PCA as variance-maximizing components and coins the term (Hotelling, 1933).</div><div style=\"margin-top:6px;padding-left:12px\">(3) 1936: Eckart & Young link it to the singular value decomposition (Eckart & Young, 1936).</div>",
+      "ar_html": "<div><b>• الأصل:</b> قدّم كارل بيرسون التحليل بوصفه خطوطاً ومستويات أقرب مطابقة (Pearson, 1901)، وطوّره وسمّاه هارولد هوتلنغ استقلالاً (Hotelling, 1933).</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) ١٩٠١: يصوغ بيرسون الفضاء الجزئي الأمثل بالمربعات الصغرى (Pearson, 1901).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ١٩٣٣: يشتق هوتلنغ المكونات المعظِّمة للتباين ويصكّ المصطلح (Hotelling, 1933).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ١٩٣٦: يربطه إيكارت ويونغ بتحليل القيم المفردة (Eckart & Young, 1936).</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> An unsupervised, descriptive multivariate technique for dimensionality reduction in linear algebra and statistics (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It is a foundational preprocessing and exploration tool, mathematically the eigen/SVD core beneath many methods.</div><div style=\"margin-top:10px\"><b>• Relations:</b> Frequently conflated with EFA (but lacks a latent model), it can precede regression (to combat multicollinearity), and it underlies factor-extraction defaults in software—neighbouring concepts in this course.</div>",
+      "ar_html": "<div><b>• التصنيف:</b> تقنية وصفية متعددة المتغيرات غير موجَّهة لاختزال الأبعاد في الجبر الخطي والإحصاء (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> أداة تأسيسية للمعالجة المسبقة والاستكشاف، وهي رياضياً نواة الجذور/القيم المفردة تحت كثير من المناهج.</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> كثيراً ما يُخلَط بالتحليل العاملي (لكنه بلا نموذج كامن)، وقد يسبق الانحدار (لمكافحة التعدد الخطي)، ويقوم عليه افتراض استخراج العوامل في البرمجيات—وكلها مجاورات في هذا المقرر.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> PCA derives from the spectral (eigen) decomposition of symmetric matrices and the singular value decomposition (Eckart & Young, 1936), from the least-squares optimality principle (Pearson, 1901), and from the variational characterization of variance maximization under orthogonality (Hotelling, 1933).</div><div style=\"margin-top:10px\"><b>• Methodological basis:</b> Components are the eigenvectors of the covariance (or correlation) matrix; eigenvalues equal the variance each component explains.</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يُستمد التحليل من التفكيك الطيفي (الذاتي) للمصفوفات المتماثلة وتحليل القيم المفردة (Eckart & Young, 1936)، ومبدأ أمثلية المربعات الصغرى (Pearson, 1901)، والتوصيف التغايري لتعظيم التباين تحت قيد التعامد (Hotelling, 1933).</div><div style=\"margin-top:10px\"><b>• الأساس المنهجي:</b> المكونات هي المتجهات الذاتية لمصفوفة التباين (أو الارتباط)، والجذور الذاتية تساوي التباين الذي يفسّره كل مكوّن.</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) How many components to retain (eigenvalue>1, scree, variance threshold)?</div><div style=\"margin-top:6px;padding-left:12px\">(2) Covariance vs correlation matrix (standardization)?</div><div style=\"margin-top:6px;padding-left:12px\">(3) How to interpret component loadings?</div><div style=\"margin-top:10px\"><b>• Branches:</b> Kernel PCA, sparse PCA, robust PCA, probabilistic PCA, and functional PCA (Jolliffe, 2002; Tipping & Bishop, 1999).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) كم مكوّناً نستبقي (جذر ذاتي أكبر من ١، المنحدر، عتبة التباين)؟</div><div style=\"margin-top:6px;padding-right:12px\">(٢) مصفوفة التباين أم الارتباط (التقييس)؟</div><div style=\"margin-top:6px;padding-right:12px\">(٣) كيف نفسّر تشبعات المكونات؟</div><div style=\"margin-top:10px\"><b>• الفروع:</b> تحليل المكونات النّواتي، والمتناثر، والمتين، والاحتمالي، والدالّي (Jolliffe, 2002; Tipping & Bishop, 1999).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> PCA compresses redundant data, removes multicollinearity, builds composite indices, and enables visualization of high-dimensional data—pervasive in finance, image processing, and machine learning (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> Its rank is foundational and broad: as the canonical linear dimensionality reducer it undergirds countless analytics pipelines and the singular value decomposition itself.</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يضغط التحليل البيانات المكرَّرة، ويزيل التعدد الخطي، ويبني المؤشرات المركّبة، ويتيح تصوير البيانات عالية الأبعاد—وهو شائع في المال ومعالجة الصور وتعلّم الآلة (Jolliffe, 2002).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> رتبته تأسيسية واسعة؛ فبوصفه المختزِل الخطي المعياري للأبعاد يقوم عليه عدد لا يُحصى من خطوط التحليل وتحليل القيم المفردة نفسه.</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Mastering data-reduction methods that bring order and clarity to complex knowledge is part of the communal duty (<i>fard kifayah</i>) of beneficial sciences, consonant with the divine attribute that 'over every possessor of knowledge is one more knowing' (Qur'an 12:76), urging continual advance in understanding.</div><div style=\"margin-top:10px\"><b>• Threshold & priority:</b> The duty is met when enough specialists can correctly compress and interpret data so that analytics serving public welfare are reliable. Under Maqasid al-Shari'ah (preservation of intellect and wealth), the analyst must not discard meaningful information merely to simplify, nor present components as causal factors they are not, since misrepresentation contradicts the trust (<i>amanah</i>) of knowledge: 'render trusts to whom they are due' (Qur'an 4:58).</div>",
+      "ar_html": "<div><b>• الحكم:</b> إتقان مناهج اختزال البيانات التي تُحدِث نظاماً ووضوحاً في المعارف المعقدة من فرض الكفاية في العلوم النافعة، موافقاً لقوله تعالى «وفوق كل ذي علم عليم» (يوسف: ٧٦) الحاضّ على التقدم الدائم في الفهم.</div><div style=\"margin-top:10px\"><b>• مناط الكفاية والأولوية:</b> يتحقق الواجب متى أحسن من يكفي من المختصين ضغطَ البيانات وتفسيرها فتسلم التحليلات الخادمة للمصلحة. وبمقتضى مقاصد الشريعة (حفظ العقل والمال) يحرم على المحلل إهدار معلومة ذات معنى لمجرد التبسيط، ولا عرض المكونات عواملَ سببية وليست كذلك، فالتضليل يناقض أمانة العلم: «إن الله يأمركم أن تؤدوا الأمانات إلى أهلها» (النساء: ٥٨).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• References:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Pearson, K. (1901), 'On Lines and Planes of Closest Fit' — the geometric origin of PCA.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Hotelling, H. (1933), 'Analysis of a Complex of Statistical Variables into Principal Components' — the founding statistical formulation.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Eckart, C. & Young, G. (1936), 'The Approximation of One Matrix by Another of Lower Rank' — the SVD link.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Jolliffe, I. (2002), <i>Principal Component Analysis</i> — the definitive modern monograph.</div><div style=\"margin-top:6px;padding-left:12px\">(5) Tipping, M. & Bishop, C. (1999), 'Probabilistic Principal Component Analysis' — the modern probabilistic generalization.</div>",
+      "ar_html": "<div><b>• المراجع:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) Pearson, K. (1901)، «في خطوط ومستويات أقرب مطابقة» — الأصل الهندسي للتحليل.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) Hotelling, H. (1933)، «تحليل مركّب من المتغيرات الإحصائية إلى مكونات رئيسة» — الصياغة الإحصائية المؤسِّسة.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) Eckart, C. & Young, G. (1936)، «تقريب مصفوفة بأخرى أدنى رتبة» — الرابط بتحليل القيم المفردة.</div><div style=\"margin-top:6px;padding-right:12px\">(٤) Jolliffe, I. (2002)، <i>تحليل المكونات الرئيسة</i> — الرسالة الحديثة الحاسمة.</div><div style=\"margin-top:6px;padding-right:12px\">(٥) Tipping, M. & Bishop, C. (1999)، «تحليل المكونات الرئيسة الاحتمالي» — التعميم الاحتمالي الحديث.</div>"
+    }
+  ]
+}

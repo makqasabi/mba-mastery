@@ -1,0 +1,67 @@
+{
+  "slug": "res-confirmatory-factor-analysis",
+  "concept": "Confirmatory Factor Analysis",
+  "course": "Research Methods",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> <i>Confirmatory</i> (Latin <i>confirmare</i>, to strengthen/establish) signals hypothesis-testing intent; <i>factor</i> (Latin <i>facere</i>, to make/do) the latent 'maker' behind correlations; <i>analysis</i> (Greek <i>analysis</i>, a loosening) the decomposition of covariance (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• Translation:</b> Rendered precisely as <i>التحليل العاملي التوكيدي</i>; <i>توكيدي</i> (from <i>أكّد</i>) conveys the a-priori confirmation of a theorized structure, contrasting with the exploratory <i>استكشافي</i>.</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> <i>Confirmatory</i> من اللاتينية <i>confirmare</i> أي يُثبت ويُقوّي، فيدل على قصد اختبار الفرض؛ و<i>factor</i> من <i>facere</i> أي يصنع، فيدل على «الصانع» الكامن وراء الارتباطات؛ و<i>analysis</i> من اليونانية بمعنى الحلّ والتفكيك (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• التعريب:</b> يُعرَّب بدقة بـ<i>التحليل العاملي التوكيدي</i>؛ ولفظة <i>توكيدي</i> (من أكّد) تنقل التأكيد القبلي لبنية مُنظَّرة، مقابل <i>الاستكشافي</i>.</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Definition (الحد):</b> CFA is a latent-variable technique that tests whether a pre-specified measurement model—a hypothesized pattern of indicator-to-factor loadings—reproduces the observed covariance matrix of measured items (Jöreskog, 1969; Brown, 2015).</div><div style=\"margin-top:10px\"><b>• Showcase:</b> A scale claimed to measure three traits is tested by fixing each item to load only on its intended factor; fit indices judge whether the three-factor structure holds.</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b> Unlike <i>EFA</i> (all items load on all factors, structure discovered), unlike <i>PCA</i> (a data-reduction transform, not a latent model), and as the measurement sub-model of <i>full SEM</i> (which adds structural paths), CFA tests a theory-imposed structure (Fabrigar et al., 1999).</div>",
+      "ar_html": "<div><b>• الحد:</b> التحليل العاملي التوكيدي تقنية متغيرات كامنة تختبر ما إذا كان نموذج قياس محدَّد سلفاً—نمط مفترَض لتشبعات البنود على العوامل—يعيد إنتاج مصفوفة التباين المشترك المشاهَدة للبنود (Jöreskog, 1969; Brown, 2015).</div><div style=\"margin-top:10px\"><b>• العرض:</b> يُختبر مقياس يُدّعى أنه يقيس ثلاث سمات بتثبيت كل بند على عامله المقصود وحده، فتحكم مؤشرات المطابقة بثبات البنية الثلاثية.</div><div style=\"margin-top:10px\"><b>• التمييز:</b> بخلاف <i>الاستكشافي</i> (تتشبع كل البنود على كل العوامل وتُكتشف البنية)، و<i>تحليل المكونات الرئيسة</i> (تحويل لاختزال البيانات لا نموذج كامن)، وبوصفه نموذج القياس الجزئي في <i>النمذجة الكاملة</i> (التي تضيف المسارات البنائية)، يختبر التوكيدي بنية تفرضها النظرية (Fabrigar et al., 1999).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Scope:</b> CFA studies construct validity and measurement structure: whether observed indicators reliably and validly reflect their hypothesized latent constructs, and whether factors are distinct (discriminant) yet related as theorized (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• Phenomenon:</b> It analyzes the partitioning of item variance into common (factor) and unique (error) components under an a-priori loading pattern.</div>",
+      "ar_html": "<div><b>• المجال:</b> يدرس التوكيدي صدق البناء وبنية القياس: هل تعكس المؤشرات المشاهَدة بُناها الكامنة بثبات وصدق، وهل العوامل متمايزة (صدق تمييزي) ومترابطة كما نُظِّر (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• الظاهرة:</b> يحلّل تقسيم تباين البند إلى مكوّن مشترك (عاملي) وآخر فريد (خطأ) وفق نمط تشبع قبليّ.</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Origin:</b> CFA was formalized by Karl Jöreskog through maximum-likelihood factor analysis (Jöreskog, 1969), building on Spearman's factor concept (Spearman, 1904) and Thurstone's multiple-factor theory (Thurstone, 1947).</div><div style=\"margin-top:10px\"><b>• Timeline:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) 1904: Spearman posits a general factor g (Spearman, 1904).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 1947: Thurstone develops multiple common-factor analysis (Thurstone, 1947).</div><div style=\"margin-top:6px;padding-left:12px\">(3) 1969: Jöreskog provides ML estimation enabling confirmatory testing (Jöreskog, 1969).</div>",
+      "ar_html": "<div><b>• الأصل:</b> أصّل كارل يوريسكوغ التحليل التوكيدي عبر التحليل العاملي بالأرجحية العظمى (Jöreskog, 1969)، بناءً على مفهوم العامل عند سبيرمان (Spearman, 1904) ونظرية العوامل المتعددة عند ثرستون (Thurstone, 1947).</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) ١٩٠٤: يفترض سبيرمان العامل العام g (Spearman, 1904).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ١٩٤٧: يطوّر ثرستون التحليل متعدد العوامل المشتركة (Thurstone, 1947).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ١٩٦٩: يقدّم يوريسكوغ التقدير بالأرجحية العظمى الذي يتيح الاختبار التوكيدي (Jöreskog, 1969).</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A confirmatory branch of latent-variable factor analysis, itself the measurement component of SEM (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• Standing:</b> It ranks as the validity gatekeeper: structural conclusions in SEM are trustworthy only if the CFA measurement model holds first.</div><div style=\"margin-top:10px\"><b>• Relations:</b> It is the theory-driven counterpart of EFA, distinct from PCA, the front half of full SEM, and assessed by the same model fit indices—all neighbours in this course.</div>",
+      "ar_html": "<div><b>• التصنيف:</b> فرع توكيدي من التحليل العاملي للمتغيرات الكامنة، وهو نفسه مكوّن القياس في النمذجة البنائية (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• المكانة:</b> يحتل رتبة حارس الصدق؛ فلا تُوثَق النتائج البنائية في النمذجة إلا إذا ثبت نموذج القياس التوكيدي أولاً.</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> هو النظير النظري للاستكشافي، ومتمايز عن تحليل المكونات الرئيسة، وهو الشطر الأمامي للنمذجة الكاملة، ويُقوَّم بمؤشرات المطابقة نفسها—وكلها مجاورات في هذا المقرر.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> CFA derives from the common-factor model (Thurstone, 1947), from maximum-likelihood estimation theory (Jöreskog, 1969), and from classical test theory's decomposition of observed score into true score plus error (Lord & Novick, 1968).</div><div style=\"margin-top:10px\"><b>• Methodological basis:</b> Free and fixed parameters in the loading matrix Lambda are estimated by minimizing the ML discrepancy between implied and observed covariance.</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يُستمد التوكيدي من نموذج العامل المشترك (Thurstone, 1947)، ونظرية التقدير بالأرجحية العظمى (Jöreskog, 1969)، وتفكيك نظرية الاختبار الكلاسيكية للدرجة المشاهَدة إلى درجة حقيقية وخطأ (Lord & Novick, 1968).</div><div style=\"margin-top:10px\"><b>• الأساس المنهجي:</b> تُقدَّر المعالم الحرة والمثبَّتة في مصفوفة التشبع لمبدا بتقليل تباعد الأرجحية بين التباين الضمني والمشاهَد.</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Does the hypothesized factor structure fit the data?</div><div style=\"margin-top:6px;padding-left:12px\">(2) Are loadings significant and convergent validity established?</div><div style=\"margin-top:6px;padding-left:12px\">(3) Are factors discriminant, and is the model invariant across groups?</div><div style=\"margin-top:10px\"><b>• Branches:</b> First- and higher-order CFA, measurement invariance testing, bifactor models, and ESEM (exploratory SEM) hybridizing EFA and CFA (Brown, 2015; Asparouhov & Muthén, 2009).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) هل تطابق البنية العاملية المفترضة البيانات؟</div><div style=\"margin-top:6px;padding-right:12px\">(٢) هل التشبعات دالة والصدق التقاربي قائم؟</div><div style=\"margin-top:6px;padding-right:12px\">(٣) هل العوامل تمييزية، وهل النموذج ثابت عبر المجموعات؟</div><div style=\"margin-top:10px\"><b>• الفروع:</b> التحليل التوكيدي من الرتبة الأولى والأعلى، واختبار ثبات القياس، والنماذج ثنائية العامل، والنمذجة الاستكشافية البنائية (ESEM) المهجِّنة بين الاستكشافي والتوكيدي (Brown, 2015; Asparouhov & Muthén, 2009).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Fruit (الثمرة):</b> CFA furnishes rigorous evidence of construct validity and measurement equivalence, ensuring that survey scales mean the same thing across populations—essential for valid cross-cultural management and marketing research (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> Its rank is critical: without confirmed measurement, all downstream structural inference is unfounded, making CFA the epistemic foundation of latent-variable science.</div>",
+      "ar_html": "<div><b>• الثمرة:</b> يقدّم التوكيدي دليلاً صارماً على صدق البناء وتكافؤ القياس، فيضمن أن المقاييس تعني الشيء نفسه عبر المجتمعات—وهو ضروري لصدق بحوث الإدارة والتسويق عبر الثقافات (Brown, 2015).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> رتبته حاسمة؛ فبلا قياس مؤكَّد يكون كل استدلال بنائي لاحق بلا أساس، مما يجعل التوكيدي الأساس المعرفي لعلم المتغيرات الكامنة.</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Learning methods that establish the truth of measurement and guard against false attribution is part of the communal duty (<i>fard kifayah</i>) of beneficial knowledge, supported by the command to verification: 'O you who believe, if a corrupt person brings you news, verify it' (Qur'an 49:6)—a foundational charge of validation.</div><div style=\"margin-top:10px\"><b>• Threshold & priority:</b> The duty lapses once enough in the ummah can validly construct and critique measurement so that instruments informing policy and welfare are trustworthy. Under Maqasid al-Shari'ah (preservation of intellect and justice), the researcher must not 'fish' for fit or hide cross-validation failures, for justice in reporting is commanded: 'and when you speak, be just' (Qur'an 6:152).</div>",
+      "ar_html": "<div><b>• الحكم:</b> تعلّم المناهج التي تثبت صدق القياس وتصون من النسبة الباطلة من فرض الكفاية في العلم النافع، يعضده الأمر بالتثبت: «يا أيها الذين آمنوا إن جاءكم فاسق بنبأ فتبينوا» (الحجرات: ٦) أصلاً للتحقق.</div><div style=\"margin-top:10px\"><b>• مناط الكفاية والأولوية:</b> يسقط الفرض متى قام به من يكفي في الأمة بحيث يحسنون بناء القياس ونقده فتسلم الأدوات الموجِّهة للسياسة والمصلحة. وبمقتضى مقاصد الشريعة (حفظ العقل والعدل) يحرم على الباحث «اصطياد» المطابقة أو إخفاء فشل التحقق المتقاطع، فالعدل في التقرير مأمور به: «وإذا قلتم فاعدلوا» (الأنعام: ١٥٢).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• References:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Spearman, C. (1904), 'General Intelligence Objectively Determined' — origin of the factor concept.</div><div style=\"margin-top:6px;padding-left:12px\">(2) Thurstone, L. (1947), <i>Multiple-Factor Analysis</i> — foundation of the common-factor model.</div><div style=\"margin-top:6px;padding-left:12px\">(3) Jöreskog, K. (1969), 'A General Approach to Confirmatory Maximum Likelihood Factor Analysis' — the founding CFA paper.</div><div style=\"margin-top:6px;padding-left:12px\">(4) Brown, T. (2015), <i>Confirmatory Factor Analysis for Applied Research</i> — the standard applied reference.</div><div style=\"margin-top:6px;padding-left:12px\">(5) Lord, F. & Novick, M. (1968), <i>Statistical Theories of Mental Test Scores</i> — classical test theory undergirding CFA.</div>",
+      "ar_html": "<div><b>• المراجع:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) Spearman, C. (1904)، «الذكاء العام محدَّداً موضوعياً» — منشأ مفهوم العامل.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) Thurstone, L. (1947)، <i>التحليل متعدد العوامل</i> — أساس نموذج العامل المشترك.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) Jöreskog, K. (1969)، «منهج عام للتحليل العاملي التوكيدي بالأرجحية العظمى» — الورقة المؤسِّسة.</div><div style=\"margin-top:6px;padding-right:12px\">(٤) Brown, T. (2015)، <i>التحليل العاملي التوكيدي للبحث التطبيقي</i> — المرجع التطبيقي المعياري.</div><div style=\"margin-top:6px;padding-right:12px\">(٥) Lord, F. & Novick, M. (1968)، <i>النظريات الإحصائية لدرجات الاختبارات العقلية</i> — نظرية الاختبار الكلاسيكية الداعمة.</div>"
+    }
+  ]
+}
