@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0d1117"/>
+<title>Learn — MBA Mastery</title>
+<style>
+:root{--bg:#0d1117;--bg2:#161b22;--bg3:#1c2330;--line:#2a3340;--txt:#e6edf3;--muted:#9aa7b4;--muted2:#6e7d8c;--accent:#4f8cff;--accent2:#7c5cff;--good:#2ea043;--gold:#f0b429}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.6}
+.top{height:6px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.nav{position:sticky;top:0;z-index:10;background:rgba(13,17,23,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center;padding:11px 16px;flex-wrap:wrap}
+.nav a,.nav button{color:var(--txt);text-decoration:none;font-size:13.5px;border:1px solid var(--line);border-radius:20px;padding:6px 13px;background:var(--bg3);cursor:pointer}
+.nav a.play{background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;font-weight:700}
+.nav .sp{flex:1}
+.wrap{max-width:880px;margin:0 auto;padding:20px 16px 90px}
+h1{font-size:25px;margin:6px 0}
+h2{font-size:20px;margin:22px 0 6px}
+.sub{color:var(--muted);font-size:14px;margin-top:2px}
+.grid{display:grid;gap:12px;margin-top:16px}
+.courses{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.ccard{cursor:pointer;border:1px solid var(--line);border-radius:14px;padding:16px;background:linear-gradient(180deg,var(--bg2),#12161d);transition:.15s;text-decoration:none;color:var(--txt);display:block}
+.ccard:hover{border-color:var(--accent);transform:translateY(-2px)}
+.ccard .code{font-weight:800;font-size:12px;color:var(--accent);background:#0d1422;padding:2px 8px;border-radius:6px}
+.ccard h3{margin:10px 0 4px;font-size:17px}
+.ccard .meta{font-size:12px;color:var(--muted)}
+.pbar{height:6px;background:var(--bg3);border-radius:6px;overflow:hidden;margin-top:10px}
+.pbar>i{display:block;height:100%;background:linear-gradient(90deg,var(--good),#37b24d)}
+.lesson-row{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:12px;padding:13px 15px;background:var(--bg2);text-decoration:none;color:var(--txt);transition:.12s}
+.lesson-row:hover{border-color:var(--accent)}
+.lesson-row .n{flex:0 0 auto;width:30px;height:30px;border-radius:8px;background:#0d1422;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--muted)}
+.lesson-row.done .n{background:var(--good);color:#fff;border-color:var(--good)}
+.lesson-row .t{flex:1;font-size:15px}
+.lesson-row .arrow{color:var(--muted2)}
+.depthbar{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap;position:sticky;top:54px;z-index:5;background:var(--bg);padding:8px 0}
+.depth{cursor:pointer;border:1px solid var(--line);background:var(--bg3);border-radius:22px;padding:8px 16px;font-size:13.5px;font-weight:600;transition:.15s}
+.depth:hover{border-color:var(--accent)}
+.depth.on.simple{background:linear-gradient(135deg,#2ea043,#37b24d);border-color:transparent;color:#fff}
+.depth.on.intermediate{background:linear-gradient(135deg,#4f8cff,#3fa7d6);border-color:transparent;color:#fff}
+.depth.on.full{background:linear-gradient(135deg,#e8920c,#e5534b);border-color:transparent;color:#fff}
+.article{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:6px 22px 22px;margin-top:8px}
+.article h3{font-size:20px;margin:20px 0 6px;color:#cfe0ff}
+.article h4{font-size:16.5px;margin:18px 0 6px;color:#cfe0ff}
+.article p,.article li{font-size:15.5px;line-height:1.75}
+.article ul,.article ol{padding-left:22px}
+.article li{margin:5px 0}
+.article b{color:#fff}
+.article table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px;display:block;overflow-x:auto}
+.article th,.article td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+.article th{background:var(--bg3)}
+.article code{background:#0d1422;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:13px}
+.concepts{margin-top:18px;border-top:1px solid var(--line);padding-top:14px}
+.concepts .lbl{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--muted2);margin-bottom:8px}
+.chip{display:inline-block;margin:0 8px 8px 0;border:1px solid var(--accent);color:#cfe0ff;background:#11203c;border-radius:20px;padding:6px 12px;font-size:12.5px;text-decoration:none}
+.chip:hover{background:#17294d}
+.lessonfoot{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-top:20px}
+.btn{cursor:pointer;border:none;border-radius:11px;padding:11px 18px;font-size:14px;font-weight:700;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;text-decoration:none;display:inline-block}
+.btn.ghost{background:var(--bg3);border:1px solid var(--line);color:var(--txt)}
+.btn.good{background:linear-gradient(135deg,#2ea043,#37b24d)}
+.btn:disabled,.btn.disabled{opacity:.4;pointer-events:none}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:2px}
+.crumb a{color:var(--accent);text-decoration:none}
+.loading{margin-top:40px;text-align:center;color:var(--muted)}
+.spin{width:32px;height:32px;border:3px solid var(--line);border-top-color:var(--accent);border-radius:50%;margin:0 auto 14px;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.fallback{margin-top:30px;text-align:center;color:var(--muted)}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#16294d;border:1px solid var(--accent);color:var(--txt);padding:11px 18px;border-radius:11px;font-size:13px;z-index:99;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+</style>
+</head>
+<body>
+<div class="top"></div>
+<div class="nav">
+  <a href="index.html">🏠 Home</a>
+  <a href="learn.html">📚 Learn</a>
+  <a class="play" href="MBA-MCQ-Game.html">🎮 Game</a>
+  <a href="guide.html">📘 Guide</a>
+  <span class="sp"></span>
+</div>
+<div class="wrap" id="wrap">
+  <div class="loading"><div class="spin"></div>Loading…</div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var STORE="mbaLearnProgress_v1", DSTORE="mbaLearnDepth_v1";
+var DEPTHS=[["simple","Simple"],["intermediate","Intermediate"],["full","Full"]];
+var P=new URLSearchParams(location.search);
+var wrap=document.getElementById("wrap");
+var INDEX=null;
+
+function prog(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return{}} }
+function setDone(id,v){ var p=prog(); if(v)p[id]=1; else delete p[id]; try{localStorage.setItem(STORE,JSON.stringify(p))}catch(e){} }
+function isDone(id){ return !!prog()[id]; }
+function depth(){ return localStorage.getItem(DSTORE)||"intermediate"; }
+function setDepth(d){ try{localStorage.setItem(DSTORE,d)}catch(e){} }
+function esc(s){return (s||"").replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function courseByCode(c){ return INDEX.courses.find(function(x){return x.code===c;}); }
+function findLesson(id){ for(var i=0;i<INDEX.courses.length;i++){var c=INDEX.courses[i];for(var j=0;j<c.lessons.length;j++){if(c.lessons[j].id===id)return {course:c,lesson:c.lessons[j],idx:j};}} return null; }
+
+function courseProgress(c){ var d=0; c.lessons.forEach(function(l){if(isDone(l.id))d++;}); return {done:d,total:c.lessons.length,pct:Math.round(d/c.lessons.length*100)}; }
+
+function renderHome(){
+  var html='<h1>📚 Learn</h1><div class="sub">Structured lessons across all 12 courses — choose your depth: Simple, Intermediate, or Full.</div><div class="grid courses">';
+  INDEX.courses.forEach(function(c){
+    var p=courseProgress(c);
+    html+='<a class="ccard" href="learn.html?course='+c.code+'">'+
+      '<span class="code">'+c.code+'</span>'+
+      '<h3>'+esc(c.course)+'</h3>'+
+      '<div class="meta">'+c.lessons.length+' lessons · '+p.done+'/'+p.total+' done</div>'+
+      '<div class="pbar"><i style="width:'+p.pct+'%"></i></div>'+
+    '</a>';
+  });
+  html+='</div>';
+  wrap.innerHTML=html;
+}
+
+function renderCourse(code){
+  var c=courseByCode(code); if(!c){ renderHome(); return; }
+  var p=courseProgress(c);
+  var html='<div class="crumb"><a href="learn.html">📚 Learn</a> › '+esc(c.course)+'</div>'+
+    '<h1>'+esc(c.course)+'</h1><div class="sub">'+p.done+' of '+p.total+' lessons complete ('+p.pct+'%)</div>'+
+    '<div class="pbar" style="max-width:320px"><i style="width:'+p.pct+'%"></i></div>'+
+    '<div class="grid" style="margin-top:18px">';
+  c.lessons.forEach(function(l){
+    html+='<a class="lesson-row'+(isDone(l.id)?' done':'')+'" href="learn.html?lesson='+l.id+'">'+
+      '<span class="n">'+(isDone(l.id)?'✓':l.no)+'</span>'+
+      '<span class="t">'+esc(l.title)+'</span>'+
+      '<span class="arrow">→</span></a>';
+  });
+  html+='</div><div style="margin-top:20px"><a class="btn ghost" href="MBA-MCQ-Game.html?course='+c.code+'">🎮 Practice '+esc(c.course)+' in the game →</a></div>';
+  wrap.innerHTML=html;
+}
+
+function renderLesson(id){
+  var found=findLesson(id); if(!found){ renderHome(); return; }
+  var c=found.course, l=found.lesson, idx=found.idx;
+  wrap.innerHTML='<div class="loading"><div class="spin"></div>Loading lesson…</div>';
+  fetch('learn/'+encodeURIComponent(id)+'.json',{cache:'no-cache'})
+    .then(function(r){ if(!r.ok) throw new Error('404'); return r.json(); })
+    .then(function(d){ paintLesson(c,l,idx,d); })
+    .catch(function(){ paintLessonFallback(c,l); });
+}
+
+function paintLesson(c,l,idx,d){
+  var prev=idx>0?c.lessons[idx-1]:null, next=idx<c.lessons.length-1?c.lessons[idx+1]:null;
+  var cur=depth();
+  function body(dp){ return d[dp+"_html"]||d.intermediate_html||d.full_html||d.simple_html||"<p>(content unavailable)</p>"; }
+  var chips="";
+  (d.concepts||[]).forEach(function(k){ if(k&&k.slug){ chips+='<a class="chip" href="concept.html?c='+encodeURIComponent(k.slug)+'&t='+encodeURIComponent(k.label||"")+'&course='+encodeURIComponent(c.course)+'">🔎 '+esc(k.label||k.slug)+'</a>'; } });
+  var html='<div class="crumb"><a href="learn.html">📚 Learn</a> › <a href="learn.html?course='+c.code+'">'+esc(c.course)+'</a> › Lesson '+l.no+'</div>'+
+    '<h1>'+esc(l.title)+'</h1>'+
+    '<div class="depthbar" id="depthbar">';
+  DEPTHS.forEach(function(x){ html+='<span class="depth '+x[0]+(x[0]===cur?' on':'')+'" data-d="'+x[0]+'">'+x[1]+'</span>'; });
+  html+='</div><div class="article" id="article">'+body(cur)+'</div>';
+  if(chips){ html+='<div class="concepts"><div class="lbl">Key concepts — deep dive</div>'+chips+'</div>'; }
+  html+='<div class="lessonfoot">'+
+    (prev?'<a class="btn ghost" href="learn.html?lesson='+prev.id+'">← '+esc(prev.title)+'</a>':'<span></span>')+
+    '<button class="btn good" id="doneBtn">'+(isDone(l.id)?'✓ Completed':'Mark complete')+'</button>'+
+    (next?'<a class="btn" href="learn.html?lesson='+next.id+'">'+esc(next.title)+' →</a>':'<a class="btn" href="learn.html?course='+c.code+'">Finish course →</a>')+
+  '</div>';
+  wrap.innerHTML=html;
+  document.querySelectorAll("#depthbar .depth").forEach(function(b){ b.onclick=function(){ var dp=b.dataset.d; setDepth(dp); document.querySelectorAll("#depthbar .depth").forEach(function(x){x.classList.remove("on");}); b.classList.add("on"); document.getElementById("article").innerHTML=body(dp); window.scrollTo({top:0,behavior:"smooth"}); }; });
+  document.getElementById("doneBtn").onclick=function(){ var nv=!isDone(l.id); setDone(l.id,nv); this.textContent=nv?'✓ Completed':'Mark complete'; toast(nv?'Marked complete ✓':'Marked incomplete'); };
+}
+function paintLessonFallback(c,l){
+  wrap.innerHTML='<div class="crumb"><a href="learn.html">📚 Learn</a> › <a href="learn.html?course='+c.code+'">'+esc(c.course)+'</a></div>'+
+    '<h1>'+esc(l.title)+'</h1>'+
+    '<div class="fallback"><div style="font-size:34px">📝</div><h3>This lesson is being prepared</h3>'+
+    '<p>The structured lesson for "<b>'+esc(l.title)+'</b>" is still being generated. Check back shortly.</p>'+
+    '<a class="btn ghost" href="learn.html?course='+c.code+'">← Back to '+esc(c.course)+'</a></div>';
+}
+function toast(m){var e=document.createElement("div");e.className="toast";e.textContent=m;document.body.appendChild(e);setTimeout(function(){e.remove();},2500);}
+
+fetch('learn_index.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(j){
+  INDEX=j;
+  if(P.get('lesson')) renderLesson(P.get('lesson'));
+  else if(P.get('course')) renderCourse(P.get('course'));
+  else renderHome();
+}).catch(function(){ wrap.innerHTML='<div class="fallback"><h3>⚠ Could not load the curriculum</h3></div>'; });
+})();
+</script>
+</body>
+</html>

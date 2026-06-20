@@ -1211,6 +1211,7 @@ document.addEventListener("keydown",e=>{
 if(!ALL.length){
   document.querySelector(".wrap").innerHTML='<div class="card"><h1>⚠ Question bank not found</h1><p class="sub">Make sure <b>bank.js</b> is in the same folder as this file, or that the data block is embedded.</p></div>';
 }else{
+  try{var _cp=new URLSearchParams(location.search).get("course");if(_cp){var _cs=BANK.map(function(c){return c.code;});if(_cs.indexOf(_cp)>=0){selCourses=new Set([_cp]);}}}catch(e){}
   renderStats();renderCourses();updateInfo();
 }
 })();

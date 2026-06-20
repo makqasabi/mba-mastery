@@ -1,0 +1,130 @@
+{
+  "courses": [
+    { "code": "OPS", "course": "Operations Management", "lessons": [
+      { "no": 1, "id": "ops-l01", "title": "What Operations Management Is" },
+      { "no": 2, "id": "ops-l02", "title": "The 4 Vs and the Five Performance Objectives" },
+      { "no": 3, "id": "ops-l03", "title": "Operations Strategy" },
+      { "no": 4, "id": "ops-l04", "title": "Process Design, Process Types & Layout" },
+      { "no": 5, "id": "ops-l05", "title": "Capacity, Inventory & Planning and Control" },
+      { "no": 6, "id": "ops-l06", "title": "Supply Chain Management & the Bullwhip Effect" },
+      { "no": 7, "id": "ops-l07", "title": "Lean and Just-in-Time" },
+      { "no": 8, "id": "ops-l08", "title": "Quality, Six Sigma & Continuous Improvement" },
+      { "no": 9, "id": "ops-l09", "title": "Project Management & Managing Failure" }
+    ]},
+    { "code": "MKT", "course": "Marketing Management", "lessons": [
+      { "no": 1, "id": "mkt-l01", "title": "What Marketing Is: Concepts & Orientations" },
+      { "no": 2, "id": "mkt-l02", "title": "The Marketing Environment & Research" },
+      { "no": 3, "id": "mkt-l03", "title": "Consumer & Business Buyer Behavior" },
+      { "no": 4, "id": "mkt-l04", "title": "Segmentation, Targeting & Positioning" },
+      { "no": 5, "id": "mkt-l05", "title": "Branding & Brand Equity" },
+      { "no": 6, "id": "mkt-l06", "title": "Product Strategy & New Product Development" },
+      { "no": 7, "id": "mkt-l07", "title": "Pricing Strategy" },
+      { "no": 8, "id": "mkt-l08", "title": "Marketing Channels & Retailing" },
+      { "no": 9, "id": "mkt-l09", "title": "Integrated Marketing Communications & Digital" },
+      { "no": 10, "id": "mkt-l10", "title": "Customer Value, CLV & Marketing Metrics" }
+    ]},
+    { "code": "STR", "course": "Strategic Management", "lessons": [
+      { "no": 1, "id": "str-l01", "title": "The Strategic-Management Process; Vision & Mission" },
+      { "no": 2, "id": "str-l02", "title": "External Analysis: PESTEL, Five Forces, EFE & CPM" },
+      { "no": 3, "id": "str-l03", "title": "Internal Analysis: RBV/VRIO, Value Chain & IFE" },
+      { "no": 4, "id": "str-l04", "title": "Business-Level Strategy & Blue Ocean" },
+      { "no": 5, "id": "str-l05", "title": "Corporate Strategy: Diversification & M&A" },
+      { "no": 6, "id": "str-l06", "title": "Strategy-Formulation Matrices (SWOT, SPACE, BCG, IE, QSPM)" },
+      { "no": 7, "id": "str-l07", "title": "Strategy Implementation" },
+      { "no": 8, "id": "str-l08", "title": "Evaluation, the Balanced Scorecard & Governance" }
+    ]},
+    { "code": "ECO", "course": "Managerial Economics", "lessons": [
+      { "no": 1, "id": "eco-l01", "title": "Nature & Method: Marginal Analysis & Opportunity Cost" },
+      { "no": 2, "id": "eco-l02", "title": "Demand & Elasticity" },
+      { "no": 3, "id": "eco-l03", "title": "Consumer Theory: Utility & Indifference Curves" },
+      { "no": 4, "id": "eco-l04", "title": "Production Theory" },
+      { "no": 5, "id": "eco-l05", "title": "Cost Theory & Economies of Scale" },
+      { "no": 6, "id": "eco-l06", "title": "Market Structures" },
+      { "no": 7, "id": "eco-l07", "title": "Pricing Practices & Price Discrimination" },
+      { "no": 8, "id": "eco-l08", "title": "Game Theory & Strategic Interaction" },
+      { "no": 9, "id": "eco-l09", "title": "Market Failure, Externalities & Information" }
+    ]},
+    { "code": "FIN", "course": "Financial Management", "lessons": [
+      { "no": 1, "id": "fin-l01", "title": "Goals & Scope of Financial Management" },
+      { "no": 2, "id": "fin-l02", "title": "Time Value of Money" },
+      { "no": 3, "id": "fin-l03", "title": "Financial Statement & Ratio Analysis" },
+      { "no": 4, "id": "fin-l04", "title": "Capital Budgeting: NPV, IRR & PI" },
+      { "no": 5, "id": "fin-l05", "title": "Risk, Return & the CAPM" },
+      { "no": 6, "id": "fin-l06", "title": "Cost of Capital & WACC" },
+      { "no": 7, "id": "fin-l07", "title": "Capital Structure & Leverage" },
+      { "no": 8, "id": "fin-l08", "title": "Dividend Policy" },
+      { "no": 9, "id": "fin-l09", "title": "Working Capital Management" }
+    ]},
+    { "code": "HRM", "course": "Human Resource Management", "lessons": [
+      { "no": 1, "id": "hrm-l01", "title": "What HRM Is: Hard, Soft & Strategic" },
+      { "no": 2, "id": "hrm-l02", "title": "Strategic HRM: Best-Fit, Best-Practice & AMO" },
+      { "no": 3, "id": "hrm-l03", "title": "HR Planning, Recruitment & Selection" },
+      { "no": 4, "id": "hrm-l04", "title": "Performance Management" },
+      { "no": 5, "id": "hrm-l05", "title": "Learning & Development" },
+      { "no": 6, "id": "hrm-l06", "title": "Reward Management" },
+      { "no": 7, "id": "hrm-l07", "title": "Employee Relations & Engagement" },
+      { "no": 8, "id": "hrm-l08", "title": "Talent, Wellbeing & HR Analytics" }
+    ]},
+    { "code": "OBL", "course": "Organizational Behavior & Leadership", "lessons": [
+      { "no": 1, "id": "obl-l01", "title": "Foundations of Organizational Behavior" },
+      { "no": 2, "id": "obl-l02", "title": "Individual Differences: Personality, Perception & Attitudes" },
+      { "no": 3, "id": "obl-l03", "title": "Motivation Theories" },
+      { "no": 4, "id": "obl-l04", "title": "Motivation in Practice: Job Design & Rewards" },
+      { "no": 5, "id": "obl-l05", "title": "Groups & Teams" },
+      { "no": 6, "id": "obl-l06", "title": "Communication in Organizations" },
+      { "no": 7, "id": "obl-l07", "title": "Leadership Theories" },
+      { "no": 8, "id": "obl-l08", "title": "Power, Politics & Conflict" },
+      { "no": 9, "id": "obl-l09", "title": "Organizational Culture & Change" }
+    ]},
+    { "code": "MIS", "course": "Management Information Systems", "lessons": [
+      { "no": 1, "id": "mis-l01", "title": "Information Systems in Business & the Digital Firm" },
+      { "no": 2, "id": "mis-l02", "title": "IS & Competitive Advantage" },
+      { "no": 3, "id": "mis-l03", "title": "Types of Information Systems (TPS, MIS, DSS, ESS)" },
+      { "no": 4, "id": "mis-l04", "title": "Enterprise Applications: ERP, SCM, CRM & KM" },
+      { "no": 5, "id": "mis-l05", "title": "Data & Business Intelligence" },
+      { "no": 6, "id": "mis-l06", "title": "Networks, the Internet & E-commerce" },
+      { "no": 7, "id": "mis-l07", "title": "Security & Control" },
+      { "no": 8, "id": "mis-l08", "title": "Building Systems & IS Ethics" }
+    ]},
+    { "code": "ENT", "course": "Entrepreneurship & Innovation", "lessons": [
+      { "no": 1, "id": "ent-l01", "title": "Foundations of Innovation & Entrepreneurship" },
+      { "no": 2, "id": "ent-l02", "title": "Types of Innovation: the 4Ps & Disruption" },
+      { "no": 3, "id": "ent-l03", "title": "The Innovation Process" },
+      { "no": 4, "id": "ent-l04", "title": "Sources of Innovation & Opportunity Recognition" },
+      { "no": 5, "id": "ent-l05", "title": "Business Models & the Lean Startup" },
+      { "no": 6, "id": "ent-l06", "title": "Diffusion of Innovation & Crossing the Chasm" },
+      { "no": 7, "id": "ent-l07", "title": "Building the Innovative Organization & Open Innovation" },
+      { "no": 8, "id": "ent-l08", "title": "Financing & Launching New Ventures" }
+    ]},
+    { "code": "NEG", "course": "Communication & Negotiation Skills", "lessons": [
+      { "no": 1, "id": "neg-l01", "title": "The Communication Process & Barriers" },
+      { "no": 2, "id": "neg-l02", "title": "Listening, Questioning & Non-verbal Communication" },
+      { "no": 3, "id": "neg-l03", "title": "Persuasion & Influence" },
+      { "no": 4, "id": "neg-l04", "title": "Cross-Cultural Communication" },
+      { "no": 5, "id": "neg-l05", "title": "Negotiation Foundations: Distributive vs Integrative" },
+      { "no": 6, "id": "neg-l06", "title": "Principled Negotiation (Getting to Yes)" },
+      { "no": 7, "id": "neg-l07", "title": "BATNA, Reservation Price & ZOPA" },
+      { "no": 8, "id": "neg-l08", "title": "Tactics, Biases, Multiparty & Ethics" }
+    ]},
+    { "code": "RES", "course": "Research Methods", "lessons": [
+      { "no": 1, "id": "res-l01", "title": "The Research Process & the Research Onion" },
+      { "no": 2, "id": "res-l02", "title": "Research Philosophy" },
+      { "no": 3, "id": "res-l03", "title": "Approaches & Research Strategies" },
+      { "no": 4, "id": "res-l04", "title": "Research Design & the Literature Review" },
+      { "no": 5, "id": "res-l05", "title": "Sampling" },
+      { "no": 6, "id": "res-l06", "title": "Data Collection & Measurement" },
+      { "no": 7, "id": "res-l07", "title": "Reliability, Validity & Research Ethics" },
+      { "no": 8, "id": "res-l08", "title": "Data Analysis: Descriptive, Inferential & Qualitative" }
+    ]},
+    { "code": "ETH", "course": "Business Values & Ethics", "lessons": [
+      { "no": 1, "id": "eth-l01", "title": "What Business Ethics Is" },
+      { "no": 2, "id": "eth-l02", "title": "Consequentialism & Utilitarianism" },
+      { "no": 3, "id": "eth-l03", "title": "Deontology & Rights" },
+      { "no": 4, "id": "eth-l04", "title": "Virtue Ethics & the Ethics of Care" },
+      { "no": 5, "id": "eth-l05", "title": "Justice & Fairness (Rawls)" },
+      { "no": 6, "id": "eth-l06", "title": "Ethical Decision-Making" },
+      { "no": 7, "id": "eth-l07", "title": "CSR & Stakeholder Theory" },
+      { "no": 8, "id": "eth-l08", "title": "Governance, Globalization & Contemporary Issues" }
+    ]}
+  ]
+}
