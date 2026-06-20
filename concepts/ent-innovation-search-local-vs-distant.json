@@ -1,0 +1,68 @@
+{
+  "slug": "ent-innovation-search-local-vs-distant",
+  "concept": "Innovation Search: Local vs Distant",
+  "course": "Entrepreneurship & Innovation",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology of \"search\":</b> From Old French <i>cerchier</i> and Latin <i>circare</i> (\"to go about, traverse in a circle\"), the term denotes a deliberate traversal of a space of alternatives. In organisational theory it acquired a technical meaning as <i>problemistic search</i>, i.e., search stimulated by a problem and aimed at finding a solution (Cyert &amp; March, 1963).</div>",
+      "ar_html": "<div><b>• اشتقاق لفظ «البحث»:</b> «البحث» في العربية من بَحَثَ أي طلب الشيء وتقصّاه وفتّش عنه، وهو يقابل الإنجليزية <i>search</i> المتحدرة من اللاتينية <i>circare</i> بمعنى الطواف في فضاء البدائل طلبًا للحل. وقد اكتسب اللفظ في نظرية المنظمة معنًى اصطلاحيًا هو «البحث المُحَفَّز بالمشكلة» (سايرت ومارش، ١٩٦٣).</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Strict definition (الحد):</b> <i>Local search</i> is the firm's tendency to seek solutions near its existing knowledge base, technological domain, and prior experience; <i>distant (boundary-spanning) search</i> seeks knowledge across organisational, technological, or geographic boundaries (Rosenkopf &amp; Nerkar, 2001; Stuart &amp; Podolny, 1996).</div>",
+      "ar_html": "<div><b>• الحد الجامع المانع:</b> «البحث المحلي» هو نزوع المنظمة إلى التماس الحلول قريبًا من قاعدتها المعرفية ومجالها التقني وخبرتها السابقة، و«البحث البعيد» هو تجاوز الحدود التنظيمية والتقنية والجغرافية (روزنكوبف ونيركار، ٢٠٠١).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> The concept studies how firms allocate attention and effort across a knowledge landscape when solving problems and generating innovations (March &amp; Simon, 1958).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> يدرس المفهوم كيفية توزيع المنظمات لانتباهها وجهدها عبر مشهد معرفي عند حل المشكلات وتوليد الابتكارات (مارش وسايمون، ١٩٥٨).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Timeline:</b> (1958) March &amp; Simon frame organisations as bounded-rational problem solvers; (1963) Cyert &amp; March formalise problemistic and local search; (1982) Nelson &amp; Winter embed local search in evolutionary economics; (1991) March articulates exploration vs exploitation; (2001) Rosenkopf &amp; Nerkar and Fleming extend to boundary-spanning and recombinant search.</div>",
+      "ar_html": "<div><b>• التسلسل الزمني:</b> (١٩٥٨) مارش وسايمون يصفان المنظمات كحالّي مشكلات محدودي العقلانية؛ (١٩٦٣) سايرت ومارش يصوغان البحث المحلي؛ (١٩٨٢) نلسون ووينتر يدمجانه في الاقتصاد التطوري؛ (١٩٩١) مارش يميّز الاستكشاف عن الاستثمار؛ (٢٠٠١) روزنكوبف ونيركار وفلمنغ يوسّعانه إلى البحث العابر للحدود.</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A construct within the behavioral theory of the firm and the evolutionary/knowledge-based view of strategy (Nelson &amp; Winter, 1982).</div><div style=\"margin-top:10px\"><b>• Relations:</b> Closely tied to absorptive capacity (Cohen &amp; Levinthal, 1990) yet distinct: search concerns where one looks, absorptive capacity concerns what one can assimilate.</div>",
+      "ar_html": "<div><b>• الفئة:</b> بناء ضمن النظرية السلوكية للمنظمة والرؤية التطورية القائمة على المعرفة (نلسون ووينتر، ١٩٨٢).</div><div style=\"margin-top:10px\"><b>• الارتباط:</b> يتصل بالقدرة الاستيعابية (كوهن وليفنثال، ١٩٩٠) لكنه يتميز عنها: البحث يتعلق بمكان النظر، والقدرة الاستيعابية بما يمكن استيعابه.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Derives axioms from bounded rationality (Simon, 1955), the behavioral theory of the firm (Cyert &amp; March, 1963), and evolutionary economics with NK-landscape modelling (Fleming, 2001; Levinthal, 1997).</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> يستمد مسلماته من العقلانية المحدودة (سايمون، ١٩٥٥)، والنظرية السلوكية للمنظمة (سايرت ومارش، ١٩٦٣)، والاقتصاد التطوري ونماذج مشهد NK (فلمنغ، ٢٠٠١؛ ليفنثال، ١٩٩٧).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b></div><div style=\"margin-top:6px;padding-left:12px\">(1) Search depth vs scope and their effect on innovation (Katila &amp; Ahuja, 2002).</div><div style=\"margin-top:6px;padding-left:12px\">(2) Recombinant search and the uncertainty of breakthrough invention (Fleming, 2001).</div><div style=\"margin-top:6px;padding-left:12px\">(3) Technological trajectories that lock firms into local search (Dosi, 1982).</div>",
+      "ar_html": "<div><b>• المسائل الأساسية:</b></div><div style=\"margin-top:6px;padding-right:12px\">(١) عمق البحث في مقابل نطاقه وأثرهما في الابتكار (كاتيلا وأهوجا، ٢٠٠٢).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) البحث التأليفي وعدم اليقين في الاختراعات الكبرى (فلمنغ، ٢٠٠١).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) المسارات التقنية التي تحبس المنظمة في البحث المحلي (دوزي، ١٩٨٢).</div>",
+      "en_html_note": ""
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Benefit (الثمرة):</b> Guides managers to balance reliable local refinement against the variance-generating value of distant search, mitigating competency traps (Levinthal &amp; March, 1993).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> A foundational lens for innovation strategy explaining why incumbents miss discontinuities (March, 1991).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> توجيه المديرين إلى الموازنة بين التحسين المحلي الموثوق وقيمة البحث البعيد المولّدة للتنوع، تجنبًا لفخاخ الكفاءة (ليفنثال ومارش، ١٩٩٣).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> عدسة تأسيسية لاستراتيجية الابتكار تفسّر إخفاق الشركات الراسخة أمام الانقطاعات (مارش، ١٩٩١).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Studying innovation search is a communal duty (fard kifayah) insofar as it serves the preservation of wealth and livelihood (hifz al-mal), grounded in the command to seek lawful provision: \"So walk among its slopes and eat of His provision\" (Qur'an 67:15).</div><div style=\"margin-top:10px\"><b>• Threshold:</b> The duty is discharged when sufficient experts master it to secure the ummah's economic strength, consistent with \"And prepare against them whatever you are able\" (Qur'an 8:60).</div>",
+      "ar_html": "<div><b>• الحكم:</b> دراسة البحث الابتكاري فرض كفاية من حيث خدمته لحفظ المال والمعاش، استنادًا إلى الأمر بالسعي في طلب الرزق الحلال: «فامشوا في مناكبها وكلوا من رزقه» (الملك: ١٥).</div><div style=\"margin-top:10px\"><b>• مناط السقوط:</b> يسقط الفرض إذا قام به من يكفي لتأمين القوة الاقتصادية للأمة، عملًا بقوله: «وأعدوا لهم ما استطعتم من قوة» (الأنفال: ٦٠).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Cyert &amp; March (1963), <i>A Behavioral Theory of the Firm</i>:</b> Origin of problemistic and local search.</div><div style=\"margin-top:10px\"><b>• Nelson &amp; Winter (1982), <i>An Evolutionary Theory of Economic Change</i>:</b> Roots local search in routines and trajectories.</div><div style=\"margin-top:10px\"><b>• March (1991), <i>Organization Science</i>:</b> Canonical exploration vs exploitation.</div><div style=\"margin-top:10px\"><b>• Rosenkopf &amp; Nerkar (2001), <i>Strategic Management Journal</i>:</b> Defines boundary-spanning search.</div><div style=\"margin-top:10px\"><b>• Katila &amp; Ahuja (2002), <i>Academy of Management Journal</i>:</b> Empirics on search depth and scope.</div>",
+      "ar_html": "<div><b>• سايرت ومارش (١٩٦٣)، <i>نظرية سلوكية للمنظمة</i>:</b> منشأ البحث المحلي.</div><div style=\"margin-top:10px\"><b>• نلسون ووينتر (١٩٨٢)، <i>نظرية تطورية للتغير الاقتصادي</i>:</b> تأصيل البحث المحلي في الروتينات والمسارات.</div><div style=\"margin-top:10px\"><b>• مارش (١٩٩١)، <i>علم المنظمة</i>:</b> المرجع المعياري للاستكشاف والاستثمار.</div><div style=\"margin-top:10px\"><b>• روزنكوبف ونيركار (٢٠٠١)، <i>مجلة الإدارة الاستراتيجية</i>:</b> تعريف البحث العابر للحدود.</div><div style=\"margin-top:10px\"><b>• كاتيلا وأهوجا (٢٠٠٢)، <i>مجلة أكاديمية الإدارة</i>:</b> أدلة تجريبية على عمق البحث ونطاقه.</div>"
+    }
+  ]
+}

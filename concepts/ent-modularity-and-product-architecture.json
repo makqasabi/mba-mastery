@@ -1,0 +1,67 @@
+{
+  "slug": "ent-modularity-and-product-architecture",
+  "concept": "Modularity and Product Architecture",
+  "course": "Entrepreneurship & Innovation",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology of &quot;module&quot;:</b> The term derives from the Latin <i>modulus</i>, the diminutive of <i>modus</i> (&quot;measure, manner&quot;), meaning literally a &quot;small measure&quot; or standard unit used originally in Roman architecture to proportion columns (Onions 1966, <i>Oxford Dictionary of English Etymology</i>). The notion of a self-contained, measured, interchangeable unit is thus embedded in the word's origin.</div>",
+      "ar_html": "<div><b>• اشتقاق لفظ &quot;الوحدة&quot; (module):</b> مأخوذ من اللاتينية <i>modulus</i>، وهو تصغير <i>modus</i> بمعنى &quot;المقدار أو الكيفية&quot;، فمعناه الحرفي &quot;المقياس الصغير&quot;؛ وكان يُستعمل في العمارة الرومانية لضبط نسب الأعمدة (أونيونز ١٩٦٦). فمفهوم الوحدة المستقلة المعيارية القابلة للتبديل كامنٌ في أصل اللفظ.</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Formal definition:</b> Product architecture is &quot;the scheme by which the function of a product is allocated to physical components&quot; (Ulrich 1995). A <i>modular architecture</i> exhibits (a) a near one-to-one mapping of functional elements to physical chunks and (b) decoupled, standardized interfaces between chunks; an <i>integral architecture</i> has complex many-to-many mappings and tightly coupled interfaces (Ulrich 1995; Baldwin &amp; Clark 2000).</div>",
+      "ar_html": "<div><b>• الحد الاصطلاحي:</b> معمارية المنتج هي &quot;المخطط الذي توزَّع به وظائف المنتج على مكوناته المادية&quot; (أولريش ١٩٩٥). و<i>المعمارية النمطية</i> تتميز بأمرين: (أ) تناظر شبه أحادي بين العناصر الوظيفية والكتل المادية، (ب) واجهات مفصولة ومعيارية بين الكتل؛ بينما <i>المعمارية التكاملية</i> ذات تناظر متعدد معقد وواجهات شديدة الترابط (أولريش ١٩٩٥؛ بالدوين وكلارك ٢٠٠٠).</div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Object of inquiry:</b> The field studies how complex artefacts are decomposed into components and how the <i>interfaces</i> linking those components govern their interdependence (Simon 1962; Baldwin &amp; Clark 2000).</div>",
+      "ar_html": "<div><b>• محل البحث:</b> يدرس هذا الحقل كيفية تفكيك المصنوعات المعقدة إلى مكونات، وكيف تحكم <i>الواجهات</i> الرابطة بين تلك المكونات درجةَ تشابكها (سايمون ١٩٦٢؛ بالدوين وكلارك ٢٠٠٠).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Intellectual origin:</b> Herbert Simon's <i>The Architecture of Complexity</i> (1962) introduced &quot;near-decomposability&quot;—complex systems that evolve faster when partitioned into quasi-independent subsystems—the conceptual seed of modularity.</div>",
+      "ar_html": "<div><b>• الأصل الفكري:</b> أرسى هربرت سايمون في &quot;معمارية التعقيد&quot; (١٩٦٢) مفهوم &quot;شبه القابلية للتفكيك&quot;، أي أن الأنظمة المعقدة تتطور أسرع حين تُقسَّم إلى أنظمة فرعية شبه مستقلة، وهي البذرة المفهومية للنمطية.</div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Disciplinary location:</b> Modularity sits at the intersection of design theory and innovation &amp; operations management, with deep ties to organization theory (Sanchez &amp; Mahoney 1996).</div>",
+      "ar_html": "<div><b>• الموقع المعرفي:</b> تقع النمطية عند ملتقى نظرية التصميم وإدارة الابتكار والعمليات، مع صلات عميقة بنظرية المنظمات (سانشيز وماهوني ١٩٩٦).</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Systems theory:</b> Near-decomposability and hierarchy theory supply the foundational logic that bounded interactions enable stable, evolvable structures (Simon 1962).</div>",
+      "ar_html": "<div><b>• نظرية الأنظمة:</b> توفر شبه القابلية للتفكيك ونظرية التراتب المنطقَ التأسيسي بأن حصر التفاعلات يمكّن من بنى مستقرة قابلة للتطور (سايمون ١٩٦٢).</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Types of modularity:</b> Scholars distinguish modularity in design, in production, and in use, each addressing a different stage of the value chain (Ulrich 1995; Baldwin &amp; Clark 2000).</div>",
+      "ar_html": "<div><b>• أنواع النمطية:</b> يميز الباحثون بين النمطية في التصميم، وفي الإنتاج، وفي الاستعمال، وكلٌّ منها يعالج مرحلة مختلفة من سلسلة القيمة (أولريش ١٩٩٥؛ بالدوين وكلارك ٢٠٠٠).</div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• Practical fruit:</b> Modularity enables parallel development, product variety through component mixing, outsourcing of bounded modules, upgradability, and option value—the freedom to improve one module without redesigning the whole (Baldwin &amp; Clark 2000).</div>",
+      "ar_html": "<div><b>• الثمرة العملية:</b> تتيح النمطية التطوير المتوازي، وتنويع المنتجات بخلط المكونات، وإسناد الوحدات المحدودة للخارج، وقابلية الترقية، والقيمة الخيارية، أي حرية تحسين وحدة دون إعادة تصميم الكل (بالدوين وكلارك ٢٠٠٠).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling (fard kifayah):</b> Mastering beneficial industrial and design knowledge that serves the Ummah's livelihood is a communal obligation (<i>fard kifayah</i>), grounded in the preservation of wealth and intellect (<i>hifz al-mal wa al-&#39;aql</i>) among the higher objectives of the Law (<i>maqasid al-shari&#39;ah</i>).</div>",
+      "ar_html": "<div><b>• الحكم (فرض كفاية):</b> إتقان المعارف الصناعية والتصميمية النافعة التي تخدم معايش الأمة فرضُ كفاية، أصلُه حفظ المال والعقل من مقاصد الشريعة العليا.</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Simon (1962):</b> &quot;The Architecture of Complexity,&quot; <i>Proceedings of the American Philosophical Society</i>—introduces near-decomposability.</div>",
+      "ar_html": "<div><b>• سايمون (١٩٦٢):</b> &quot;معمارية التعقيد&quot;، وقائع الجمعية الفلسفية الأمريكية، ويؤسس لشبه القابلية للتفكيك.</div>"
+    }
+  ]
+}
