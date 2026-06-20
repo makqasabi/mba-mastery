@@ -1,0 +1,67 @@
+{
+  "slug": "str-base-of-the-pyramid-strategy",
+  "concept": "Base of the Pyramid Strategy",
+  "course": "Strategic Management",
+  "sections": [
+    {
+      "en_title": "1. Nomenclature, Etymology & Translation",
+      "ar_title": "١. الاسم والاشتقاق والتعريب",
+      "en_html": "<div><b>• Etymology:</b> \"Base of the Pyramid\" (BoP) images the global income distribution as a pyramid whose vast base comprises the world's poorest ~4 billion; <i>pyramid</i> from Greek <i>pyramis</i> (Britannica).</div><div style=\"margin-top:10px\"><b>• Coinage:</b> The phrase entered policy with Roosevelt's 1932 \"forgotten man at the bottom of the economic pyramid,\" and management with Prahalad &amp; Hart (2002).</div><div style=\"margin-top:10px\"><b>• Arabic translation:</b> استراتيجية قاعدة الهرم — <i>قاعدة الهرم</i> faithfully renders the architectural metaphor; sometimes قاعدة هرم الدخل to stress income.</div>",
+      "ar_html": "<div><b>• الاشتقاق:</b> \"قاعدة الهرم\" تصوّر توزيع الدخل العالمي هرماً قاعدتُه العريضة نحو أربعة مليارات من أفقر سكان الأرض؛ و<i>الهرم</i> من اليونانية <i>بيراميس</i> (بريتانيكا).</div><div style=\"margin-top:10px\"><b>• النحت:</b> دخلت العبارة الخطاب السياسي مع روزفلت (١٩٣٢) في \"الرجل المنسي في قاع الهرم الاقتصادي\"، ودخلت الإدارة مع براهالاد وهارت (٢٠٠٢).</div><div style=\"margin-top:10px\"><b>• التعريب المختار:</b> استراتيجية قاعدة الهرم، إذ يؤدّي <i>قاعدة الهرم</i> الاستعارة المعمارية بأمانة؛ وقد يُقال قاعدة هرم الدخل لإبراز معنى الدخل.</div>"
+    },
+    {
+      "en_title": "2. Definition, Showcase & Disambiguation",
+      "ar_title": "٢. الحد والتمييز",
+      "en_html": "<div><b>• Showcase:</b> Hindustan Unilever's single-serve shampoo sachets and Grameen's micro-finance illustrate firms profitably serving the poor as consumers and producers (Prahalad, 2004).</div><div style=\"margin-top:10px\"><b>• Strict boundary (الحد):</b> A strategy of designing profitable business models that include the world's low-income majority as customers, suppliers, or partners while alleviating poverty (Prahalad &amp; Hart, 2002).</div><div style=\"margin-top:10px\"><b>• Disambiguation:</b><div style=\"margin-top:6px;padding-left:12px\">(1) vs. <i>Charity/CSR</i>: BoP is a for-profit market strategy, not philanthropy.</div><div style=\"margin-top:6px;padding-left:12px\">(2) vs. <i>Frugal/Jugaad innovation</i>: frugal innovation is a method BoP often uses, not the strategy itself (Radjou et al., 2012).</div><div style=\"margin-top:6px;padding-left:12px\">(3) vs. <i>Microfinance</i>: a financial instrument that may serve a BoP strategy.</div></div>",
+      "ar_html": "<div><b>• المثال الكاشف:</b> أكياس الشامبو وحيدة الجرعة لدى \"هندوستان يونيليفر\" والتمويل الأصغر لـ\"غرامين\" تُبيّنان خدمة الفقراء بربحٍ مستهلكين ومنتجين (براهالاد، ٢٠٠٤).</div><div style=\"margin-top:10px\"><b>• الحدّ الدقيق:</b> استراتيجيةُ تصميم نماذج أعمالٍ ربحيةٍ تُدمج الأغلبية منخفضة الدخل عملاءَ أو موردين أو شركاء مع تخفيف الفقر (براهالاد وهارت، ٢٠٠٢).</div><div style=\"margin-top:10px\"><b>• التمييز:</b><div style=\"margin-top:6px;padding-right:12px\">(١) عن <i>الصدقة والمسؤولية الاجتماعية</i>: هي استراتيجية سوقية ربحية لا عملاً خيرياً.</div><div style=\"margin-top:6px;padding-right:12px\">(٢) عن <i>الابتكار المُقتصِد</i>: هو أسلوبٌ تستخدمه كثيراً لا الاستراتيجية ذاتها (راجو وآخرون، ٢٠١٢).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) عن <i>التمويل الأصغر</i>: أداةٌ ماليةٌ قد تخدم استراتيجية القاعدة.</div></div>"
+    },
+    {
+      "en_title": "3. Subject Matter",
+      "ar_title": "٣. الموضوع",
+      "en_html": "<div><b>• Phenomenon studied:</b> The economic activity, latent purchasing power, and business-model innovation required to serve low-income markets in developing economies (Prahalad &amp; Hart, 2002).</div><div style=\"margin-top:10px\"><b>• Scope:</b> Affordability, access, availability, and awareness constraints; co-creation with communities and the \"BoP 2.0\" producer-partner view (London &amp; Hart, 2004).</div>",
+      "ar_html": "<div><b>• الظاهرة المدروسة:</b> النشاط الاقتصادي والقوة الشرائية الكامنة وابتكار نماذج الأعمال اللازمة لخدمة الأسواق منخفضة الدخل في الاقتصادات النامية (براهالاد وهارت، ٢٠٠٢).</div><div style=\"margin-top:10px\"><b>• النطاق:</b> قيود القدرة على الدفع والوصول والإتاحة والوعي، والإنتاج المشترك مع المجتمعات ومنظور \"القاعدة ٢٫٠\" الذي يجعل الفقير شريكاً منتجاً (لندن وهارت، ٢٠٠٤).</div>"
+    },
+    {
+      "en_title": "4. Founder & History",
+      "ar_title": "٤. الواضع والتاريخ",
+      "en_html": "<div><b>• Founders:</b> C.K. Prahalad and Stuart Hart formalized the concept (Prahalad &amp; Hart, 2002).</div><div style=\"margin-top:10px\"><b>• Timeline:</b><div style=\"margin-top:6px;padding-left:12px\">(1) 2002: Prahalad &amp; Hart, \"The Fortune at the Bottom of the Pyramid\" (strategy+business).</div><div style=\"margin-top:6px;padding-left:12px\">(2) 2004: Prahalad's landmark book of the same name.</div><div style=\"margin-top:6px;padding-left:12px\">(3) 2004–2010: London &amp; Hart shift from \"selling to\" toward \"co-creating with\" the poor (BoP 2.0); Karnani (2007) issues the major critique.</div></div>",
+      "ar_html": "<div><b>• الواضعان:</b> أصّل المفهوم سي. كي. براهالاد وستيوارت هارت (براهالاد وهارت، ٢٠٠٢).</div><div style=\"margin-top:10px\"><b>• التسلسل الزمني:</b><div style=\"margin-top:6px;padding-right:12px\">(١) ٢٠٠٢: مقالة \"الثروة في قاعدة الهرم\".</div><div style=\"margin-top:6px;padding-right:12px\">(٢) ٢٠٠٤: كتاب براهالاد المرجعي بالعنوان نفسه.</div><div style=\"margin-top:6px;padding-right:12px\">(٣) ٢٠٠٤–٢٠١٠: تحوّل لندن وهارت من \"البيع للفقير\" إلى \"الإنتاج معه\" (القاعدة ٢٫٠)، ونقد كارناني الكبير (٢٠٠٧).</div></div>"
+    },
+    {
+      "en_title": "5. Taxonomy & Relations",
+      "ar_title": "٥. النسبة والارتباط",
+      "en_html": "<div><b>• Category:</b> A subfield of <i>international strategy</i> and <i>inclusive business</i> within strategic management (London &amp; Hart, 2004).</div><div style=\"margin-top:10px\"><b>• Standing:</b> Fuses competitive strategy with development economics; an applied case of disruptive and frugal innovation (Christensen, 1997; Radjou et al., 2012).</div><div style=\"margin-top:10px\"><b>• Neighbours:</b> Closely tied to this course's CAGE distance, born-global firms, and liability of foreignness, since BoP entry confronts profound institutional distance.</div>",
+      "ar_html": "<div><b>• الفئة:</b> حقلٌ فرعيٌّ من <i>الاستراتيجية الدولية</i> و<i>الأعمال الشاملة</i> ضمن الإدارة الاستراتيجية (لندن وهارت، ٢٠٠٤).</div><div style=\"margin-top:10px\"><b>• مكانتها:</b> تمزج الاستراتيجية التنافسية باقتصاد التنمية، وهي تطبيقٌ للابتكار المُعطِّل والمُقتصِد (كريستنسن، ١٩٩٧؛ راجو وآخرون، ٢٠١٢).</div><div style=\"margin-top:10px\"><b>• الجوار:</b> ترتبط بإطار المسافة (CAGE) والشركات المولودة عالمية وعبء الأجنبية في هذا المقرر، إذ يواجه الدخول إلى القاعدة مسافةً مؤسسيةً عميقة.</div>"
+    },
+    {
+      "en_title": "6. Sources & Derivation",
+      "ar_title": "٦. الاستمداد",
+      "en_html": "<div><b>• Epistemic roots:</b> Resource-based and capabilities theory (Prahalad &amp; Hamel, 1990) joined to development economics (Sen, 1999, <i>Development as Freedom</i>).</div><div style=\"margin-top:10px\"><b>• Methodologies:</b> Business-model innovation, co-creation, and disruptive-innovation logic (Christensen, 1997) applied to low-income contexts.</div>",
+      "ar_html": "<div><b>• الجذور المعرفية:</b> نظرية الموارد والقدرات (براهالاد وهامل، ١٩٩٠) مقرونةً باقتصاد التنمية (سِن، ١٩٩٩، <i>التنمية حرية</i>).</div><div style=\"margin-top:10px\"><b>• المناهج:</b> ابتكار نماذج الأعمال والإنتاج المشترك ومنطق الابتكار المُعطِّل (كريستنسن، ١٩٩٧) مطبّقةً على سياقات الدخل المنخفض.</div>"
+    },
+    {
+      "en_title": "7. Core Issues & Branches",
+      "ar_title": "٧. المسائل والفروع",
+      "en_html": "<div><b>• Core questions:</b> Is there a profitable \"fortune\" at the base? Are the poor consumers or producers? Does BoP reduce or exploit poverty? (Prahalad, 2004; Karnani, 2007).</div><div style=\"margin-top:10px\"><b>• Branches:</b><div style=\"margin-top:6px;padding-left:12px\">(1) BoP 1.0 — selling to the poor (Prahalad, 2004).</div><div style=\"margin-top:6px;padding-left:12px\">(2) BoP 2.0 — co-creating with the poor (London &amp; Hart, 2004).</div><div style=\"margin-top:6px;padding-left:12px\">(3) The Karnani critique — the \"romanticizing the poor\" objection (Karnani, 2007).</div></div>",
+      "ar_html": "<div><b>• المسائل الكبرى:</b> هل في القاعدة \"ثروة\" ربحية؟ أهم مستهلكون أم منتجون؟ أتُخفّف القاعدةُ الفقر أم تستغلّه؟ (براهالاد، ٢٠٠٤؛ كارناني، ٢٠٠٧).</div><div style=\"margin-top:10px\"><b>• الفروع:</b><div style=\"margin-top:6px;padding-right:12px\">(١) القاعدة ١٫٠ — البيع للفقير (براهالاد، ٢٠٠٤).</div><div style=\"margin-top:6px;padding-right:12px\">(٢) القاعدة ٢٫٠ — الإنتاج مع الفقير (لندن وهارت، ٢٠٠٤).</div><div style=\"margin-top:6px;padding-right:12px\">(٣) نقد كارناني — اعتراض \"تمجيد الفقير\" (كارناني، ٢٠٠٧).</div></div>"
+    },
+    {
+      "en_title": "8. The Fruit & Merit",
+      "ar_title": "٨. الثمرة والفضل",
+      "en_html": "<div><b>• The Fruit (الثمرة):</b> Access to vast underserved markets and new growth, while delivering goods, dignity, and livelihoods to the poor (Prahalad, 2004).</div><div style=\"margin-top:10px\"><b>• Merit (الفضل):</b> It reconciles profit with poverty alleviation, expanding the moral horizon of strategy beyond affluent markets (Prahalad &amp; Hart, 2002).</div>",
+      "ar_html": "<div><b>• الثمرة:</b> النفاذ إلى أسواقٍ هائلةٍ مهملةٍ ونموٌّ جديد، مع تقديم السلع والكرامة وسبل العيش للفقراء (براهالاد، ٢٠٠٤).</div><div style=\"margin-top:10px\"><b>• الفضل:</b> توفّق بين الربح وتخفيف الفقر، فتوسّع الأفق الأخلاقي للاستراتيجية إلى ما وراء الأسواق الميسورة (براهالاد وهارت، ٢٠٠٢).</div>"
+    },
+    {
+      "en_title": "9. The Legal & Ethical Ruling",
+      "ar_title": "٩. حكم الشارع",
+      "en_html": "<div><b>• Ruling:</b> Studying and practicing BoP strategy is praiseworthy and can attain fard kifayah, for relieving poverty serves the Maqasid (hifz al-nafs and hifz al-mal of the poor).</div><div style=\"margin-top:10px\"><b>• Primary basis:</b> The Qur'an enjoins care for the needy and forbids hoarding: \"and in their wealth was a recognized right for the petitioner and the deprived\" (Qur'an 51:19).</div><div style=\"margin-top:10px\"><b>• Ethical threshold:</b> It is impermissible if it exploits the poor or pushes harmful goods; the Prophet (peace be upon him) said, \"None of you truly believes until he loves for his brother what he loves for himself\" (Sahih al-Bukhari).</div>",
+      "ar_html": "<div><b>• الحكم:</b> دراسة استراتيجية القاعدة وممارستها محمودة، وقد تبلغ فرض الكفاية، إذ إنّ تفريج الفقر من المقاصد (حفظ النفس والمال للفقراء).</div><div style=\"margin-top:10px\"><b>• الأصل النصّي:</b> أمر القرآن برعاية المحتاج ونهى عن الكنز: ﴿وَفِي أَمْوَالِهِمْ حَقٌّ لِّلسَّائِلِ وَالْمَحْرُومِ﴾ (الذاريات: ١٩).</div><div style=\"margin-top:10px\"><b>• الحدّ الأخلاقي:</b> تحرم إن استغلّت الفقير أو روّجت ضارّاً؛ قال ﷺ: \"لا يؤمن أحدكم حتى يحبّ لأخيه ما يحبّ لنفسه\" (صحيح البخاري).</div>"
+    },
+    {
+      "en_title": "10. Landmark References",
+      "ar_title": "١٠. المراجع الأساسية",
+      "en_html": "<div><b>• Prahalad &amp; Hart (2002), \"The Fortune at the Bottom of the Pyramid\":</b> The founding article.</div><div style=\"margin-top:10px\"><b>• Prahalad (2004), <i>The Fortune at the Bottom of the Pyramid</i>:</b> The definitive book defining the field.</div><div style=\"margin-top:10px\"><b>• London &amp; Hart (2004), \"Reinventing Strategies for Emerging Markets\":</b> Launched the co-creation BoP 2.0 view.</div><div style=\"margin-top:10px\"><b>• Karnani (2007), \"The Mirage of Marketing to the Bottom of the Pyramid\":</b> The seminal critical rebuttal.</div><div style=\"margin-top:10px\"><b>• Sen (1999), <i>Development as Freedom</i>:</b> The developmental-ethics foundation underpinning BoP's normative claims.</div>",
+      "ar_html": "<div><b>• براهالاد وهارت (٢٠٠٢)، \"الثروة في قاعدة الهرم\":</b> المقالة المؤسِّسة.</div><div style=\"margin-top:10px\"><b>• براهالاد (٢٠٠٤)، <i>الثروة في قاعدة الهرم</i>:</b> الكتاب المرجعي المحدِّد للحقل.</div><div style=\"margin-top:10px\"><b>• لندن وهارت (٢٠٠٤)، \"إعادة ابتكار الاستراتيجيات للأسواق الناشئة\":</b> أطلق منظور الإنتاج المشترك (القاعدة ٢٫٠).</div><div style=\"margin-top:10px\"><b>• كارناني (٢٠٠٧)، \"سراب التسويق لقاعدة الهرم\":</b> الردّ النقدي المؤسِّس.</div><div style=\"margin-top:10px\"><b>• سِن (١٩٩٩)، <i>التنمية حرية</i>:</b> الأساس الأخلاقي التنموي لدعاوى القاعدة المعيارية.</div>"
+    }
+  ]
+}
