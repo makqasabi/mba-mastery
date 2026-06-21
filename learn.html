@@ -33,6 +33,11 @@ h2{font-size:20px;margin:22px 0 6px}
 .lesson-row.done .n{background:var(--good);color:#fff;border-color:var(--good)}
 .lesson-row .t{flex:1;font-size:15px}
 .lesson-row .arrow{color:var(--muted2)}
+.pips{display:flex;gap:4px;flex:0 0 auto}
+.pip{width:21px;height:21px;border-radius:5px;border:1px solid var(--line);background:var(--bg3);color:var(--muted2);font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.pip.on.simple{background:#2ea043;color:#fff;border-color:#2ea043}
+.pip.on.intermediate{background:#4f8cff;color:#fff;border-color:#4f8cff}
+.pip.on.full{background:#e8920c;color:#fff;border-color:#e8920c}
 .depthbar{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap;position:sticky;top:54px;z-index:5;background:var(--bg);padding:8px 0}
 .depth{cursor:pointer;border:1px solid var(--line);background:var(--bg3);border-radius:22px;padding:8px 16px;font-size:13.5px;font-weight:600;transition:.15s}
 .depth:hover{border-color:var(--accent)}
@@ -92,15 +97,20 @@ var wrap=document.getElementById("wrap");
 var INDEX=null;
 
 function prog(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return{}} }
-function setDone(id,v){ var p=prog(); if(v)p[id]=1; else delete p[id]; try{localStorage.setItem(STORE,JSON.stringify(p))}catch(e){} }
-function isDone(id){ return !!prog()[id]; }
+function _k(id,dp){ return id+"|"+dp; }
+function setDone(id,dp,v){ var p=prog(); if(v)p[_k(id,dp)]=1; else delete p[_k(id,dp)]; try{localStorage.setItem(STORE,JSON.stringify(p))}catch(e){} }
+function isDone(id,dp){ return !!prog()[_k(id,dp)]; }
+function depthName(dp){ for(var i=0;i<DEPTHS.length;i++){ if(DEPTHS[i][0]===dp) return DEPTHS[i][1]; } return dp; }
+function lessonDoneCount(id){ var p=prog(),n=0; DEPTHS.forEach(function(x){ if(p[_k(id,x[0])])n++; }); return n; }
+function lessonFullyDone(id){ return lessonDoneCount(id)===DEPTHS.length; }
+(function migrate(){ var p=prog(),ch=false; Object.keys(p).forEach(function(key){ if(key.indexOf("|")<0){ DEPTHS.forEach(function(x){ p[key+"|"+x[0]]=1; }); delete p[key]; ch=true; } }); if(ch){ try{localStorage.setItem(STORE,JSON.stringify(p))}catch(e){} } })();
 function depth(){ return localStorage.getItem(DSTORE)||"intermediate"; }
 function setDepth(d){ try{localStorage.setItem(DSTORE,d)}catch(e){} }
 function esc(s){return (s||"").replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 function courseByCode(c){ return INDEX.courses.find(function(x){return x.code===c;}); }
 function findLesson(id){ for(var i=0;i<INDEX.courses.length;i++){var c=INDEX.courses[i];for(var j=0;j<c.lessons.length;j++){if(c.lessons[j].id===id)return {course:c,lesson:c.lessons[j],idx:j};}} return null; }
 
-function courseProgress(c){ var d=0; c.lessons.forEach(function(l){if(isDone(l.id))d++;}); return {done:d,total:c.lessons.length,pct:Math.round(d/c.lessons.length*100)}; }
+function courseProgress(c){ var done=0,total=c.lessons.length*DEPTHS.length,full=0; c.lessons.forEach(function(l){ done+=lessonDoneCount(l.id); if(lessonFullyDone(l.id))full++; }); return {done:done,total:total,full:full,lessons:c.lessons.length,pct:total?Math.round(done/total*100):0}; }
 
 function renderHome(){
   var html='<h1>📚 Learn</h1><div class="sub">Structured lessons across all 12 courses — choose your depth: Simple, Intermediate, or Full.</div><div class="grid courses">';
@@ -109,7 +119,7 @@ function renderHome(){
     html+='<a class="ccard" href="learn.html?course='+c.code+'">'+
       '<span class="code">'+c.code+'</span>'+
       '<h3>'+esc(c.course)+'</h3>'+
-      '<div class="meta">'+c.lessons.length+' lessons · '+p.done+'/'+p.total+' done</div>'+
+      '<div class="meta">'+c.lessons.length+' lessons · '+p.full+'/'+p.lessons+' fully done · '+p.pct+'%</div>'+
       '<div class="pbar"><i style="width:'+p.pct+'%"></i></div>'+
     '</a>';
   });
@@ -121,13 +131,15 @@ function renderCourse(code){
   var c=courseByCode(code); if(!c){ renderHome(); return; }
   var p=courseProgress(c);
   var html='<div class="crumb"><a href="learn.html">📚 Learn</a> › '+esc(c.course)+'</div>'+
-    '<h1>'+esc(c.course)+'</h1><div class="sub">'+p.done+' of '+p.total+' lessons complete ('+p.pct+'%)</div>'+
+    '<h1>'+esc(c.course)+'</h1><div class="sub">'+p.full+' of '+p.lessons+' lessons fully complete · '+p.done+'/'+p.total+' depth-levels ('+p.pct+'%)</div>'+
     '<div class="pbar" style="max-width:320px"><i style="width:'+p.pct+'%"></i></div>'+
     '<div class="grid" style="margin-top:18px">';
   c.lessons.forEach(function(l){
-    html+='<a class="lesson-row'+(isDone(l.id)?' done':'')+'" href="learn.html?lesson='+l.id+'">'+
-      '<span class="n">'+(isDone(l.id)?'✓':l.no)+'</span>'+
+    var pips=''; DEPTHS.forEach(function(x){ pips+='<span class="pip '+x[0]+(isDone(l.id,x[0])?' on':'')+'" title="'+x[1]+'">'+x[1].charAt(0)+'</span>'; });
+    html+='<a class="lesson-row'+(lessonFullyDone(l.id)?' done':'')+'" href="learn.html?lesson='+l.id+'">'+
+      '<span class="n">'+(lessonFullyDone(l.id)?'✓':l.no)+'</span>'+
       '<span class="t">'+esc(l.title)+'</span>'+
+      '<span class="pips" title="Simple / Intermediate / Full — filled = completed">'+pips+'</span>'+
       '<span class="arrow">→</span></a>';
   });
   html+='</div><div style="margin-top:20px"><a class="btn ghost" href="MBA-MCQ-Game.html?course='+c.code+'">🎮 Practice '+esc(c.course)+' in the game →</a></div>';
@@ -158,12 +170,14 @@ function paintLesson(c,l,idx,d){
   if(chips){ html+='<div class="concepts"><div class="lbl">Key concepts — deep dive</div>'+chips+'</div>'; }
   html+='<div class="lessonfoot">'+
     (prev?'<a class="btn ghost" href="learn.html?lesson='+prev.id+'">← '+esc(prev.title)+'</a>':'<span></span>')+
-    '<button class="btn good" id="doneBtn">'+(isDone(l.id)?'✓ Completed':'Mark complete')+'</button>'+
+    '<button class="btn good" id="doneBtn">'+(isDone(l.id,cur)?('✓ '+depthName(cur)+' completed'):('Mark '+depthName(cur)+' complete'))+'</button>'+
     (next?'<a class="btn" href="learn.html?lesson='+next.id+'">'+esc(next.title)+' →</a>':'<a class="btn" href="learn.html?course='+c.code+'">Finish course →</a>')+
   '</div>';
   wrap.innerHTML=html;
-  document.querySelectorAll("#depthbar .depth").forEach(function(b){ b.onclick=function(){ var dp=b.dataset.d; setDepth(dp); document.querySelectorAll("#depthbar .depth").forEach(function(x){x.classList.remove("on");}); b.classList.add("on"); document.getElementById("article").innerHTML=body(dp); window.scrollTo({top:0,behavior:"smooth"}); }; });
-  document.getElementById("doneBtn").onclick=function(){ var nv=!isDone(l.id); setDone(l.id,nv); this.textContent=nv?'✓ Completed':'Mark complete'; toast(nv?'Marked complete ✓':'Marked incomplete'); };
+  var curDepth=cur;
+  function refreshDoneBtn(){ var db=document.getElementById("doneBtn"); db.textContent=isDone(l.id,curDepth)?('✓ '+depthName(curDepth)+' completed'):('Mark '+depthName(curDepth)+' complete'); }
+  document.querySelectorAll("#depthbar .depth").forEach(function(b){ b.onclick=function(){ curDepth=b.dataset.d; setDepth(curDepth); document.querySelectorAll("#depthbar .depth").forEach(function(x){x.classList.remove("on");}); b.classList.add("on"); document.getElementById("article").innerHTML=body(curDepth); refreshDoneBtn(); window.scrollTo({top:0,behavior:"smooth"}); }; });
+  document.getElementById("doneBtn").onclick=function(){ var nv=!isDone(l.id,curDepth); setDone(l.id,curDepth,nv); refreshDoneBtn(); toast(nv?('✓ '+depthName(curDepth)+' marked complete'):(depthName(curDepth)+' marked incomplete')); };
 }
 function paintLessonFallback(c,l){
   wrap.innerHTML='<div class="crumb"><a href="learn.html">📚 Learn</a> › <a href="learn.html?course='+c.code+'">'+esc(c.course)+'</a></div>'+
